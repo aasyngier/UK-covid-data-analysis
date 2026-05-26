@@ -1,0 +1,891 @@
+location,date,variant,variant_percent,iso_code,country_reference,location_type,year,quarter,month,iso_week,week_start,pandemic_period
+England,2021-01-04,Alpha,81.59,ENG,United Kingdom,england_detail,2021,1,1,1,2021-01-04,2020-2022
+England,2021-01-04,Delta,0.03,ENG,United Kingdom,england_detail,2021,1,1,1,2021-01-04,2020-2022
+England,2021-01-04,Omicron BA.1,0.22,ENG,United Kingdom,england_detail,2021,1,1,1,2021-01-04,2020-2022
+England,2021-01-04,Omicron BA.5,0.01,ENG,United Kingdom,england_detail,2021,1,1,1,2021-01-04,2020-2022
+England,2021-01-04,Other,18.15,ENG,United Kingdom,england_detail,2021,1,1,1,2021-01-04,2020-2022
+England,2021-01-11,Alpha,83.97,ENG,United Kingdom,england_detail,2021,1,1,2,2021-01-11,2020-2022
+England,2021-01-11,Delta,0.02,ENG,United Kingdom,england_detail,2021,1,1,2,2021-01-11,2020-2022
+England,2021-01-11,Omicron BA.1,0.09,ENG,United Kingdom,england_detail,2021,1,1,2,2021-01-11,2020-2022
+England,2021-01-11,Omicron BA.2,0.01,ENG,United Kingdom,england_detail,2021,1,1,2,2021-01-11,2020-2022
+England,2021-01-11,Other,15.92,ENG,United Kingdom,england_detail,2021,1,1,2,2021-01-11,2020-2022
+England,2021-01-18,Alpha,88.68,ENG,United Kingdom,england_detail,2021,1,1,3,2021-01-18,2020-2022
+England,2021-01-18,Delta,0.04,ENG,United Kingdom,england_detail,2021,1,1,3,2021-01-18,2020-2022
+England,2021-01-18,Omicron BA.1,0.02,ENG,United Kingdom,england_detail,2021,1,1,3,2021-01-18,2020-2022
+England,2021-01-18,Other,11.26,ENG,United Kingdom,england_detail,2021,1,1,3,2021-01-18,2020-2022
+England,2021-01-25,Alpha,93.54,ENG,United Kingdom,england_detail,2021,1,1,4,2021-01-25,2020-2022
+England,2021-01-25,Delta,0.02,ENG,United Kingdom,england_detail,2021,1,1,4,2021-01-25,2020-2022
+England,2021-01-25,Omicron BA.1,0.01,ENG,United Kingdom,england_detail,2021,1,1,4,2021-01-25,2020-2022
+England,2021-01-25,Omicron BA.5,0.01,ENG,United Kingdom,england_detail,2021,1,1,4,2021-01-25,2020-2022
+England,2021-01-25,Other,6.42,ENG,United Kingdom,england_detail,2021,1,1,4,2021-01-25,2020-2022
+England,2021-02-01,Alpha,95.18,ENG,United Kingdom,england_detail,2021,1,2,5,2021-02-01,2020-2022
+England,2021-02-01,Delta,0.01,ENG,United Kingdom,england_detail,2021,1,2,5,2021-02-01,2020-2022
+England,2021-02-01,Omicron BA.1,0.04,ENG,United Kingdom,england_detail,2021,1,2,5,2021-02-01,2020-2022
+England,2021-02-01,Omicron BA.5,0.01,ENG,United Kingdom,england_detail,2021,1,2,5,2021-02-01,2020-2022
+England,2021-02-01,Other,4.77,ENG,United Kingdom,england_detail,2021,1,2,5,2021-02-01,2020-2022
+England,2021-02-08,Alpha,96.71,ENG,United Kingdom,england_detail,2021,1,2,6,2021-02-08,2020-2022
+England,2021-02-08,Delta,0.01,ENG,United Kingdom,england_detail,2021,1,2,6,2021-02-08,2020-2022
+England,2021-02-08,Other,3.28,ENG,United Kingdom,england_detail,2021,1,2,6,2021-02-08,2020-2022
+England,2021-02-15,Alpha,97.34,ENG,United Kingdom,england_detail,2021,1,2,7,2021-02-15,2020-2022
+England,2021-02-15,Delta,0.01,ENG,United Kingdom,england_detail,2021,1,2,7,2021-02-15,2020-2022
+England,2021-02-15,Other,2.65,ENG,United Kingdom,england_detail,2021,1,2,7,2021-02-15,2020-2022
+England,2021-02-22,Alpha,97.26,ENG,United Kingdom,england_detail,2021,1,2,8,2021-02-22,2020-2022
+England,2021-02-22,Delta,0.01,ENG,United Kingdom,england_detail,2021,1,2,8,2021-02-22,2020-2022
+England,2021-02-22,Omicron BA.1,0.01,ENG,United Kingdom,england_detail,2021,1,2,8,2021-02-22,2020-2022
+England,2021-02-22,Other,2.72,ENG,United Kingdom,england_detail,2021,1,2,8,2021-02-22,2020-2022
+England,2021-03-01,Alpha,96.77,ENG,United Kingdom,england_detail,2021,1,3,9,2021-03-01,2020-2022
+England,2021-03-01,Delta,0.04,ENG,United Kingdom,england_detail,2021,1,3,9,2021-03-01,2020-2022
+England,2021-03-01,Omicron BA.1,0.01,ENG,United Kingdom,england_detail,2021,1,3,9,2021-03-01,2020-2022
+England,2021-03-01,Other,3.19,ENG,United Kingdom,england_detail,2021,1,3,9,2021-03-01,2020-2022
+England,2021-03-08,Alpha,97.42,ENG,United Kingdom,england_detail,2021,1,3,10,2021-03-08,2020-2022
+England,2021-03-08,Delta,0.01,ENG,United Kingdom,england_detail,2021,1,3,10,2021-03-08,2020-2022
+England,2021-03-08,Other,2.56,ENG,United Kingdom,england_detail,2021,1,3,10,2021-03-08,2020-2022
+England,2021-03-15,Alpha,97.8,ENG,United Kingdom,england_detail,2021,1,3,11,2021-03-15,2020-2022
+England,2021-03-15,Delta,0.06,ENG,United Kingdom,england_detail,2021,1,3,11,2021-03-15,2020-2022
+England,2021-03-15,Omicron BA.1,0.01,ENG,United Kingdom,england_detail,2021,1,3,11,2021-03-15,2020-2022
+England,2021-03-15,Other,2.14,ENG,United Kingdom,england_detail,2021,1,3,11,2021-03-15,2020-2022
+England,2021-03-22,Alpha,97.92,ENG,United Kingdom,england_detail,2021,1,3,12,2021-03-22,2020-2022
+England,2021-03-22,Delta,0.16,ENG,United Kingdom,england_detail,2021,1,3,12,2021-03-22,2020-2022
+England,2021-03-22,Omicron BA.2,0.01,ENG,United Kingdom,england_detail,2021,1,3,12,2021-03-22,2020-2022
+England,2021-03-22,Other,1.92,ENG,United Kingdom,england_detail,2021,1,3,12,2021-03-22,2020-2022
+England,2021-03-29,Alpha,97.35,ENG,United Kingdom,england_detail,2021,1,3,13,2021-03-29,2020-2022
+England,2021-03-29,Delta,0.28,ENG,United Kingdom,england_detail,2021,1,3,13,2021-03-29,2020-2022
+England,2021-03-29,Other,2.37,ENG,United Kingdom,england_detail,2021,1,3,13,2021-03-29,2020-2022
+England,2021-04-05,Alpha,95.35,ENG,United Kingdom,england_detail,2021,2,4,14,2021-04-05,2020-2022
+England,2021-04-05,Delta,1.46,ENG,United Kingdom,england_detail,2021,2,4,14,2021-04-05,2020-2022
+England,2021-04-05,Other,3.18,ENG,United Kingdom,england_detail,2021,2,4,14,2021-04-05,2020-2022
+England,2021-04-12,Alpha,92.86,ENG,United Kingdom,england_detail,2021,2,4,15,2021-04-12,2020-2022
+England,2021-04-12,Delta,3.23,ENG,United Kingdom,england_detail,2021,2,4,15,2021-04-12,2020-2022
+England,2021-04-12,Omicron BA.1,0.02,ENG,United Kingdom,england_detail,2021,2,4,15,2021-04-12,2020-2022
+England,2021-04-12,Other,3.9,ENG,United Kingdom,england_detail,2021,2,4,15,2021-04-12,2020-2022
+England,2021-04-19,Alpha,88.22,ENG,United Kingdom,england_detail,2021,2,4,16,2021-04-19,2020-2022
+England,2021-04-19,Delta,7.63,ENG,United Kingdom,england_detail,2021,2,4,16,2021-04-19,2020-2022
+England,2021-04-19,Other,4.14,ENG,United Kingdom,england_detail,2021,2,4,16,2021-04-19,2020-2022
+England,2021-04-26,Alpha,82.1,ENG,United Kingdom,england_detail,2021,2,4,17,2021-04-26,2020-2022
+England,2021-04-26,Delta,14.3,ENG,United Kingdom,england_detail,2021,2,4,17,2021-04-26,2020-2022
+England,2021-04-26,Omicron BA.1,0.03,ENG,United Kingdom,england_detail,2021,2,4,17,2021-04-26,2020-2022
+England,2021-04-26,Other,3.57,ENG,United Kingdom,england_detail,2021,2,4,17,2021-04-26,2020-2022
+England,2021-05-03,Alpha,69.34,ENG,United Kingdom,england_detail,2021,2,5,18,2021-05-03,2020-2022
+England,2021-05-03,Delta,27.57,ENG,United Kingdom,england_detail,2021,2,5,18,2021-05-03,2020-2022
+England,2021-05-03,Other,3.1,ENG,United Kingdom,england_detail,2021,2,5,18,2021-05-03,2020-2022
+England,2021-05-10,Alpha,52.83,ENG,United Kingdom,england_detail,2021,2,5,19,2021-05-10,2020-2022
+England,2021-05-10,Delta,44.83,ENG,United Kingdom,england_detail,2021,2,5,19,2021-05-10,2020-2022
+England,2021-05-10,Other,2.34,ENG,United Kingdom,england_detail,2021,2,5,19,2021-05-10,2020-2022
+England,2021-05-17,Alpha,32.85,ENG,United Kingdom,england_detail,2021,2,5,20,2021-05-17,2020-2022
+England,2021-05-17,Delta,65.63,ENG,United Kingdom,england_detail,2021,2,5,20,2021-05-17,2020-2022
+England,2021-05-17,Omicron BA.1,0.01,ENG,United Kingdom,england_detail,2021,2,5,20,2021-05-17,2020-2022
+England,2021-05-17,Other,1.51,ENG,United Kingdom,england_detail,2021,2,5,20,2021-05-17,2020-2022
+England,2021-05-24,Alpha,16.99,ENG,United Kingdom,england_detail,2021,2,5,21,2021-05-24,2020-2022
+England,2021-05-24,Delta,82.11,ENG,United Kingdom,england_detail,2021,2,5,21,2021-05-24,2020-2022
+England,2021-05-24,Other,0.9,ENG,United Kingdom,england_detail,2021,2,5,21,2021-05-24,2020-2022
+England,2021-05-31,Alpha,8.48,ENG,United Kingdom,england_detail,2021,2,5,22,2021-05-31,2020-2022
+England,2021-05-31,Delta,91.1,ENG,United Kingdom,england_detail,2021,2,5,22,2021-05-31,2020-2022
+England,2021-05-31,Other,0.4,ENG,United Kingdom,england_detail,2021,2,5,22,2021-05-31,2020-2022
+England,2021-06-07,Alpha,4.22,ENG,United Kingdom,england_detail,2021,2,6,23,2021-06-07,2020-2022
+England,2021-06-07,Delta,95.44,ENG,United Kingdom,england_detail,2021,2,6,23,2021-06-07,2020-2022
+England,2021-06-07,Other,0.34,ENG,United Kingdom,england_detail,2021,2,6,23,2021-06-07,2020-2022
+England,2021-06-14,Alpha,1.46,ENG,United Kingdom,england_detail,2021,2,6,24,2021-06-14,2020-2022
+England,2021-06-14,Delta,98.36,ENG,United Kingdom,england_detail,2021,2,6,24,2021-06-14,2020-2022
+England,2021-06-14,Other,0.19,ENG,United Kingdom,england_detail,2021,2,6,24,2021-06-14,2020-2022
+England,2021-06-21,Alpha,0.94,ENG,United Kingdom,england_detail,2021,2,6,25,2021-06-21,2020-2022
+England,2021-06-21,Delta,98.83,ENG,United Kingdom,england_detail,2021,2,6,25,2021-06-21,2020-2022
+England,2021-06-21,Other,0.22,ENG,United Kingdom,england_detail,2021,2,6,25,2021-06-21,2020-2022
+England,2021-06-28,Alpha,0.52,ENG,United Kingdom,england_detail,2021,2,6,26,2021-06-28,2020-2022
+England,2021-06-28,Delta,99.32,ENG,United Kingdom,england_detail,2021,2,6,26,2021-06-28,2020-2022
+England,2021-06-28,Other,0.16,ENG,United Kingdom,england_detail,2021,2,6,26,2021-06-28,2020-2022
+England,2021-07-05,Alpha,0.21,ENG,United Kingdom,england_detail,2021,3,7,27,2021-07-05,2020-2022
+England,2021-07-05,Delta,99.55,ENG,United Kingdom,england_detail,2021,3,7,27,2021-07-05,2020-2022
+England,2021-07-05,Omicron BA.1,0.01,ENG,United Kingdom,england_detail,2021,3,7,27,2021-07-05,2020-2022
+England,2021-07-05,Omicron BA.5,0.0,ENG,United Kingdom,england_detail,2021,3,7,27,2021-07-05,2020-2022
+England,2021-07-05,Other,0.23,ENG,United Kingdom,england_detail,2021,3,7,27,2021-07-05,2020-2022
+England,2021-07-12,Alpha,0.08,ENG,United Kingdom,england_detail,2021,3,7,28,2021-07-12,2020-2022
+England,2021-07-12,Delta,99.65,ENG,United Kingdom,england_detail,2021,3,7,28,2021-07-12,2020-2022
+England,2021-07-12,Other,0.27,ENG,United Kingdom,england_detail,2021,3,7,28,2021-07-12,2020-2022
+England,2021-07-19,Alpha,0.07,ENG,United Kingdom,england_detail,2021,3,7,29,2021-07-19,2020-2022
+England,2021-07-19,Delta,99.66,ENG,United Kingdom,england_detail,2021,3,7,29,2021-07-19,2020-2022
+England,2021-07-19,Omicron BA.1,0.01,ENG,United Kingdom,england_detail,2021,3,7,29,2021-07-19,2020-2022
+England,2021-07-19,Omicron BA.2,0.0,ENG,United Kingdom,england_detail,2021,3,7,29,2021-07-19,2020-2022
+England,2021-07-19,Other,0.26,ENG,United Kingdom,england_detail,2021,3,7,29,2021-07-19,2020-2022
+England,2021-07-26,Alpha,0.04,ENG,United Kingdom,england_detail,2021,3,7,30,2021-07-26,2020-2022
+England,2021-07-26,Delta,99.8,ENG,United Kingdom,england_detail,2021,3,7,30,2021-07-26,2020-2022
+England,2021-07-26,Omicron BA.1,0.01,ENG,United Kingdom,england_detail,2021,3,7,30,2021-07-26,2020-2022
+England,2021-07-26,Other,0.16,ENG,United Kingdom,england_detail,2021,3,7,30,2021-07-26,2020-2022
+England,2021-08-02,Alpha,0.03,ENG,United Kingdom,england_detail,2021,3,8,31,2021-08-02,2020-2022
+England,2021-08-02,Delta,99.58,ENG,United Kingdom,england_detail,2021,3,8,31,2021-08-02,2020-2022
+England,2021-08-02,Omicron BA.1,0.01,ENG,United Kingdom,england_detail,2021,3,8,31,2021-08-02,2020-2022
+England,2021-08-02,Other,0.37,ENG,United Kingdom,england_detail,2021,3,8,31,2021-08-02,2020-2022
+England,2021-08-09,Alpha,0.01,ENG,United Kingdom,england_detail,2021,3,8,32,2021-08-09,2020-2022
+England,2021-08-09,Delta,98.44,ENG,United Kingdom,england_detail,2021,3,8,32,2021-08-09,2020-2022
+England,2021-08-09,Omicron BA.1,0.02,ENG,United Kingdom,england_detail,2021,3,8,32,2021-08-09,2020-2022
+England,2021-08-09,Other,1.52,ENG,United Kingdom,england_detail,2021,3,8,32,2021-08-09,2020-2022
+England,2021-08-16,Alpha,0.01,ENG,United Kingdom,england_detail,2021,3,8,33,2021-08-16,2020-2022
+England,2021-08-16,Delta,99.79,ENG,United Kingdom,england_detail,2021,3,8,33,2021-08-16,2020-2022
+England,2021-08-16,Omicron BA.1,0.01,ENG,United Kingdom,england_detail,2021,3,8,33,2021-08-16,2020-2022
+England,2021-08-16,Omicron BA.5,0.0,ENG,United Kingdom,england_detail,2021,3,8,33,2021-08-16,2020-2022
+England,2021-08-16,Other,0.18,ENG,United Kingdom,england_detail,2021,3,8,33,2021-08-16,2020-2022
+England,2021-08-23,Alpha,0.02,ENG,United Kingdom,england_detail,2021,3,8,34,2021-08-23,2020-2022
+England,2021-08-23,Delta,99.88,ENG,United Kingdom,england_detail,2021,3,8,34,2021-08-23,2020-2022
+England,2021-08-23,Omicron BA.1,0.02,ENG,United Kingdom,england_detail,2021,3,8,34,2021-08-23,2020-2022
+England,2021-08-23,Other,0.09,ENG,United Kingdom,england_detail,2021,3,8,34,2021-08-23,2020-2022
+England,2021-08-30,Alpha,0.0,ENG,United Kingdom,england_detail,2021,3,8,35,2021-08-30,2020-2022
+England,2021-08-30,Delta,99.84,ENG,United Kingdom,england_detail,2021,3,8,35,2021-08-30,2020-2022
+England,2021-08-30,Omicron BA.1,0.03,ENG,United Kingdom,england_detail,2021,3,8,35,2021-08-30,2020-2022
+England,2021-08-30,Omicron BA.2,0.0,ENG,United Kingdom,england_detail,2021,3,8,35,2021-08-30,2020-2022
+England,2021-08-30,Other,0.12,ENG,United Kingdom,england_detail,2021,3,8,35,2021-08-30,2020-2022
+England,2021-09-06,Alpha,0.01,ENG,United Kingdom,england_detail,2021,3,9,36,2021-09-06,2020-2022
+England,2021-09-06,Delta,99.83,ENG,United Kingdom,england_detail,2021,3,9,36,2021-09-06,2020-2022
+England,2021-09-06,Omicron BA.1,0.04,ENG,United Kingdom,england_detail,2021,3,9,36,2021-09-06,2020-2022
+England,2021-09-06,Omicron BA.2,0.0,ENG,United Kingdom,england_detail,2021,3,9,36,2021-09-06,2020-2022
+England,2021-09-06,Other,0.12,ENG,United Kingdom,england_detail,2021,3,9,36,2021-09-06,2020-2022
+England,2021-09-13,Alpha,0.02,ENG,United Kingdom,england_detail,2021,3,9,37,2021-09-13,2020-2022
+England,2021-09-13,Delta,99.78,ENG,United Kingdom,england_detail,2021,3,9,37,2021-09-13,2020-2022
+England,2021-09-13,Omicron BA.1,0.11,ENG,United Kingdom,england_detail,2021,3,9,37,2021-09-13,2020-2022
+England,2021-09-13,Omicron BA.2,0.0,ENG,United Kingdom,england_detail,2021,3,9,37,2021-09-13,2020-2022
+England,2021-09-13,Other,0.09,ENG,United Kingdom,england_detail,2021,3,9,37,2021-09-13,2020-2022
+England,2021-09-20,Alpha,0.01,ENG,United Kingdom,england_detail,2021,3,9,38,2021-09-20,2020-2022
+England,2021-09-20,Delta,99.76,ENG,United Kingdom,england_detail,2021,3,9,38,2021-09-20,2020-2022
+England,2021-09-20,Omicron BA.1,0.19,ENG,United Kingdom,england_detail,2021,3,9,38,2021-09-20,2020-2022
+England,2021-09-20,Omicron BA.2,0.0,ENG,United Kingdom,england_detail,2021,3,9,38,2021-09-20,2020-2022
+England,2021-09-20,Other,0.03,ENG,United Kingdom,england_detail,2021,3,9,38,2021-09-20,2020-2022
+England,2021-09-27,Delta,99.55,ENG,United Kingdom,england_detail,2021,3,9,39,2021-09-27,2020-2022
+England,2021-09-27,Omicron BA.1,0.34,ENG,United Kingdom,england_detail,2021,3,9,39,2021-09-27,2020-2022
+England,2021-09-27,Omicron BA.2,0.02,ENG,United Kingdom,england_detail,2021,3,9,39,2021-09-27,2020-2022
+England,2021-09-27,Other,0.09,ENG,United Kingdom,england_detail,2021,3,9,39,2021-09-27,2020-2022
+England,2021-10-04,Alpha,0.01,ENG,United Kingdom,england_detail,2021,4,10,40,2021-10-04,2020-2022
+England,2021-10-04,Delta,99.28,ENG,United Kingdom,england_detail,2021,4,10,40,2021-10-04,2020-2022
+England,2021-10-04,Omicron BA.1,0.57,ENG,United Kingdom,england_detail,2021,4,10,40,2021-10-04,2020-2022
+England,2021-10-04,Omicron BA.2,0.02,ENG,United Kingdom,england_detail,2021,4,10,40,2021-10-04,2020-2022
+England,2021-10-04,Other,0.12,ENG,United Kingdom,england_detail,2021,4,10,40,2021-10-04,2020-2022
+England,2021-10-11,Alpha,0.01,ENG,United Kingdom,england_detail,2021,4,10,41,2021-10-11,2020-2022
+England,2021-10-11,Delta,98.71,ENG,United Kingdom,england_detail,2021,4,10,41,2021-10-11,2020-2022
+England,2021-10-11,Omicron BA.1,1.12,ENG,United Kingdom,england_detail,2021,4,10,41,2021-10-11,2020-2022
+England,2021-10-11,Omicron BA.2,0.03,ENG,United Kingdom,england_detail,2021,4,10,41,2021-10-11,2020-2022
+England,2021-10-11,Other,0.13,ENG,United Kingdom,england_detail,2021,4,10,41,2021-10-11,2020-2022
+England,2021-10-18,Alpha,0.01,ENG,United Kingdom,england_detail,2021,4,10,42,2021-10-18,2020-2022
+England,2021-10-18,Delta,98.64,ENG,United Kingdom,england_detail,2021,4,10,42,2021-10-18,2020-2022
+England,2021-10-18,Omicron BA.1,1.22,ENG,United Kingdom,england_detail,2021,4,10,42,2021-10-18,2020-2022
+England,2021-10-18,Omicron BA.2,0.03,ENG,United Kingdom,england_detail,2021,4,10,42,2021-10-18,2020-2022
+England,2021-10-18,Other,0.1,ENG,United Kingdom,england_detail,2021,4,10,42,2021-10-18,2020-2022
+England,2021-10-25,Alpha,0.0,ENG,United Kingdom,england_detail,2021,4,10,43,2021-10-25,2020-2022
+England,2021-10-25,Delta,98.68,ENG,United Kingdom,england_detail,2021,4,10,43,2021-10-25,2020-2022
+England,2021-10-25,Omicron BA.1,1.17,ENG,United Kingdom,england_detail,2021,4,10,43,2021-10-25,2020-2022
+England,2021-10-25,Omicron BA.2,0.05,ENG,United Kingdom,england_detail,2021,4,10,43,2021-10-25,2020-2022
+England,2021-10-25,Other,0.09,ENG,United Kingdom,england_detail,2021,4,10,43,2021-10-25,2020-2022
+England,2021-11-01,Delta,98.67,ENG,United Kingdom,england_detail,2021,4,11,44,2021-11-01,2020-2022
+England,2021-11-01,Omicron BA.1,1.21,ENG,United Kingdom,england_detail,2021,4,11,44,2021-11-01,2020-2022
+England,2021-11-01,Omicron BA.2,0.08,ENG,United Kingdom,england_detail,2021,4,11,44,2021-11-01,2020-2022
+England,2021-11-01,Other,0.05,ENG,United Kingdom,england_detail,2021,4,11,44,2021-11-01,2020-2022
+England,2021-11-08,Delta,98.47,ENG,United Kingdom,england_detail,2021,4,11,45,2021-11-08,2020-2022
+England,2021-11-08,Omicron BA.1,1.28,ENG,United Kingdom,england_detail,2021,4,11,45,2021-11-08,2020-2022
+England,2021-11-08,Omicron BA.2,0.17,ENG,United Kingdom,england_detail,2021,4,11,45,2021-11-08,2020-2022
+England,2021-11-08,Other,0.08,ENG,United Kingdom,england_detail,2021,4,11,45,2021-11-08,2020-2022
+England,2021-11-15,Delta,98.24,ENG,United Kingdom,england_detail,2021,4,11,46,2021-11-15,2020-2022
+England,2021-11-15,Omicron BA.1,1.45,ENG,United Kingdom,england_detail,2021,4,11,46,2021-11-15,2020-2022
+England,2021-11-15,Omicron BA.2,0.23,ENG,United Kingdom,england_detail,2021,4,11,46,2021-11-15,2020-2022
+England,2021-11-15,Other,0.09,ENG,United Kingdom,england_detail,2021,4,11,46,2021-11-15,2020-2022
+England,2021-11-22,Delta,97.94,ENG,United Kingdom,england_detail,2021,4,11,47,2021-11-22,2020-2022
+England,2021-11-22,Omicron BA.1,1.68,ENG,United Kingdom,england_detail,2021,4,11,47,2021-11-22,2020-2022
+England,2021-11-22,Omicron BA.2,0.31,ENG,United Kingdom,england_detail,2021,4,11,47,2021-11-22,2020-2022
+England,2021-11-22,Omicron BA.5,0.0,ENG,United Kingdom,england_detail,2021,4,11,47,2021-11-22,2020-2022
+England,2021-11-22,Other,0.07,ENG,United Kingdom,england_detail,2021,4,11,47,2021-11-22,2020-2022
+England,2021-11-29,Delta,96.18,ENG,United Kingdom,england_detail,2021,4,11,48,2021-11-29,2020-2022
+England,2021-11-29,Omicron BA.1,3.29,ENG,United Kingdom,england_detail,2021,4,11,48,2021-11-29,2020-2022
+England,2021-11-29,Omicron BA.2,0.43,ENG,United Kingdom,england_detail,2021,4,11,48,2021-11-29,2020-2022
+England,2021-11-29,Other,0.09,ENG,United Kingdom,england_detail,2021,4,11,48,2021-11-29,2020-2022
+England,2021-12-06,Delta,78.75,ENG,United Kingdom,england_detail,2021,4,12,49,2021-12-06,2020-2022
+England,2021-12-06,Omicron BA.1,20.4,ENG,United Kingdom,england_detail,2021,4,12,49,2021-12-06,2020-2022
+England,2021-12-06,Omicron BA.2,0.65,ENG,United Kingdom,england_detail,2021,4,12,49,2021-12-06,2020-2022
+England,2021-12-06,Other,0.2,ENG,United Kingdom,england_detail,2021,4,12,49,2021-12-06,2020-2022
+England,2021-12-13,Delta,34.91,ENG,United Kingdom,england_detail,2021,4,12,50,2021-12-13,2020-2022
+England,2021-12-13,Omicron BA.1,63.98,ENG,United Kingdom,england_detail,2021,4,12,50,2021-12-13,2020-2022
+England,2021-12-13,Omicron BA.2,0.79,ENG,United Kingdom,england_detail,2021,4,12,50,2021-12-13,2020-2022
+England,2021-12-13,Omicron BA.4,0.0,ENG,United Kingdom,england_detail,2021,4,12,50,2021-12-13,2020-2022
+England,2021-12-13,Omicron BA.5,0.02,ENG,United Kingdom,england_detail,2021,4,12,50,2021-12-13,2020-2022
+England,2021-12-13,Other,0.29,ENG,United Kingdom,england_detail,2021,4,12,50,2021-12-13,2020-2022
+England,2021-12-20,Alpha,0.0,ENG,United Kingdom,england_detail,2021,4,12,51,2021-12-20,2020-2022
+England,2021-12-20,Delta,13.55,ENG,United Kingdom,england_detail,2021,4,12,51,2021-12-20,2020-2022
+England,2021-12-20,Omicron BA.1,84.77,ENG,United Kingdom,england_detail,2021,4,12,51,2021-12-20,2020-2022
+England,2021-12-20,Omicron BA.2,1.35,ENG,United Kingdom,england_detail,2021,4,12,51,2021-12-20,2020-2022
+England,2021-12-20,Omicron BA.5,0.0,ENG,United Kingdom,england_detail,2021,4,12,51,2021-12-20,2020-2022
+England,2021-12-20,Other,0.33,ENG,United Kingdom,england_detail,2021,4,12,51,2021-12-20,2020-2022
+England,2021-12-27,Alpha,0.0,ENG,United Kingdom,england_detail,2021,4,12,52,2021-12-27,2020-2022
+England,2021-12-27,Delta,3.91,ENG,United Kingdom,england_detail,2021,4,12,52,2021-12-27,2020-2022
+England,2021-12-27,Omicron BA.1,94.42,ENG,United Kingdom,england_detail,2021,4,12,52,2021-12-27,2020-2022
+England,2021-12-27,Omicron BA.2,1.36,ENG,United Kingdom,england_detail,2021,4,12,52,2021-12-27,2020-2022
+England,2021-12-27,Omicron BA.4,0.0,ENG,United Kingdom,england_detail,2021,4,12,52,2021-12-27,2020-2022
+England,2021-12-27,Omicron BA.5,0.01,ENG,United Kingdom,england_detail,2021,4,12,52,2021-12-27,2020-2022
+England,2021-12-27,Other,0.3,ENG,United Kingdom,england_detail,2021,4,12,52,2021-12-27,2020-2022
+England,2022-01-03,Alpha,0.0,ENG,United Kingdom,england_detail,2022,1,1,1,2022-01-03,2020-2022
+England,2022-01-03,Delta,1.83,ENG,United Kingdom,england_detail,2022,1,1,1,2022-01-03,2020-2022
+England,2022-01-03,Omicron BA.1,96.08,ENG,United Kingdom,england_detail,2022,1,1,1,2022-01-03,2020-2022
+England,2022-01-03,Omicron BA.2,1.72,ENG,United Kingdom,england_detail,2022,1,1,1,2022-01-03,2020-2022
+England,2022-01-03,Omicron BA.2.75,0.0,ENG,United Kingdom,england_detail,2022,1,1,1,2022-01-03,2020-2022
+England,2022-01-03,Omicron BA.4,0.0,ENG,United Kingdom,england_detail,2022,1,1,1,2022-01-03,2020-2022
+England,2022-01-03,Omicron BA.5,0.01,ENG,United Kingdom,england_detail,2022,1,1,1,2022-01-03,2020-2022
+England,2022-01-03,Other,0.35,ENG,United Kingdom,england_detail,2022,1,1,1,2022-01-03,2020-2022
+England,2022-01-10,Delta,0.72,ENG,United Kingdom,england_detail,2022,1,1,2,2022-01-10,2020-2022
+England,2022-01-10,Omicron BA.1,96.18,ENG,United Kingdom,england_detail,2022,1,1,2,2022-01-10,2020-2022
+England,2022-01-10,Omicron BA.2,2.85,ENG,United Kingdom,england_detail,2022,1,1,2,2022-01-10,2020-2022
+England,2022-01-10,Omicron BA.5,0.01,ENG,United Kingdom,england_detail,2022,1,1,2,2022-01-10,2020-2022
+England,2022-01-10,Other,0.24,ENG,United Kingdom,england_detail,2022,1,1,2,2022-01-10,2020-2022
+England,2022-01-17,Delta,0.29,ENG,United Kingdom,england_detail,2022,1,1,3,2022-01-17,2020-2022
+England,2022-01-17,Omicron BA.1,94.78,ENG,United Kingdom,england_detail,2022,1,1,3,2022-01-17,2020-2022
+England,2022-01-17,Omicron BA.2,4.67,ENG,United Kingdom,england_detail,2022,1,1,3,2022-01-17,2020-2022
+England,2022-01-17,Omicron BA.4,0.0,ENG,United Kingdom,england_detail,2022,1,1,3,2022-01-17,2020-2022
+England,2022-01-17,Omicron BA.5,0.01,ENG,United Kingdom,england_detail,2022,1,1,3,2022-01-17,2020-2022
+England,2022-01-17,Other,0.25,ENG,United Kingdom,england_detail,2022,1,1,3,2022-01-17,2020-2022
+England,2022-01-24,Delta,0.09,ENG,United Kingdom,england_detail,2022,1,1,4,2022-01-24,2020-2022
+England,2022-01-24,Omicron BA.1,90.52,ENG,United Kingdom,england_detail,2022,1,1,4,2022-01-24,2020-2022
+England,2022-01-24,Omicron BA.2,9.2,ENG,United Kingdom,england_detail,2022,1,1,4,2022-01-24,2020-2022
+England,2022-01-24,Omicron BA.4,0.0,ENG,United Kingdom,england_detail,2022,1,1,4,2022-01-24,2020-2022
+England,2022-01-24,Omicron BA.5,0.01,ENG,United Kingdom,england_detail,2022,1,1,4,2022-01-24,2020-2022
+England,2022-01-24,Other,0.18,ENG,United Kingdom,england_detail,2022,1,1,4,2022-01-24,2020-2022
+England,2022-01-31,Alpha,0.0,ENG,United Kingdom,england_detail,2022,1,1,5,2022-01-31,2020-2022
+England,2022-01-31,Delta,0.06,ENG,United Kingdom,england_detail,2022,1,1,5,2022-01-31,2020-2022
+England,2022-01-31,Omicron BA.1,83.28,ENG,United Kingdom,england_detail,2022,1,1,5,2022-01-31,2020-2022
+England,2022-01-31,Omicron BA.2,16.36,ENG,United Kingdom,england_detail,2022,1,1,5,2022-01-31,2020-2022
+England,2022-01-31,Omicron BA.4,0.0,ENG,United Kingdom,england_detail,2022,1,1,5,2022-01-31,2020-2022
+England,2022-01-31,Omicron BA.5,0.01,ENG,United Kingdom,england_detail,2022,1,1,5,2022-01-31,2020-2022
+England,2022-01-31,Omicron XBB,0.0,ENG,United Kingdom,england_detail,2022,1,1,5,2022-01-31,2020-2022
+England,2022-01-31,Other,0.28,ENG,United Kingdom,england_detail,2022,1,1,5,2022-01-31,2020-2022
+England,2022-02-07,Delta,0.04,ENG,United Kingdom,england_detail,2022,1,2,6,2022-02-07,2020-2022
+England,2022-02-07,Omicron BA.1,73.53,ENG,United Kingdom,england_detail,2022,1,2,6,2022-02-07,2020-2022
+England,2022-02-07,Omicron BA.2,26.11,ENG,United Kingdom,england_detail,2022,1,2,6,2022-02-07,2020-2022
+England,2022-02-07,Omicron BA.5,0.01,ENG,United Kingdom,england_detail,2022,1,2,6,2022-02-07,2020-2022
+England,2022-02-07,Other,0.31,ENG,United Kingdom,england_detail,2022,1,2,6,2022-02-07,2020-2022
+England,2022-02-14,Delta,0.04,ENG,United Kingdom,england_detail,2022,1,2,7,2022-02-14,2020-2022
+England,2022-02-14,Omicron BA.1,56.36,ENG,United Kingdom,england_detail,2022,1,2,7,2022-02-14,2020-2022
+England,2022-02-14,Omicron BA.2,43.3,ENG,United Kingdom,england_detail,2022,1,2,7,2022-02-14,2020-2022
+England,2022-02-14,Omicron BA.4,0.0,ENG,United Kingdom,england_detail,2022,1,2,7,2022-02-14,2020-2022
+England,2022-02-14,Omicron BA.5,0.01,ENG,United Kingdom,england_detail,2022,1,2,7,2022-02-14,2020-2022
+England,2022-02-14,Other,0.29,ENG,United Kingdom,england_detail,2022,1,2,7,2022-02-14,2020-2022
+England,2022-02-21,Delta,0.02,ENG,United Kingdom,england_detail,2022,1,2,8,2022-02-21,2020-2022
+England,2022-02-21,Omicron BA.1,40.45,ENG,United Kingdom,england_detail,2022,1,2,8,2022-02-21,2020-2022
+England,2022-02-21,Omicron BA.2,59.06,ENG,United Kingdom,england_detail,2022,1,2,8,2022-02-21,2020-2022
+England,2022-02-21,Omicron BA.4,0.0,ENG,United Kingdom,england_detail,2022,1,2,8,2022-02-21,2020-2022
+England,2022-02-21,Omicron BA.5,0.02,ENG,United Kingdom,england_detail,2022,1,2,8,2022-02-21,2020-2022
+England,2022-02-21,Other,0.45,ENG,United Kingdom,england_detail,2022,1,2,8,2022-02-21,2020-2022
+England,2022-02-28,Delta,0.01,ENG,United Kingdom,england_detail,2022,1,2,9,2022-02-28,2020-2022
+England,2022-02-28,Omicron BA.1,23.9,ENG,United Kingdom,england_detail,2022,1,2,9,2022-02-28,2020-2022
+England,2022-02-28,Omicron BA.2,75.65,ENG,United Kingdom,england_detail,2022,1,2,9,2022-02-28,2020-2022
+England,2022-02-28,Omicron BA.4,0.0,ENG,United Kingdom,england_detail,2022,1,2,9,2022-02-28,2020-2022
+England,2022-02-28,Omicron BA.5,0.01,ENG,United Kingdom,england_detail,2022,1,2,9,2022-02-28,2020-2022
+England,2022-02-28,Other,0.43,ENG,United Kingdom,england_detail,2022,1,2,9,2022-02-28,2020-2022
+England,2022-03-07,Delta,0.01,ENG,United Kingdom,england_detail,2022,1,3,10,2022-03-07,2020-2022
+England,2022-03-07,Omicron BA.1,14.16,ENG,United Kingdom,england_detail,2022,1,3,10,2022-03-07,2020-2022
+England,2022-03-07,Omicron BA.2,85.22,ENG,United Kingdom,england_detail,2022,1,3,10,2022-03-07,2020-2022
+England,2022-03-07,Omicron BA.5,0.01,ENG,United Kingdom,england_detail,2022,1,3,10,2022-03-07,2020-2022
+England,2022-03-07,Other,0.6,ENG,United Kingdom,england_detail,2022,1,3,10,2022-03-07,2020-2022
+England,2022-03-14,Delta,0.01,ENG,United Kingdom,england_detail,2022,1,3,11,2022-03-14,2020-2022
+England,2022-03-14,Omicron BA.1,8.17,ENG,United Kingdom,england_detail,2022,1,3,11,2022-03-14,2020-2022
+England,2022-03-14,Omicron BA.2,91.16,ENG,United Kingdom,england_detail,2022,1,3,11,2022-03-14,2020-2022
+England,2022-03-14,Omicron BA.4,0.01,ENG,United Kingdom,england_detail,2022,1,3,11,2022-03-14,2020-2022
+England,2022-03-14,Omicron BA.5,0.02,ENG,United Kingdom,england_detail,2022,1,3,11,2022-03-14,2020-2022
+England,2022-03-14,Other,0.63,ENG,United Kingdom,england_detail,2022,1,3,11,2022-03-14,2020-2022
+England,2022-03-21,Delta,0.01,ENG,United Kingdom,england_detail,2022,1,3,12,2022-03-21,2020-2022
+England,2022-03-21,Omicron BA.1,4.48,ENG,United Kingdom,england_detail,2022,1,3,12,2022-03-21,2020-2022
+England,2022-03-21,Omicron BA.2,94.74,ENG,United Kingdom,england_detail,2022,1,3,12,2022-03-21,2020-2022
+England,2022-03-21,Omicron BA.4,0.02,ENG,United Kingdom,england_detail,2022,1,3,12,2022-03-21,2020-2022
+England,2022-03-21,Omicron BA.5,0.05,ENG,United Kingdom,england_detail,2022,1,3,12,2022-03-21,2020-2022
+England,2022-03-21,Other,0.71,ENG,United Kingdom,england_detail,2022,1,3,12,2022-03-21,2020-2022
+England,2022-03-28,Omicron BA.1,3.14,ENG,United Kingdom,england_detail,2022,1,3,13,2022-03-28,2020-2022
+England,2022-03-28,Omicron BA.2,95.88,ENG,United Kingdom,england_detail,2022,1,3,13,2022-03-28,2020-2022
+England,2022-03-28,Omicron BA.4,0.06,ENG,United Kingdom,england_detail,2022,1,3,13,2022-03-28,2020-2022
+England,2022-03-28,Omicron BA.5,0.11,ENG,United Kingdom,england_detail,2022,1,3,13,2022-03-28,2020-2022
+England,2022-03-28,Other,0.81,ENG,United Kingdom,england_detail,2022,1,3,13,2022-03-28,2020-2022
+England,2022-04-04,Delta,0.01,ENG,United Kingdom,england_detail,2022,2,4,14,2022-04-04,2020-2022
+England,2022-04-04,Omicron BA.1,1.98,ENG,United Kingdom,england_detail,2022,2,4,14,2022-04-04,2020-2022
+England,2022-04-04,Omicron BA.2,96.79,ENG,United Kingdom,england_detail,2022,2,4,14,2022-04-04,2020-2022
+England,2022-04-04,Omicron BA.4,0.14,ENG,United Kingdom,england_detail,2022,2,4,14,2022-04-04,2020-2022
+England,2022-04-04,Omicron BA.5,0.22,ENG,United Kingdom,england_detail,2022,2,4,14,2022-04-04,2020-2022
+England,2022-04-04,Other,0.86,ENG,United Kingdom,england_detail,2022,2,4,14,2022-04-04,2020-2022
+England,2022-04-11,Omicron BA.1,1.19,ENG,United Kingdom,england_detail,2022,2,4,15,2022-04-11,2020-2022
+England,2022-04-11,Omicron BA.2,97.43,ENG,United Kingdom,england_detail,2022,2,4,15,2022-04-11,2020-2022
+England,2022-04-11,Omicron BA.4,0.13,ENG,United Kingdom,england_detail,2022,2,4,15,2022-04-11,2020-2022
+England,2022-04-11,Omicron BA.5,0.31,ENG,United Kingdom,england_detail,2022,2,4,15,2022-04-11,2020-2022
+England,2022-04-11,Other,0.94,ENG,United Kingdom,england_detail,2022,2,4,15,2022-04-11,2020-2022
+England,2022-04-18,Alpha,0.01,ENG,United Kingdom,england_detail,2022,2,4,16,2022-04-18,2020-2022
+England,2022-04-18,Omicron BA.1,0.79,ENG,United Kingdom,england_detail,2022,2,4,16,2022-04-18,2020-2022
+England,2022-04-18,Omicron BA.2,97.22,ENG,United Kingdom,england_detail,2022,2,4,16,2022-04-18,2020-2022
+England,2022-04-18,Omicron BA.4,0.19,ENG,United Kingdom,england_detail,2022,2,4,16,2022-04-18,2020-2022
+England,2022-04-18,Omicron BA.5,0.57,ENG,United Kingdom,england_detail,2022,2,4,16,2022-04-18,2020-2022
+England,2022-04-18,Other,1.21,ENG,United Kingdom,england_detail,2022,2,4,16,2022-04-18,2020-2022
+England,2022-04-25,Omicron BA.1,0.47,ENG,United Kingdom,england_detail,2022,2,4,17,2022-04-25,2020-2022
+England,2022-04-25,Omicron BA.2,96.27,ENG,United Kingdom,england_detail,2022,2,4,17,2022-04-25,2020-2022
+England,2022-04-25,Omicron BA.4,0.67,ENG,United Kingdom,england_detail,2022,2,4,17,2022-04-25,2020-2022
+England,2022-04-25,Omicron BA.5,0.88,ENG,United Kingdom,england_detail,2022,2,4,17,2022-04-25,2020-2022
+England,2022-04-25,Other,1.7,ENG,United Kingdom,england_detail,2022,2,4,17,2022-04-25,2020-2022
+England,2022-05-02,Omicron BA.1,0.32,ENG,United Kingdom,england_detail,2022,2,5,18,2022-05-02,2020-2022
+England,2022-05-02,Omicron BA.2,95.06,ENG,United Kingdom,england_detail,2022,2,5,18,2022-05-02,2020-2022
+England,2022-05-02,Omicron BA.4,1.65,ENG,United Kingdom,england_detail,2022,2,5,18,2022-05-02,2020-2022
+England,2022-05-02,Omicron BA.5,1.74,ENG,United Kingdom,england_detail,2022,2,5,18,2022-05-02,2020-2022
+England,2022-05-02,Other,1.23,ENG,United Kingdom,england_detail,2022,2,5,18,2022-05-02,2020-2022
+England,2022-05-09,Omicron BA.1,0.34,ENG,United Kingdom,england_detail,2022,2,5,19,2022-05-09,2020-2022
+England,2022-05-09,Omicron BA.2,91.18,ENG,United Kingdom,england_detail,2022,2,5,19,2022-05-09,2020-2022
+England,2022-05-09,Omicron BA.4,3.61,ENG,United Kingdom,england_detail,2022,2,5,19,2022-05-09,2020-2022
+England,2022-05-09,Omicron BA.5,3.42,ENG,United Kingdom,england_detail,2022,2,5,19,2022-05-09,2020-2022
+England,2022-05-09,Other,1.45,ENG,United Kingdom,england_detail,2022,2,5,19,2022-05-09,2020-2022
+England,2022-05-16,Omicron BA.1,0.21,ENG,United Kingdom,england_detail,2022,2,5,20,2022-05-16,2020-2022
+England,2022-05-16,Omicron BA.2,84.82,ENG,United Kingdom,england_detail,2022,2,5,20,2022-05-16,2020-2022
+England,2022-05-16,Omicron BA.4,5.77,ENG,United Kingdom,england_detail,2022,2,5,20,2022-05-16,2020-2022
+England,2022-05-16,Omicron BA.5,7.43,ENG,United Kingdom,england_detail,2022,2,5,20,2022-05-16,2020-2022
+England,2022-05-16,Other,1.77,ENG,United Kingdom,england_detail,2022,2,5,20,2022-05-16,2020-2022
+England,2022-05-23,Omicron BA.1,0.04,ENG,United Kingdom,england_detail,2022,2,5,21,2022-05-23,2020-2022
+England,2022-05-23,Omicron BA.2,73.28,ENG,United Kingdom,england_detail,2022,2,5,21,2022-05-23,2020-2022
+England,2022-05-23,Omicron BA.4,9.09,ENG,United Kingdom,england_detail,2022,2,5,21,2022-05-23,2020-2022
+England,2022-05-23,Omicron BA.5,16.45,ENG,United Kingdom,england_detail,2022,2,5,21,2022-05-23,2020-2022
+England,2022-05-23,Other,1.13,ENG,United Kingdom,england_detail,2022,2,5,21,2022-05-23,2020-2022
+England,2022-05-30,Delta,0.03,ENG,United Kingdom,england_detail,2022,2,5,22,2022-05-30,2020-2022
+England,2022-05-30,Omicron BA.1,0.07,ENG,United Kingdom,england_detail,2022,2,5,22,2022-05-30,2020-2022
+England,2022-05-30,Omicron BA.2,54.32,ENG,United Kingdom,england_detail,2022,2,5,22,2022-05-30,2020-2022
+England,2022-05-30,Omicron BA.4,15.64,ENG,United Kingdom,england_detail,2022,2,5,22,2022-05-30,2020-2022
+England,2022-05-30,Omicron BA.5,28.93,ENG,United Kingdom,england_detail,2022,2,5,22,2022-05-30,2020-2022
+England,2022-05-30,Other,1.01,ENG,United Kingdom,england_detail,2022,2,5,22,2022-05-30,2020-2022
+England,2022-06-06,Delta,0.04,ENG,United Kingdom,england_detail,2022,2,6,23,2022-06-06,2020-2022
+England,2022-06-06,Omicron BA.1,0.04,ENG,United Kingdom,england_detail,2022,2,6,23,2022-06-06,2020-2022
+England,2022-06-06,Omicron BA.2,35.9,ENG,United Kingdom,england_detail,2022,2,6,23,2022-06-06,2020-2022
+England,2022-06-06,Omicron BA.4,19.51,ENG,United Kingdom,england_detail,2022,2,6,23,2022-06-06,2020-2022
+England,2022-06-06,Omicron BA.5,42.9,ENG,United Kingdom,england_detail,2022,2,6,23,2022-06-06,2020-2022
+England,2022-06-06,Other,1.62,ENG,United Kingdom,england_detail,2022,2,6,23,2022-06-06,2020-2022
+England,2022-06-13,Omicron BA.1,0.06,ENG,United Kingdom,england_detail,2022,2,6,24,2022-06-13,2020-2022
+England,2022-06-13,Omicron BA.2,22.81,ENG,United Kingdom,england_detail,2022,2,6,24,2022-06-13,2020-2022
+England,2022-06-13,Omicron BA.2.75,0.02,ENG,United Kingdom,england_detail,2022,2,6,24,2022-06-13,2020-2022
+England,2022-06-13,Omicron BA.4,20.89,ENG,United Kingdom,england_detail,2022,2,6,24,2022-06-13,2020-2022
+England,2022-06-13,Omicron BA.5,54.65,ENG,United Kingdom,england_detail,2022,2,6,24,2022-06-13,2020-2022
+England,2022-06-13,Other,1.57,ENG,United Kingdom,england_detail,2022,2,6,24,2022-06-13,2020-2022
+England,2022-06-20,Omicron BA.1,0.03,ENG,United Kingdom,england_detail,2022,2,6,25,2022-06-20,2020-2022
+England,2022-06-20,Omicron BA.2,13.58,ENG,United Kingdom,england_detail,2022,2,6,25,2022-06-20,2020-2022
+England,2022-06-20,Omicron BA.2.75,0.1,ENG,United Kingdom,england_detail,2022,2,6,25,2022-06-20,2020-2022
+England,2022-06-20,Omicron BA.4,19.69,ENG,United Kingdom,england_detail,2022,2,6,25,2022-06-20,2020-2022
+England,2022-06-20,Omicron BA.5,64.84,ENG,United Kingdom,england_detail,2022,2,6,25,2022-06-20,2020-2022
+England,2022-06-20,Other,1.77,ENG,United Kingdom,england_detail,2022,2,6,25,2022-06-20,2020-2022
+England,2022-06-27,Delta,0.01,ENG,United Kingdom,england_detail,2022,2,6,26,2022-06-27,2020-2022
+England,2022-06-27,Omicron BA.1,0.01,ENG,United Kingdom,england_detail,2022,2,6,26,2022-06-27,2020-2022
+England,2022-06-27,Omicron BA.2,7.34,ENG,United Kingdom,england_detail,2022,2,6,26,2022-06-27,2020-2022
+England,2022-06-27,Omicron BA.2.75,0.04,ENG,United Kingdom,england_detail,2022,2,6,26,2022-06-27,2020-2022
+England,2022-06-27,Omicron BA.4,19.51,ENG,United Kingdom,england_detail,2022,2,6,26,2022-06-27,2020-2022
+England,2022-06-27,Omicron BA.5,71.43,ENG,United Kingdom,england_detail,2022,2,6,26,2022-06-27,2020-2022
+England,2022-06-27,Other,1.65,ENG,United Kingdom,england_detail,2022,2,6,26,2022-06-27,2020-2022
+England,2022-07-04,Omicron BA.1,0.02,ENG,United Kingdom,england_detail,2022,3,7,27,2022-07-04,2020-2022
+England,2022-07-04,Omicron BA.2,4.62,ENG,United Kingdom,england_detail,2022,3,7,27,2022-07-04,2020-2022
+England,2022-07-04,Omicron BA.2.75,0.04,ENG,United Kingdom,england_detail,2022,3,7,27,2022-07-04,2020-2022
+England,2022-07-04,Omicron BA.4,15.8,ENG,United Kingdom,england_detail,2022,3,7,27,2022-07-04,2020-2022
+England,2022-07-04,Omicron BA.5,77.88,ENG,United Kingdom,england_detail,2022,3,7,27,2022-07-04,2020-2022
+England,2022-07-04,Other,1.64,ENG,United Kingdom,england_detail,2022,3,7,27,2022-07-04,2020-2022
+England,2022-07-11,Delta,0.02,ENG,United Kingdom,england_detail,2022,3,7,28,2022-07-11,2020-2022
+England,2022-07-11,Omicron BA.1,0.01,ENG,United Kingdom,england_detail,2022,3,7,28,2022-07-11,2020-2022
+England,2022-07-11,Omicron BA.2,2.44,ENG,United Kingdom,england_detail,2022,3,7,28,2022-07-11,2020-2022
+England,2022-07-11,Omicron BA.2.75,0.06,ENG,United Kingdom,england_detail,2022,3,7,28,2022-07-11,2020-2022
+England,2022-07-11,Omicron BA.4,15.02,ENG,United Kingdom,england_detail,2022,3,7,28,2022-07-11,2020-2022
+England,2022-07-11,Omicron BA.5,80.62,ENG,United Kingdom,england_detail,2022,3,7,28,2022-07-11,2020-2022
+England,2022-07-11,Other,1.82,ENG,United Kingdom,england_detail,2022,3,7,28,2022-07-11,2020-2022
+England,2022-07-18,Omicron BA.1,0.03,ENG,United Kingdom,england_detail,2022,3,7,29,2022-07-18,2020-2022
+England,2022-07-18,Omicron BA.2,1.49,ENG,United Kingdom,england_detail,2022,3,7,29,2022-07-18,2020-2022
+England,2022-07-18,Omicron BA.2.75,0.1,ENG,United Kingdom,england_detail,2022,3,7,29,2022-07-18,2020-2022
+England,2022-07-18,Omicron BA.4,13.13,ENG,United Kingdom,england_detail,2022,3,7,29,2022-07-18,2020-2022
+England,2022-07-18,Omicron BA.5,84.17,ENG,United Kingdom,england_detail,2022,3,7,29,2022-07-18,2020-2022
+England,2022-07-18,Other,1.08,ENG,United Kingdom,england_detail,2022,3,7,29,2022-07-18,2020-2022
+England,2022-07-25,Omicron BA.2,1.13,ENG,United Kingdom,england_detail,2022,3,7,30,2022-07-25,2020-2022
+England,2022-07-25,Omicron BA.2.75,0.09,ENG,United Kingdom,england_detail,2022,3,7,30,2022-07-25,2020-2022
+England,2022-07-25,Omicron BA.4,12.09,ENG,United Kingdom,england_detail,2022,3,7,30,2022-07-25,2020-2022
+England,2022-07-25,Omicron BA.5,85.17,ENG,United Kingdom,england_detail,2022,3,7,30,2022-07-25,2020-2022
+England,2022-07-25,Other,1.52,ENG,United Kingdom,england_detail,2022,3,7,30,2022-07-25,2020-2022
+England,2022-08-01,Omicron BA.1,0.02,ENG,United Kingdom,england_detail,2022,3,8,31,2022-08-01,2020-2022
+England,2022-08-01,Omicron BA.2,0.74,ENG,United Kingdom,england_detail,2022,3,8,31,2022-08-01,2020-2022
+England,2022-08-01,Omicron BA.2.75,0.33,ENG,United Kingdom,england_detail,2022,3,8,31,2022-08-01,2020-2022
+England,2022-08-01,Omicron BA.4,12.49,ENG,United Kingdom,england_detail,2022,3,8,31,2022-08-01,2020-2022
+England,2022-08-01,Omicron BA.5,85.06,ENG,United Kingdom,england_detail,2022,3,8,31,2022-08-01,2020-2022
+England,2022-08-01,Other,1.36,ENG,United Kingdom,england_detail,2022,3,8,31,2022-08-01,2020-2022
+England,2022-08-08,Omicron BA.1,0.02,ENG,United Kingdom,england_detail,2022,3,8,32,2022-08-08,2020-2022
+England,2022-08-08,Omicron BA.2,0.26,ENG,United Kingdom,england_detail,2022,3,8,32,2022-08-08,2020-2022
+England,2022-08-08,Omicron BA.2.75,0.62,ENG,United Kingdom,england_detail,2022,3,8,32,2022-08-08,2020-2022
+England,2022-08-08,Omicron BA.4,10.13,ENG,United Kingdom,england_detail,2022,3,8,32,2022-08-08,2020-2022
+England,2022-08-08,Omicron BA.5,87.27,ENG,United Kingdom,england_detail,2022,3,8,32,2022-08-08,2020-2022
+England,2022-08-08,Omicron XBB,0.02,ENG,United Kingdom,england_detail,2022,3,8,32,2022-08-08,2020-2022
+England,2022-08-08,Other,1.68,ENG,United Kingdom,england_detail,2022,3,8,32,2022-08-08,2020-2022
+England,2022-08-15,Omicron BA.1,0.03,ENG,United Kingdom,england_detail,2022,3,8,33,2022-08-15,2020-2022
+England,2022-08-15,Omicron BA.2,0.79,ENG,United Kingdom,england_detail,2022,3,8,33,2022-08-15,2020-2022
+England,2022-08-15,Omicron BA.2.75,0.72,ENG,United Kingdom,england_detail,2022,3,8,33,2022-08-15,2020-2022
+England,2022-08-15,Omicron BA.4,8.73,ENG,United Kingdom,england_detail,2022,3,8,33,2022-08-15,2020-2022
+England,2022-08-15,Omicron BA.5,87.18,ENG,United Kingdom,england_detail,2022,3,8,33,2022-08-15,2020-2022
+England,2022-08-15,Other,2.55,ENG,United Kingdom,england_detail,2022,3,8,33,2022-08-15,2020-2022
+England,2022-08-22,Omicron BA.2,0.29,ENG,United Kingdom,england_detail,2022,3,8,34,2022-08-22,2020-2022
+England,2022-08-22,Omicron BA.2.75,1.15,ENG,United Kingdom,england_detail,2022,3,8,34,2022-08-22,2020-2022
+England,2022-08-22,Omicron BA.4,9.13,ENG,United Kingdom,england_detail,2022,3,8,34,2022-08-22,2020-2022
+England,2022-08-22,Omicron BA.5,86.92,ENG,United Kingdom,england_detail,2022,3,8,34,2022-08-22,2020-2022
+England,2022-08-22,Other,2.51,ENG,United Kingdom,england_detail,2022,3,8,34,2022-08-22,2020-2022
+England,2022-08-29,Omicron BA.1,0.04,ENG,United Kingdom,england_detail,2022,3,8,35,2022-08-29,2020-2022
+England,2022-08-29,Omicron BA.2,0.32,ENG,United Kingdom,england_detail,2022,3,8,35,2022-08-29,2020-2022
+England,2022-08-29,Omicron BA.2.75,1.44,ENG,United Kingdom,england_detail,2022,3,8,35,2022-08-29,2020-2022
+England,2022-08-29,Omicron BA.4,9.19,ENG,United Kingdom,england_detail,2022,3,8,35,2022-08-29,2020-2022
+England,2022-08-29,Omicron BA.5,88.04,ENG,United Kingdom,england_detail,2022,3,8,35,2022-08-29,2020-2022
+England,2022-08-29,Other,0.96,ENG,United Kingdom,england_detail,2022,3,8,35,2022-08-29,2020-2022
+England,2022-09-05,Omicron BA.1,0.04,ENG,United Kingdom,england_detail,2022,3,9,36,2022-09-05,2020-2022
+England,2022-09-05,Omicron BA.2,0.44,ENG,United Kingdom,england_detail,2022,3,9,36,2022-09-05,2020-2022
+England,2022-09-05,Omicron BA.2.75,2.65,ENG,United Kingdom,england_detail,2022,3,9,36,2022-09-05,2020-2022
+England,2022-09-05,Omicron BA.4,9.12,ENG,United Kingdom,england_detail,2022,3,9,36,2022-09-05,2020-2022
+England,2022-09-05,Omicron BA.5,86.22,ENG,United Kingdom,england_detail,2022,3,9,36,2022-09-05,2020-2022
+England,2022-09-05,Omicron XBB,0.04,ENG,United Kingdom,england_detail,2022,3,9,36,2022-09-05,2020-2022
+England,2022-09-05,Other,1.49,ENG,United Kingdom,england_detail,2022,3,9,36,2022-09-05,2020-2022
+England,2022-09-12,Omicron BA.1,0.04,ENG,United Kingdom,england_detail,2022,3,9,37,2022-09-12,2020-2022
+England,2022-09-12,Omicron BA.2,0.29,ENG,United Kingdom,england_detail,2022,3,9,37,2022-09-12,2020-2022
+England,2022-09-12,Omicron BA.2.75,4.15,ENG,United Kingdom,england_detail,2022,3,9,37,2022-09-12,2020-2022
+England,2022-09-12,Omicron BA.4,7.13,ENG,United Kingdom,england_detail,2022,3,9,37,2022-09-12,2020-2022
+England,2022-09-12,Omicron BA.5,87.18,ENG,United Kingdom,england_detail,2022,3,9,37,2022-09-12,2020-2022
+England,2022-09-12,Omicron XBB,0.07,ENG,United Kingdom,england_detail,2022,3,9,37,2022-09-12,2020-2022
+England,2022-09-12,Other,1.15,ENG,United Kingdom,england_detail,2022,3,9,37,2022-09-12,2020-2022
+England,2022-09-19,Omicron BA.1,0.05,ENG,United Kingdom,england_detail,2022,3,9,38,2022-09-19,2020-2022
+England,2022-09-19,Omicron BA.2,0.27,ENG,United Kingdom,england_detail,2022,3,9,38,2022-09-19,2020-2022
+England,2022-09-19,Omicron BA.2.75,5.28,ENG,United Kingdom,england_detail,2022,3,9,38,2022-09-19,2020-2022
+England,2022-09-19,Omicron BA.4,6.37,ENG,United Kingdom,england_detail,2022,3,9,38,2022-09-19,2020-2022
+England,2022-09-19,Omicron BA.5,86.34,ENG,United Kingdom,england_detail,2022,3,9,38,2022-09-19,2020-2022
+England,2022-09-19,Omicron XBB,0.1,ENG,United Kingdom,england_detail,2022,3,9,38,2022-09-19,2020-2022
+England,2022-09-19,Other,1.6,ENG,United Kingdom,england_detail,2022,3,9,38,2022-09-19,2020-2022
+England,2022-09-26,Omicron BA.1,0.04,ENG,United Kingdom,england_detail,2022,3,9,39,2022-09-26,2020-2022
+England,2022-09-26,Omicron BA.2,0.37,ENG,United Kingdom,england_detail,2022,3,9,39,2022-09-26,2020-2022
+England,2022-09-26,Omicron BA.2.75,4.19,ENG,United Kingdom,england_detail,2022,3,9,39,2022-09-26,2020-2022
+England,2022-09-26,Omicron BA.4,5.58,ENG,United Kingdom,england_detail,2022,3,9,39,2022-09-26,2020-2022
+England,2022-09-26,Omicron BA.5,87.86,ENG,United Kingdom,england_detail,2022,3,9,39,2022-09-26,2020-2022
+England,2022-09-26,Omicron XBB,0.25,ENG,United Kingdom,england_detail,2022,3,9,39,2022-09-26,2020-2022
+England,2022-09-26,Other,1.71,ENG,United Kingdom,england_detail,2022,3,9,39,2022-09-26,2020-2022
+England,2022-10-03,Omicron BA.1,0.01,ENG,United Kingdom,england_detail,2022,4,10,40,2022-10-03,2020-2022
+England,2022-10-03,Omicron BA.2,0.56,ENG,United Kingdom,england_detail,2022,4,10,40,2022-10-03,2020-2022
+England,2022-10-03,Omicron BA.2.75,5.32,ENG,United Kingdom,england_detail,2022,4,10,40,2022-10-03,2020-2022
+England,2022-10-03,Omicron BA.4,5.12,ENG,United Kingdom,england_detail,2022,4,10,40,2022-10-03,2020-2022
+England,2022-10-03,Omicron BA.5,86.5,ENG,United Kingdom,england_detail,2022,4,10,40,2022-10-03,2020-2022
+England,2022-10-03,Omicron XBB,0.32,ENG,United Kingdom,england_detail,2022,4,10,40,2022-10-03,2020-2022
+England,2022-10-03,Other,2.16,ENG,United Kingdom,england_detail,2022,4,10,40,2022-10-03,2020-2022
+England,2022-10-10,Omicron BA.2,0.39,ENG,United Kingdom,england_detail,2022,4,10,41,2022-10-10,2020-2022
+England,2022-10-10,Omicron BA.2.75,5.21,ENG,United Kingdom,england_detail,2022,4,10,41,2022-10-10,2020-2022
+England,2022-10-10,Omicron BA.4,4.67,ENG,United Kingdom,england_detail,2022,4,10,41,2022-10-10,2020-2022
+England,2022-10-10,Omicron BA.5,87.28,ENG,United Kingdom,england_detail,2022,4,10,41,2022-10-10,2020-2022
+England,2022-10-10,Omicron XBB,0.69,ENG,United Kingdom,england_detail,2022,4,10,41,2022-10-10,2020-2022
+England,2022-10-10,Other,1.76,ENG,United Kingdom,england_detail,2022,4,10,41,2022-10-10,2020-2022
+England,2022-10-17,Omicron BA.1,0.06,ENG,United Kingdom,england_detail,2022,4,10,42,2022-10-17,2020-2022
+England,2022-10-17,Omicron BA.2,1.09,ENG,United Kingdom,england_detail,2022,4,10,42,2022-10-17,2020-2022
+England,2022-10-17,Omicron BA.2.75,6.71,ENG,United Kingdom,england_detail,2022,4,10,42,2022-10-17,2020-2022
+England,2022-10-17,Omicron BA.4,3.88,ENG,United Kingdom,england_detail,2022,4,10,42,2022-10-17,2020-2022
+England,2022-10-17,Omicron BA.5,85.68,ENG,United Kingdom,england_detail,2022,4,10,42,2022-10-17,2020-2022
+England,2022-10-17,Omicron XBB,1.27,ENG,United Kingdom,england_detail,2022,4,10,42,2022-10-17,2020-2022
+England,2022-10-17,Other,1.31,ENG,United Kingdom,england_detail,2022,4,10,42,2022-10-17,2020-2022
+England,2022-10-24,Omicron BA.1,0.03,ENG,United Kingdom,england_detail,2022,4,10,43,2022-10-24,2020-2022
+England,2022-10-24,Omicron BA.2,1.16,ENG,United Kingdom,england_detail,2022,4,10,43,2022-10-24,2020-2022
+England,2022-10-24,Omicron BA.2.75,8.52,ENG,United Kingdom,england_detail,2022,4,10,43,2022-10-24,2020-2022
+England,2022-10-24,Omicron BA.4,3.35,ENG,United Kingdom,england_detail,2022,4,10,43,2022-10-24,2020-2022
+England,2022-10-24,Omicron BA.5,84.31,ENG,United Kingdom,england_detail,2022,4,10,43,2022-10-24,2020-2022
+England,2022-10-24,Omicron XBB,1.32,ENG,United Kingdom,england_detail,2022,4,10,43,2022-10-24,2020-2022
+England,2022-10-24,Other,1.32,ENG,United Kingdom,england_detail,2022,4,10,43,2022-10-24,2020-2022
+England,2022-10-31,Delta,0.04,ENG,United Kingdom,england_detail,2022,4,10,44,2022-10-31,2020-2022
+England,2022-10-31,Omicron BA.1,0.04,ENG,United Kingdom,england_detail,2022,4,10,44,2022-10-31,2020-2022
+England,2022-10-31,Omicron BA.2,1.44,ENG,United Kingdom,england_detail,2022,4,10,44,2022-10-31,2020-2022
+England,2022-10-31,Omicron BA.2.75,7.86,ENG,United Kingdom,england_detail,2022,4,10,44,2022-10-31,2020-2022
+England,2022-10-31,Omicron BA.4,2.48,ENG,United Kingdom,england_detail,2022,4,10,44,2022-10-31,2020-2022
+England,2022-10-31,Omicron BA.5,84.67,ENG,United Kingdom,england_detail,2022,4,10,44,2022-10-31,2020-2022
+England,2022-10-31,Omicron XBB,2.15,ENG,United Kingdom,england_detail,2022,4,10,44,2022-10-31,2020-2022
+England,2022-10-31,Other,1.33,ENG,United Kingdom,england_detail,2022,4,10,44,2022-10-31,2020-2022
+England,2022-11-07,Omicron BA.2,2.37,ENG,United Kingdom,england_detail,2022,4,11,45,2022-11-07,2020-2022
+England,2022-11-07,Omicron BA.2.75,10.43,ENG,United Kingdom,england_detail,2022,4,11,45,2022-11-07,2020-2022
+England,2022-11-07,Omicron BA.4,2.41,ENG,United Kingdom,england_detail,2022,4,11,45,2022-11-07,2020-2022
+England,2022-11-07,Omicron BA.5,80.18,ENG,United Kingdom,england_detail,2022,4,11,45,2022-11-07,2020-2022
+England,2022-11-07,Omicron XBB,3.65,ENG,United Kingdom,england_detail,2022,4,11,45,2022-11-07,2020-2022
+England,2022-11-07,Other,0.96,ENG,United Kingdom,england_detail,2022,4,11,45,2022-11-07,2020-2022
+England,2022-11-14,Omicron BA.2,3.02,ENG,United Kingdom,england_detail,2022,4,11,46,2022-11-14,2020-2022
+England,2022-11-14,Omicron BA.2.75,9.55,ENG,United Kingdom,england_detail,2022,4,11,46,2022-11-14,2020-2022
+England,2022-11-14,Omicron BA.4,1.37,ENG,United Kingdom,england_detail,2022,4,11,46,2022-11-14,2020-2022
+England,2022-11-14,Omicron BA.5,80.94,ENG,United Kingdom,england_detail,2022,4,11,46,2022-11-14,2020-2022
+England,2022-11-14,Omicron XBB,3.83,ENG,United Kingdom,england_detail,2022,4,11,46,2022-11-14,2020-2022
+England,2022-11-14,Other,1.29,ENG,United Kingdom,england_detail,2022,4,11,46,2022-11-14,2020-2022
+England,2022-11-21,Omicron BA.1,0.03,ENG,United Kingdom,england_detail,2022,4,11,47,2022-11-21,2020-2022
+England,2022-11-21,Omicron BA.2,7.09,ENG,United Kingdom,england_detail,2022,4,11,47,2022-11-21,2020-2022
+England,2022-11-21,Omicron BA.2.75,9.38,ENG,United Kingdom,england_detail,2022,4,11,47,2022-11-21,2020-2022
+England,2022-11-21,Omicron BA.4,1.41,ENG,United Kingdom,england_detail,2022,4,11,47,2022-11-21,2020-2022
+England,2022-11-21,Omicron BA.5,76.19,ENG,United Kingdom,england_detail,2022,4,11,47,2022-11-21,2020-2022
+England,2022-11-21,Omicron XBB,4.77,ENG,United Kingdom,england_detail,2022,4,11,47,2022-11-21,2020-2022
+England,2022-11-21,Other,1.11,ENG,United Kingdom,england_detail,2022,4,11,47,2022-11-21,2020-2022
+England,2022-11-28,Omicron BA.2,7.65,ENG,United Kingdom,england_detail,2022,4,11,48,2022-11-28,2020-2022
+England,2022-11-28,Omicron BA.2.75,9.46,ENG,United Kingdom,england_detail,2022,4,11,48,2022-11-28,2020-2022
+England,2022-11-28,Omicron BA.4,0.99,ENG,United Kingdom,england_detail,2022,4,11,48,2022-11-28,2020-2022
+England,2022-11-28,Omicron BA.5,76.31,ENG,United Kingdom,england_detail,2022,4,11,48,2022-11-28,2020-2022
+England,2022-11-28,Omicron XBB,4.74,ENG,United Kingdom,england_detail,2022,4,11,48,2022-11-28,2020-2022
+England,2022-11-28,Other,0.85,ENG,United Kingdom,england_detail,2022,4,11,48,2022-11-28,2020-2022
+England,2022-12-05,Omicron BA.1,0.02,ENG,United Kingdom,england_detail,2022,4,12,49,2022-12-05,2020-2022
+England,2022-12-05,Omicron BA.2,10.58,ENG,United Kingdom,england_detail,2022,4,12,49,2022-12-05,2020-2022
+England,2022-12-05,Omicron BA.2.75,9.26,ENG,United Kingdom,england_detail,2022,4,12,49,2022-12-05,2020-2022
+England,2022-12-05,Omicron BA.4,0.66,ENG,United Kingdom,england_detail,2022,4,12,49,2022-12-05,2020-2022
+England,2022-12-05,Omicron BA.5,73.36,ENG,United Kingdom,england_detail,2022,4,12,49,2022-12-05,2020-2022
+England,2022-12-05,Omicron XBB,5.09,ENG,United Kingdom,england_detail,2022,4,12,49,2022-12-05,2020-2022
+England,2022-12-05,Other,1.03,ENG,United Kingdom,england_detail,2022,4,12,49,2022-12-05,2020-2022
+England,2022-12-12,Omicron BA.1,0.02,ENG,United Kingdom,england_detail,2022,4,12,50,2022-12-12,2020-2022
+England,2022-12-12,Omicron BA.2,14.24,ENG,United Kingdom,england_detail,2022,4,12,50,2022-12-12,2020-2022
+England,2022-12-12,Omicron BA.2.75,7.66,ENG,United Kingdom,england_detail,2022,4,12,50,2022-12-12,2020-2022
+England,2022-12-12,Omicron BA.4,0.63,ENG,United Kingdom,england_detail,2022,4,12,50,2022-12-12,2020-2022
+England,2022-12-12,Omicron BA.5,70.17,ENG,United Kingdom,england_detail,2022,4,12,50,2022-12-12,2020-2022
+England,2022-12-12,Omicron XBB,5.85,ENG,United Kingdom,england_detail,2022,4,12,50,2022-12-12,2020-2022
+England,2022-12-12,Other,1.43,ENG,United Kingdom,england_detail,2022,4,12,50,2022-12-12,2020-2022
+England,2022-12-19,Omicron BA.1,0.03,ENG,United Kingdom,england_detail,2022,4,12,51,2022-12-19,2020-2022
+England,2022-12-19,Omicron BA.2,17.58,ENG,United Kingdom,england_detail,2022,4,12,51,2022-12-19,2020-2022
+England,2022-12-19,Omicron BA.2.75,6.83,ENG,United Kingdom,england_detail,2022,4,12,51,2022-12-19,2020-2022
+England,2022-12-19,Omicron BA.4,0.55,ENG,United Kingdom,england_detail,2022,4,12,51,2022-12-19,2020-2022
+England,2022-12-19,Omicron BA.5,66.93,ENG,United Kingdom,england_detail,2022,4,12,51,2022-12-19,2020-2022
+England,2022-12-19,Omicron XBB,6.39,ENG,United Kingdom,england_detail,2022,4,12,51,2022-12-19,2020-2022
+England,2022-12-19,Other,1.69,ENG,United Kingdom,england_detail,2022,4,12,51,2022-12-19,2020-2022
+England,2022-12-26,Delta,0.02,ENG,United Kingdom,england_detail,2022,4,12,52,2022-12-26,2020-2022
+England,2022-12-26,Omicron BA.2,22.59,ENG,United Kingdom,england_detail,2022,4,12,52,2022-12-26,2020-2022
+England,2022-12-26,Omicron BA.2.75,7.58,ENG,United Kingdom,england_detail,2022,4,12,52,2022-12-26,2020-2022
+England,2022-12-26,Omicron BA.4,0.39,ENG,United Kingdom,england_detail,2022,4,12,52,2022-12-26,2020-2022
+England,2022-12-26,Omicron BA.5,58.95,ENG,United Kingdom,england_detail,2022,4,12,52,2022-12-26,2020-2022
+England,2022-12-26,Omicron XBB,8.88,ENG,United Kingdom,england_detail,2022,4,12,52,2022-12-26,2020-2022
+England,2022-12-26,Other,1.6,ENG,United Kingdom,england_detail,2022,4,12,52,2022-12-26,2020-2022
+England,2023-01-02,Omicron BA.1,0.02,ENG,United Kingdom,england_detail,2023,1,1,1,2023-01-02,2023-2026
+England,2023-01-02,Omicron BA.2,24.92,ENG,United Kingdom,england_detail,2023,1,1,1,2023-01-02,2023-2026
+England,2023-01-02,Omicron BA.2.75,8.45,ENG,United Kingdom,england_detail,2023,1,1,1,2023-01-02,2023-2026
+England,2023-01-02,Omicron BA.4,0.57,ENG,United Kingdom,england_detail,2023,1,1,1,2023-01-02,2023-2026
+England,2023-01-02,Omicron BA.5,55.8,ENG,United Kingdom,england_detail,2023,1,1,1,2023-01-02,2023-2026
+England,2023-01-02,Omicron XBB,8.56,ENG,United Kingdom,england_detail,2023,1,1,1,2023-01-02,2023-2026
+England,2023-01-02,Other,1.69,ENG,United Kingdom,england_detail,2023,1,1,1,2023-01-02,2023-2026
+England,2023-01-09,Omicron BA.1,0.03,ENG,United Kingdom,england_detail,2023,1,1,2,2023-01-09,2023-2026
+England,2023-01-09,Omicron BA.2,26.54,ENG,United Kingdom,england_detail,2023,1,1,2,2023-01-09,2023-2026
+England,2023-01-09,Omicron BA.2.75,6.34,ENG,United Kingdom,england_detail,2023,1,1,2,2023-01-09,2023-2026
+England,2023-01-09,Omicron BA.4,0.55,ENG,United Kingdom,england_detail,2023,1,1,2,2023-01-09,2023-2026
+England,2023-01-09,Omicron BA.5,52.91,ENG,United Kingdom,england_detail,2023,1,1,2,2023-01-09,2023-2026
+England,2023-01-09,Omicron XBB,11.65,ENG,United Kingdom,england_detail,2023,1,1,2,2023-01-09,2023-2026
+England,2023-01-09,Other,1.96,ENG,United Kingdom,england_detail,2023,1,1,2,2023-01-09,2023-2026
+England,2023-01-16,Omicron BA.2,27.73,ENG,United Kingdom,england_detail,2023,1,1,3,2023-01-16,2023-2026
+England,2023-01-16,Omicron BA.2.75,5.87,ENG,United Kingdom,england_detail,2023,1,1,3,2023-01-16,2023-2026
+England,2023-01-16,Omicron BA.4,0.27,ENG,United Kingdom,england_detail,2023,1,1,3,2023-01-16,2023-2026
+England,2023-01-16,Omicron BA.5,47.24,ENG,United Kingdom,england_detail,2023,1,1,3,2023-01-16,2023-2026
+England,2023-01-16,Omicron XBB,17.69,ENG,United Kingdom,england_detail,2023,1,1,3,2023-01-16,2023-2026
+England,2023-01-16,Other,1.2,ENG,United Kingdom,england_detail,2023,1,1,3,2023-01-16,2023-2026
+England,2023-01-23,Omicron BA.2,32.07,ENG,United Kingdom,england_detail,2023,1,1,4,2023-01-23,2023-2026
+England,2023-01-23,Omicron BA.2.75,4.63,ENG,United Kingdom,england_detail,2023,1,1,4,2023-01-23,2023-2026
+England,2023-01-23,Omicron BA.4,0.2,ENG,United Kingdom,england_detail,2023,1,1,4,2023-01-23,2023-2026
+England,2023-01-23,Omicron BA.5,40.61,ENG,United Kingdom,england_detail,2023,1,1,4,2023-01-23,2023-2026
+England,2023-01-23,Omicron XBB,21.5,ENG,United Kingdom,england_detail,2023,1,1,4,2023-01-23,2023-2026
+England,2023-01-23,Other,0.99,ENG,United Kingdom,england_detail,2023,1,1,4,2023-01-23,2023-2026
+England,2023-01-30,Omicron BA.2,29.11,ENG,United Kingdom,england_detail,2023,1,1,5,2023-01-30,2023-2026
+England,2023-01-30,Omicron BA.2.75,2.75,ENG,United Kingdom,england_detail,2023,1,1,5,2023-01-30,2023-2026
+England,2023-01-30,Omicron BA.4,0.11,ENG,United Kingdom,england_detail,2023,1,1,5,2023-01-30,2023-2026
+England,2023-01-30,Omicron BA.5,35.88,ENG,United Kingdom,england_detail,2023,1,1,5,2023-01-30,2023-2026
+England,2023-01-30,Omicron XBB,31.25,ENG,United Kingdom,england_detail,2023,1,1,5,2023-01-30,2023-2026
+England,2023-01-30,Other,0.9,ENG,United Kingdom,england_detail,2023,1,1,5,2023-01-30,2023-2026
+England,2023-02-06,Omicron BA.2,28.08,ENG,United Kingdom,england_detail,2023,1,2,6,2023-02-06,2023-2026
+England,2023-02-06,Omicron BA.2.75,2.99,ENG,United Kingdom,england_detail,2023,1,2,6,2023-02-06,2023-2026
+England,2023-02-06,Omicron BA.4,0.07,ENG,United Kingdom,england_detail,2023,1,2,6,2023-02-06,2023-2026
+England,2023-02-06,Omicron BA.5,24.28,ENG,United Kingdom,england_detail,2023,1,2,6,2023-02-06,2023-2026
+England,2023-02-06,Omicron XBB,42.88,ENG,United Kingdom,england_detail,2023,1,2,6,2023-02-06,2023-2026
+England,2023-02-06,Other,1.7,ENG,United Kingdom,england_detail,2023,1,2,6,2023-02-06,2023-2026
+England,2023-02-13,Omicron BA.2,24.55,ENG,United Kingdom,england_detail,2023,1,2,7,2023-02-13,2023-2026
+England,2023-02-13,Omicron BA.2.75,2.35,ENG,United Kingdom,england_detail,2023,1,2,7,2023-02-13,2023-2026
+England,2023-02-13,Omicron BA.5,23.19,ENG,United Kingdom,england_detail,2023,1,2,7,2023-02-13,2023-2026
+England,2023-02-13,Omicron XBB,48.25,ENG,United Kingdom,england_detail,2023,1,2,7,2023-02-13,2023-2026
+England,2023-02-13,Other,1.66,ENG,United Kingdom,england_detail,2023,1,2,7,2023-02-13,2023-2026
+England,2023-02-20,Omicron BA.2,23.64,ENG,United Kingdom,england_detail,2023,1,2,8,2023-02-20,2023-2026
+England,2023-02-20,Omicron BA.2.75,1.56,ENG,United Kingdom,england_detail,2023,1,2,8,2023-02-20,2023-2026
+England,2023-02-20,Omicron BA.4,0.02,ENG,United Kingdom,england_detail,2023,1,2,8,2023-02-20,2023-2026
+England,2023-02-20,Omicron BA.5,16.14,ENG,United Kingdom,england_detail,2023,1,2,8,2023-02-20,2023-2026
+England,2023-02-20,Omicron XBB,57.09,ENG,United Kingdom,england_detail,2023,1,2,8,2023-02-20,2023-2026
+England,2023-02-20,Other,1.56,ENG,United Kingdom,england_detail,2023,1,2,8,2023-02-20,2023-2026
+England,2023-02-27,Omicron BA.2,21.95,ENG,United Kingdom,england_detail,2023,1,2,9,2023-02-27,2023-2026
+England,2023-02-27,Omicron BA.2.75,1.19,ENG,United Kingdom,england_detail,2023,1,2,9,2023-02-27,2023-2026
+England,2023-02-27,Omicron BA.5,11.91,ENG,United Kingdom,england_detail,2023,1,2,9,2023-02-27,2023-2026
+England,2023-02-27,Omicron XBB,63.86,ENG,United Kingdom,england_detail,2023,1,2,9,2023-02-27,2023-2026
+England,2023-02-27,Other,1.08,ENG,United Kingdom,england_detail,2023,1,2,9,2023-02-27,2023-2026
+England,2023-03-06,Omicron BA.2,16.24,ENG,United Kingdom,england_detail,2023,1,3,10,2023-03-06,2023-2026
+England,2023-03-06,Omicron BA.2.75,1.22,ENG,United Kingdom,england_detail,2023,1,3,10,2023-03-06,2023-2026
+England,2023-03-06,Omicron BA.5,9.4,ENG,United Kingdom,england_detail,2023,1,3,10,2023-03-06,2023-2026
+England,2023-03-06,Omicron XBB,71.53,ENG,United Kingdom,england_detail,2023,1,3,10,2023-03-06,2023-2026
+England,2023-03-06,Other,1.6,ENG,United Kingdom,england_detail,2023,1,3,10,2023-03-06,2023-2026
+England,2023-03-13,Omicron BA.2,14.4,ENG,United Kingdom,england_detail,2023,1,3,11,2023-03-13,2023-2026
+England,2023-03-13,Omicron BA.2.75,1.56,ENG,United Kingdom,england_detail,2023,1,3,11,2023-03-13,2023-2026
+England,2023-03-13,Omicron BA.5,7.74,ENG,United Kingdom,england_detail,2023,1,3,11,2023-03-13,2023-2026
+England,2023-03-13,Omicron XBB,75.08,ENG,United Kingdom,england_detail,2023,1,3,11,2023-03-13,2023-2026
+England,2023-03-13,Other,1.22,ENG,United Kingdom,england_detail,2023,1,3,11,2023-03-13,2023-2026
+England,2023-03-20,Omicron BA.2,11.56,ENG,United Kingdom,england_detail,2023,1,3,12,2023-03-20,2023-2026
+England,2023-03-20,Omicron BA.2.75,1.31,ENG,United Kingdom,england_detail,2023,1,3,12,2023-03-20,2023-2026
+England,2023-03-20,Omicron BA.5,6.77,ENG,United Kingdom,england_detail,2023,1,3,12,2023-03-20,2023-2026
+England,2023-03-20,Omicron XBB,79.13,ENG,United Kingdom,england_detail,2023,1,3,12,2023-03-20,2023-2026
+England,2023-03-20,Other,1.22,ENG,United Kingdom,england_detail,2023,1,3,12,2023-03-20,2023-2026
+England,2023-03-27,Omicron BA.2,10.96,ENG,United Kingdom,england_detail,2023,1,3,13,2023-03-27,2023-2026
+England,2023-03-27,Omicron BA.2.75,1.15,ENG,United Kingdom,england_detail,2023,1,3,13,2023-03-27,2023-2026
+England,2023-03-27,Omicron BA.5,4.97,ENG,United Kingdom,england_detail,2023,1,3,13,2023-03-27,2023-2026
+England,2023-03-27,Omicron XBB,81.81,ENG,United Kingdom,england_detail,2023,1,3,13,2023-03-27,2023-2026
+England,2023-03-27,Other,1.11,ENG,United Kingdom,england_detail,2023,1,3,13,2023-03-27,2023-2026
+England,2023-04-03,Omicron BA.2,10.84,ENG,United Kingdom,england_detail,2023,2,4,14,2023-04-03,2023-2026
+England,2023-04-03,Omicron BA.2.75,1.32,ENG,United Kingdom,england_detail,2023,2,4,14,2023-04-03,2023-2026
+England,2023-04-03,Omicron BA.5,3.72,ENG,United Kingdom,england_detail,2023,2,4,14,2023-04-03,2023-2026
+England,2023-04-03,Omicron XBB,82.96,ENG,United Kingdom,england_detail,2023,2,4,14,2023-04-03,2023-2026
+England,2023-04-03,Other,1.16,ENG,United Kingdom,england_detail,2023,2,4,14,2023-04-03,2023-2026
+England,2023-04-10,Delta,0.08,ENG,United Kingdom,england_detail,2023,2,4,15,2023-04-10,2023-2026
+England,2023-04-10,Omicron BA.2,8.54,ENG,United Kingdom,england_detail,2023,2,4,15,2023-04-10,2023-2026
+England,2023-04-10,Omicron BA.2.75,0.38,ENG,United Kingdom,england_detail,2023,2,4,15,2023-04-10,2023-2026
+England,2023-04-10,Omicron BA.5,1.69,ENG,United Kingdom,england_detail,2023,2,4,15,2023-04-10,2023-2026
+England,2023-04-10,Omicron XBB,88.23,ENG,United Kingdom,england_detail,2023,2,4,15,2023-04-10,2023-2026
+England,2023-04-10,Other,1.08,ENG,United Kingdom,england_detail,2023,2,4,15,2023-04-10,2023-2026
+England,2023-04-17,Omicron BA.2,7.51,ENG,United Kingdom,england_detail,2023,2,4,16,2023-04-17,2023-2026
+England,2023-04-17,Omicron BA.2.75,1.01,ENG,United Kingdom,england_detail,2023,2,4,16,2023-04-17,2023-2026
+England,2023-04-17,Omicron BA.5,1.56,ENG,United Kingdom,england_detail,2023,2,4,16,2023-04-17,2023-2026
+England,2023-04-17,Omicron XBB,89.19,ENG,United Kingdom,england_detail,2023,2,4,16,2023-04-17,2023-2026
+England,2023-04-17,Other,0.73,ENG,United Kingdom,england_detail,2023,2,4,16,2023-04-17,2023-2026
+England,2023-04-24,Omicron BA.2,5.63,ENG,United Kingdom,england_detail,2023,2,4,17,2023-04-24,2023-2026
+England,2023-04-24,Omicron BA.2.75,0.89,ENG,United Kingdom,england_detail,2023,2,4,17,2023-04-24,2023-2026
+England,2023-04-24,Omicron BA.2.86,0.1,ENG,United Kingdom,england_detail,2023,2,4,17,2023-04-24,2023-2026
+England,2023-04-24,Omicron BA.5,0.49,ENG,United Kingdom,england_detail,2023,2,4,17,2023-04-24,2023-2026
+England,2023-04-24,Omicron XBB,91.21,ENG,United Kingdom,england_detail,2023,2,4,17,2023-04-24,2023-2026
+England,2023-04-24,Other,1.68,ENG,United Kingdom,england_detail,2023,2,4,17,2023-04-24,2023-2026
+England,2023-05-01,Omicron BA.2,4.46,ENG,United Kingdom,england_detail,2023,2,5,18,2023-05-01,2023-2026
+England,2023-05-01,Omicron BA.5,0.45,ENG,United Kingdom,england_detail,2023,2,5,18,2023-05-01,2023-2026
+England,2023-05-01,Omicron XBB,93.76,ENG,United Kingdom,england_detail,2023,2,5,18,2023-05-01,2023-2026
+England,2023-05-01,Other,1.34,ENG,United Kingdom,england_detail,2023,2,5,18,2023-05-01,2023-2026
+England,2023-05-08,Omicron BA.2,4.12,ENG,United Kingdom,england_detail,2023,2,5,19,2023-05-08,2023-2026
+England,2023-05-08,Omicron BA.2.75,0.15,ENG,United Kingdom,england_detail,2023,2,5,19,2023-05-08,2023-2026
+England,2023-05-08,Omicron BA.5,0.3,ENG,United Kingdom,england_detail,2023,2,5,19,2023-05-08,2023-2026
+England,2023-05-08,Omicron XBB,94.36,ENG,United Kingdom,england_detail,2023,2,5,19,2023-05-08,2023-2026
+England,2023-05-08,Other,1.07,ENG,United Kingdom,england_detail,2023,2,5,19,2023-05-08,2023-2026
+England,2023-05-15,Omicron BA.2,3.99,ENG,United Kingdom,england_detail,2023,2,5,20,2023-05-15,2023-2026
+England,2023-05-15,Omicron BA.2.75,0.31,ENG,United Kingdom,england_detail,2023,2,5,20,2023-05-15,2023-2026
+England,2023-05-15,Omicron BA.4,0.15,ENG,United Kingdom,england_detail,2023,2,5,20,2023-05-15,2023-2026
+England,2023-05-15,Omicron BA.5,0.31,ENG,United Kingdom,england_detail,2023,2,5,20,2023-05-15,2023-2026
+England,2023-05-15,Omicron XBB,94.48,ENG,United Kingdom,england_detail,2023,2,5,20,2023-05-15,2023-2026
+England,2023-05-15,Other,0.77,ENG,United Kingdom,england_detail,2023,2,5,20,2023-05-15,2023-2026
+England,2023-05-22,Omicron BA.2,3.83,ENG,United Kingdom,england_detail,2023,2,5,21,2023-05-22,2023-2026
+England,2023-05-22,Omicron BA.2.75,0.4,ENG,United Kingdom,england_detail,2023,2,5,21,2023-05-22,2023-2026
+England,2023-05-22,Omicron BA.5,0.4,ENG,United Kingdom,england_detail,2023,2,5,21,2023-05-22,2023-2026
+England,2023-05-22,Omicron XBB,94.56,ENG,United Kingdom,england_detail,2023,2,5,21,2023-05-22,2023-2026
+England,2023-05-22,Other,0.81,ENG,United Kingdom,england_detail,2023,2,5,21,2023-05-22,2023-2026
+England,2023-05-29,Omicron BA.2,1.84,ENG,United Kingdom,england_detail,2023,2,5,22,2023-05-29,2023-2026
+England,2023-05-29,Omicron BA.2.75,0.23,ENG,United Kingdom,england_detail,2023,2,5,22,2023-05-29,2023-2026
+England,2023-05-29,Omicron BA.5,0.23,ENG,United Kingdom,england_detail,2023,2,5,22,2023-05-29,2023-2026
+England,2023-05-29,Omicron XBB,95.86,ENG,United Kingdom,england_detail,2023,2,5,22,2023-05-29,2023-2026
+England,2023-05-29,Other,1.84,ENG,United Kingdom,england_detail,2023,2,5,22,2023-05-29,2023-2026
+England,2023-06-05,Omicron BA.2,3.6,ENG,United Kingdom,england_detail,2023,2,6,23,2023-06-05,2023-2026
+England,2023-06-05,Omicron BA.2.75,0.28,ENG,United Kingdom,england_detail,2023,2,6,23,2023-06-05,2023-2026
+England,2023-06-05,Omicron BA.5,0.83,ENG,United Kingdom,england_detail,2023,2,6,23,2023-06-05,2023-2026
+England,2023-06-05,Omicron XBB,94.18,ENG,United Kingdom,england_detail,2023,2,6,23,2023-06-05,2023-2026
+England,2023-06-05,Other,1.11,ENG,United Kingdom,england_detail,2023,2,6,23,2023-06-05,2023-2026
+England,2023-06-12,Omicron BA.2,1.3,ENG,United Kingdom,england_detail,2023,2,6,24,2023-06-12,2023-2026
+England,2023-06-12,Omicron BA.5,0.87,ENG,United Kingdom,england_detail,2023,2,6,24,2023-06-12,2023-2026
+England,2023-06-12,Omicron XBB,96.54,ENG,United Kingdom,england_detail,2023,2,6,24,2023-06-12,2023-2026
+England,2023-06-12,Other,1.3,ENG,United Kingdom,england_detail,2023,2,6,24,2023-06-12,2023-2026
+England,2023-06-19,Omicron BA.1,0.5,ENG,United Kingdom,england_detail,2023,2,6,25,2023-06-19,2023-2026
+England,2023-06-19,Omicron BA.2,2.0,ENG,United Kingdom,england_detail,2023,2,6,25,2023-06-19,2023-2026
+England,2023-06-19,Omicron BA.2.86,1.0,ENG,United Kingdom,england_detail,2023,2,6,25,2023-06-19,2023-2026
+England,2023-06-19,Omicron BA.5,0.5,ENG,United Kingdom,england_detail,2023,2,6,25,2023-06-19,2023-2026
+England,2023-06-19,Omicron XBB,95.0,ENG,United Kingdom,england_detail,2023,2,6,25,2023-06-19,2023-2026
+England,2023-06-19,Other,1.0,ENG,United Kingdom,england_detail,2023,2,6,25,2023-06-19,2023-2026
+England,2023-06-26,Omicron BA.2,2.67,ENG,United Kingdom,england_detail,2023,2,6,26,2023-06-26,2023-2026
+England,2023-06-26,Omicron BA.5,0.67,ENG,United Kingdom,england_detail,2023,2,6,26,2023-06-26,2023-2026
+England,2023-06-26,Omicron JN.1,0.66,ENG,United Kingdom,england_detail,2023,2,6,26,2023-06-26,2023-2026
+England,2023-06-26,Omicron XBB,95.36,ENG,United Kingdom,england_detail,2023,2,6,26,2023-06-26,2023-2026
+England,2023-06-26,Other,1.33,ENG,United Kingdom,england_detail,2023,2,6,26,2023-06-26,2023-2026
+England,2023-07-03,Omicron BA.2,2.31,ENG,United Kingdom,england_detail,2023,3,7,27,2023-07-03,2023-2026
+England,2023-07-03,Omicron BA.5,0.46,ENG,United Kingdom,england_detail,2023,3,7,27,2023-07-03,2023-2026
+England,2023-07-03,Omicron XBB,96.76,ENG,United Kingdom,england_detail,2023,3,7,27,2023-07-03,2023-2026
+England,2023-07-03,Other,0.46,ENG,United Kingdom,england_detail,2023,3,7,27,2023-07-03,2023-2026
+England,2023-07-10,Omicron BA.2,2.73,ENG,United Kingdom,england_detail,2023,3,7,28,2023-07-10,2023-2026
+England,2023-07-10,Omicron BA.5,0.78,ENG,United Kingdom,england_detail,2023,3,7,28,2023-07-10,2023-2026
+England,2023-07-10,Omicron XBB,96.09,ENG,United Kingdom,england_detail,2023,3,7,28,2023-07-10,2023-2026
+England,2023-07-10,Other,0.39,ENG,United Kingdom,england_detail,2023,3,7,28,2023-07-10,2023-2026
+England,2023-07-17,Omicron BA.2,2.29,ENG,United Kingdom,england_detail,2023,3,7,29,2023-07-17,2023-2026
+England,2023-07-17,Omicron BA.5,0.29,ENG,United Kingdom,england_detail,2023,3,7,29,2023-07-17,2023-2026
+England,2023-07-17,Omicron XBB,97.42,ENG,United Kingdom,england_detail,2023,3,7,29,2023-07-17,2023-2026
+England,2023-07-24,Omicron BA.2,2.38,ENG,United Kingdom,england_detail,2023,3,7,30,2023-07-24,2023-2026
+England,2023-07-24,Omicron BA.2.75,0.22,ENG,United Kingdom,england_detail,2023,3,7,30,2023-07-24,2023-2026
+England,2023-07-24,Omicron JN.1,0.22,ENG,United Kingdom,england_detail,2023,3,7,30,2023-07-24,2023-2026
+England,2023-07-24,Omicron XBB,96.54,ENG,United Kingdom,england_detail,2023,3,7,30,2023-07-24,2023-2026
+England,2023-07-24,Other,0.87,ENG,United Kingdom,england_detail,2023,3,7,30,2023-07-24,2023-2026
+England,2023-07-31,Omicron BA.2,1.57,ENG,United Kingdom,england_detail,2023,3,7,31,2023-07-31,2023-2026
+England,2023-07-31,Omicron BA.2.86,0.16,ENG,United Kingdom,england_detail,2023,3,7,31,2023-07-31,2023-2026
+England,2023-07-31,Omicron BA.5,0.16,ENG,United Kingdom,england_detail,2023,3,7,31,2023-07-31,2023-2026
+England,2023-07-31,Omicron XBB,97.8,ENG,United Kingdom,england_detail,2023,3,7,31,2023-07-31,2023-2026
+England,2023-07-31,Other,0.31,ENG,United Kingdom,england_detail,2023,3,7,31,2023-07-31,2023-2026
+England,2023-08-07,Omicron BA.2,2.42,ENG,United Kingdom,england_detail,2023,3,8,32,2023-08-07,2023-2026
+England,2023-08-07,Omicron BA.2.86,0.15,ENG,United Kingdom,england_detail,2023,3,8,32,2023-08-07,2023-2026
+England,2023-08-07,Omicron BA.5,0.15,ENG,United Kingdom,england_detail,2023,3,8,32,2023-08-07,2023-2026
+England,2023-08-07,Omicron XBB,96.97,ENG,United Kingdom,england_detail,2023,3,8,32,2023-08-07,2023-2026
+England,2023-08-07,Other,0.3,ENG,United Kingdom,england_detail,2023,3,8,32,2023-08-07,2023-2026
+England,2023-08-14,Omicron BA.2,1.98,ENG,United Kingdom,england_detail,2023,3,8,33,2023-08-14,2023-2026
+England,2023-08-14,Omicron BA.2.86,0.28,ENG,United Kingdom,england_detail,2023,3,8,33,2023-08-14,2023-2026
+England,2023-08-14,Omicron BA.5,0.42,ENG,United Kingdom,england_detail,2023,3,8,33,2023-08-14,2023-2026
+England,2023-08-14,Omicron XBB,96.75,ENG,United Kingdom,england_detail,2023,3,8,33,2023-08-14,2023-2026
+England,2023-08-14,Other,0.57,ENG,United Kingdom,england_detail,2023,3,8,33,2023-08-14,2023-2026
+England,2023-08-21,Omicron BA.2,2.56,ENG,United Kingdom,england_detail,2023,3,8,34,2023-08-21,2023-2026
+England,2023-08-21,Omicron BA.2.75,0.12,ENG,United Kingdom,england_detail,2023,3,8,34,2023-08-21,2023-2026
+England,2023-08-21,Omicron BA.2.86,3.9,ENG,United Kingdom,england_detail,2023,3,8,34,2023-08-21,2023-2026
+England,2023-08-21,Omicron BA.5,0.37,ENG,United Kingdom,england_detail,2023,3,8,34,2023-08-21,2023-2026
+England,2023-08-21,Omicron XBB,92.32,ENG,United Kingdom,england_detail,2023,3,8,34,2023-08-21,2023-2026
+England,2023-08-21,Other,0.73,ENG,United Kingdom,england_detail,2023,3,8,34,2023-08-21,2023-2026
+England,2023-08-28,Omicron BA.2,1.62,ENG,United Kingdom,england_detail,2023,3,8,35,2023-08-28,2023-2026
+England,2023-08-28,Omicron BA.2.86,0.76,ENG,United Kingdom,england_detail,2023,3,8,35,2023-08-28,2023-2026
+England,2023-08-28,Omicron BA.5,0.22,ENG,United Kingdom,england_detail,2023,3,8,35,2023-08-28,2023-2026
+England,2023-08-28,Omicron JN.1,0.11,ENG,United Kingdom,england_detail,2023,3,8,35,2023-08-28,2023-2026
+England,2023-08-28,Omicron XBB,96.97,ENG,United Kingdom,england_detail,2023,3,8,35,2023-08-28,2023-2026
+England,2023-08-28,Other,0.32,ENG,United Kingdom,england_detail,2023,3,8,35,2023-08-28,2023-2026
+England,2023-09-04,Omicron BA.2,1.94,ENG,United Kingdom,england_detail,2023,3,9,36,2023-09-04,2023-2026
+England,2023-09-04,Omicron BA.2.86,1.08,ENG,United Kingdom,england_detail,2023,3,9,36,2023-09-04,2023-2026
+England,2023-09-04,Omicron BA.5,0.08,ENG,United Kingdom,england_detail,2023,3,9,36,2023-09-04,2023-2026
+England,2023-09-04,Omicron XBB,96.13,ENG,United Kingdom,england_detail,2023,3,9,36,2023-09-04,2023-2026
+England,2023-09-04,Other,0.77,ENG,United Kingdom,england_detail,2023,3,9,36,2023-09-04,2023-2026
+England,2023-09-11,Omicron BA.2,2.29,ENG,United Kingdom,england_detail,2023,3,9,37,2023-09-11,2023-2026
+England,2023-09-11,Omicron BA.2.86,1.19,ENG,United Kingdom,england_detail,2023,3,9,37,2023-09-11,2023-2026
+England,2023-09-11,Omicron BA.5,0.18,ENG,United Kingdom,england_detail,2023,3,9,37,2023-09-11,2023-2026
+England,2023-09-11,Omicron JN.1,0.09,ENG,United Kingdom,england_detail,2023,3,9,37,2023-09-11,2023-2026
+England,2023-09-11,Omicron XBB,95.05,ENG,United Kingdom,england_detail,2023,3,9,37,2023-09-11,2023-2026
+England,2023-09-11,Other,1.19,ENG,United Kingdom,england_detail,2023,3,9,37,2023-09-11,2023-2026
+England,2023-09-18,Omicron BA.2,1.48,ENG,United Kingdom,england_detail,2023,3,9,38,2023-09-18,2023-2026
+England,2023-09-18,Omicron BA.2.86,1.78,ENG,United Kingdom,england_detail,2023,3,9,38,2023-09-18,2023-2026
+England,2023-09-18,Omicron BA.5,0.07,ENG,United Kingdom,england_detail,2023,3,9,38,2023-09-18,2023-2026
+England,2023-09-18,Omicron JN.1,0.07,ENG,United Kingdom,england_detail,2023,3,9,38,2023-09-18,2023-2026
+England,2023-09-18,Omicron XBB,95.7,ENG,United Kingdom,england_detail,2023,3,9,38,2023-09-18,2023-2026
+England,2023-09-18,Other,0.89,ENG,United Kingdom,england_detail,2023,3,9,38,2023-09-18,2023-2026
+England,2023-09-25,Omicron BA.2,2.61,ENG,United Kingdom,england_detail,2023,3,9,39,2023-09-25,2023-2026
+England,2023-09-25,Omicron BA.2.86,2.61,ENG,United Kingdom,england_detail,2023,3,9,39,2023-09-25,2023-2026
+England,2023-09-25,Omicron BA.5,0.13,ENG,United Kingdom,england_detail,2023,3,9,39,2023-09-25,2023-2026
+England,2023-09-25,Omicron JN.1,0.26,ENG,United Kingdom,england_detail,2023,3,9,39,2023-09-25,2023-2026
+England,2023-09-25,Omicron XBB,93.81,ENG,United Kingdom,england_detail,2023,3,9,39,2023-09-25,2023-2026
+England,2023-09-25,Other,0.59,ENG,United Kingdom,england_detail,2023,3,9,39,2023-09-25,2023-2026
+England,2023-10-02,Omicron BA.1,0.06,ENG,United Kingdom,england_detail,2023,4,10,40,2023-10-02,2023-2026
+England,2023-10-02,Omicron BA.2,2.38,ENG,United Kingdom,england_detail,2023,4,10,40,2023-10-02,2023-2026
+England,2023-10-02,Omicron BA.2.86,3.21,ENG,United Kingdom,england_detail,2023,4,10,40,2023-10-02,2023-2026
+England,2023-10-02,Omicron BA.5,0.28,ENG,United Kingdom,england_detail,2023,4,10,40,2023-10-02,2023-2026
+England,2023-10-02,Omicron JN.1,0.33,ENG,United Kingdom,england_detail,2023,4,10,40,2023-10-02,2023-2026
+England,2023-10-02,Omicron XBB,92.87,ENG,United Kingdom,england_detail,2023,4,10,40,2023-10-02,2023-2026
+England,2023-10-02,Other,0.88,ENG,United Kingdom,england_detail,2023,4,10,40,2023-10-02,2023-2026
+England,2023-10-09,Omicron BA.2,2.58,ENG,United Kingdom,england_detail,2023,4,10,41,2023-10-09,2023-2026
+England,2023-10-09,Omicron BA.2.86,4.25,ENG,United Kingdom,england_detail,2023,4,10,41,2023-10-09,2023-2026
+England,2023-10-09,Omicron BA.5,0.07,ENG,United Kingdom,england_detail,2023,4,10,41,2023-10-09,2023-2026
+England,2023-10-09,Omicron JN.1,0.14,ENG,United Kingdom,england_detail,2023,4,10,41,2023-10-09,2023-2026
+England,2023-10-09,Omicron XBB,92.12,ENG,United Kingdom,england_detail,2023,4,10,41,2023-10-09,2023-2026
+England,2023-10-09,Other,0.84,ENG,United Kingdom,england_detail,2023,4,10,41,2023-10-09,2023-2026
+England,2023-10-16,Omicron BA.2,2.04,ENG,United Kingdom,england_detail,2023,4,10,42,2023-10-16,2023-2026
+England,2023-10-16,Omicron BA.2.86,6.55,ENG,United Kingdom,england_detail,2023,4,10,42,2023-10-16,2023-2026
+England,2023-10-16,Omicron JN.1,0.94,ENG,United Kingdom,england_detail,2023,4,10,42,2023-10-16,2023-2026
+England,2023-10-16,Omicron XBB,89.45,ENG,United Kingdom,england_detail,2023,4,10,42,2023-10-16,2023-2026
+England,2023-10-16,Other,1.02,ENG,United Kingdom,england_detail,2023,4,10,42,2023-10-16,2023-2026
+England,2023-10-23,Omicron BA.2,1.33,ENG,United Kingdom,england_detail,2023,4,10,43,2023-10-23,2023-2026
+England,2023-10-23,Omicron BA.2.86,10.41,ENG,United Kingdom,england_detail,2023,4,10,43,2023-10-23,2023-2026
+England,2023-10-23,Omicron BA.5,0.09,ENG,United Kingdom,england_detail,2023,4,10,43,2023-10-23,2023-2026
+England,2023-10-23,Omicron JN.1,1.69,ENG,United Kingdom,england_detail,2023,4,10,43,2023-10-23,2023-2026
+England,2023-10-23,Omicron XBB,85.68,ENG,United Kingdom,england_detail,2023,4,10,43,2023-10-23,2023-2026
+England,2023-10-23,Other,0.8,ENG,United Kingdom,england_detail,2023,4,10,43,2023-10-23,2023-2026
+England,2023-10-30,Omicron BA.2,0.8,ENG,United Kingdom,england_detail,2023,4,10,44,2023-10-30,2023-2026
+England,2023-10-30,Omicron BA.2.86,12.08,ENG,United Kingdom,england_detail,2023,4,10,44,2023-10-30,2023-2026
+England,2023-10-30,Omicron JN.1,2.52,ENG,United Kingdom,england_detail,2023,4,10,44,2023-10-30,2023-2026
+England,2023-10-30,Omicron XBB,83.27,ENG,United Kingdom,england_detail,2023,4,10,44,2023-10-30,2023-2026
+England,2023-10-30,Other,1.33,ENG,United Kingdom,england_detail,2023,4,10,44,2023-10-30,2023-2026
+England,2023-11-06,Omicron BA.2,1.27,ENG,United Kingdom,england_detail,2023,4,11,45,2023-11-06,2023-2026
+England,2023-11-06,Omicron BA.2.86,10.16,ENG,United Kingdom,england_detail,2023,4,11,45,2023-11-06,2023-2026
+England,2023-11-06,Omicron JN.1,5.78,ENG,United Kingdom,england_detail,2023,4,11,45,2023-11-06,2023-2026
+England,2023-11-06,Omicron XBB,81.52,ENG,United Kingdom,england_detail,2023,4,11,45,2023-11-06,2023-2026
+England,2023-11-06,Other,1.27,ENG,United Kingdom,england_detail,2023,4,11,45,2023-11-06,2023-2026
+England,2023-11-13,Omicron BA.2,0.59,ENG,United Kingdom,england_detail,2023,4,11,46,2023-11-13,2023-2026
+England,2023-11-13,Omicron BA.2.86,13.95,ENG,United Kingdom,england_detail,2023,4,11,46,2023-11-13,2023-2026
+England,2023-11-13,Omicron BA.4,0.15,ENG,United Kingdom,england_detail,2023,4,11,46,2023-11-13,2023-2026
+England,2023-11-13,Omicron BA.5,0.15,ENG,United Kingdom,england_detail,2023,4,11,46,2023-11-13,2023-2026
+England,2023-11-13,Omicron JN.1,12.63,ENG,United Kingdom,england_detail,2023,4,11,46,2023-11-13,2023-2026
+England,2023-11-13,Omicron XBB,70.34,ENG,United Kingdom,england_detail,2023,4,11,46,2023-11-13,2023-2026
+England,2023-11-13,Other,2.2,ENG,United Kingdom,england_detail,2023,4,11,46,2023-11-13,2023-2026
+England,2023-11-20,Omicron BA.2,1.23,ENG,United Kingdom,england_detail,2023,4,11,47,2023-11-20,2023-2026
+England,2023-11-20,Omicron BA.2.86,18.8,ENG,United Kingdom,england_detail,2023,4,11,47,2023-11-20,2023-2026
+England,2023-11-20,Omicron BA.5,0.15,ENG,United Kingdom,england_detail,2023,4,11,47,2023-11-20,2023-2026
+England,2023-11-20,Omicron JN.1,19.11,ENG,United Kingdom,england_detail,2023,4,11,47,2023-11-20,2023-2026
+England,2023-11-20,Omicron XBB,58.71,ENG,United Kingdom,england_detail,2023,4,11,47,2023-11-20,2023-2026
+England,2023-11-20,Other,2.0,ENG,United Kingdom,england_detail,2023,4,11,47,2023-11-20,2023-2026
+England,2023-11-27,Omicron BA.2,1.12,ENG,United Kingdom,england_detail,2023,4,11,48,2023-11-27,2023-2026
+England,2023-11-27,Omicron BA.2.75,0.12,ENG,United Kingdom,england_detail,2023,4,11,48,2023-11-27,2023-2026
+England,2023-11-27,Omicron BA.2.86,19.35,ENG,United Kingdom,england_detail,2023,4,11,48,2023-11-27,2023-2026
+England,2023-11-27,Omicron JN.1,26.67,ENG,United Kingdom,england_detail,2023,4,11,48,2023-11-27,2023-2026
+England,2023-11-27,Omicron XBB,51.12,ENG,United Kingdom,england_detail,2023,4,11,48,2023-11-27,2023-2026
+England,2023-11-27,Other,1.61,ENG,United Kingdom,england_detail,2023,4,11,48,2023-11-27,2023-2026
+England,2023-12-04,Omicron BA.2,1.24,ENG,United Kingdom,england_detail,2023,4,12,49,2023-12-04,2023-2026
+England,2023-12-04,Omicron BA.2.86,20.35,ENG,United Kingdom,england_detail,2023,4,12,49,2023-12-04,2023-2026
+England,2023-12-04,Omicron JN.1,39.04,ENG,United Kingdom,england_detail,2023,4,12,49,2023-12-04,2023-2026
+England,2023-12-04,Omicron XBB,37.63,ENG,United Kingdom,england_detail,2023,4,12,49,2023-12-04,2023-2026
+England,2023-12-04,Other,1.74,ENG,United Kingdom,england_detail,2023,4,12,49,2023-12-04,2023-2026
+England,2023-12-11,Omicron BA.2,1.75,ENG,United Kingdom,england_detail,2023,4,12,50,2023-12-11,2023-2026
+England,2023-12-11,Omicron BA.2.75,0.07,ENG,United Kingdom,england_detail,2023,4,12,50,2023-12-11,2023-2026
+England,2023-12-11,Omicron BA.2.86,22.25,ENG,United Kingdom,england_detail,2023,4,12,50,2023-12-11,2023-2026
+England,2023-12-11,Omicron JN.1,44.35,ENG,United Kingdom,england_detail,2023,4,12,50,2023-12-11,2023-2026
+England,2023-12-11,Omicron XBB,30.78,ENG,United Kingdom,england_detail,2023,4,12,50,2023-12-11,2023-2026
+England,2023-12-11,Other,0.8,ENG,United Kingdom,england_detail,2023,4,12,50,2023-12-11,2023-2026
+England,2023-12-18,Omicron BA.2,1.99,ENG,United Kingdom,england_detail,2023,4,12,51,2023-12-18,2023-2026
+England,2023-12-18,Omicron BA.2.86,16.04,ENG,United Kingdom,england_detail,2023,4,12,51,2023-12-18,2023-2026
+England,2023-12-18,Omicron JN.1,55.11,ENG,United Kingdom,england_detail,2023,4,12,51,2023-12-18,2023-2026
+England,2023-12-18,Omicron XBB,25.29,ENG,United Kingdom,england_detail,2023,4,12,51,2023-12-18,2023-2026
+England,2023-12-18,Other,1.58,ENG,United Kingdom,england_detail,2023,4,12,51,2023-12-18,2023-2026
+England,2023-12-25,Omicron BA.2,1.33,ENG,United Kingdom,england_detail,2023,4,12,52,2023-12-25,2023-2026
+England,2023-12-25,Omicron BA.2.86,16.34,ENG,United Kingdom,england_detail,2023,4,12,52,2023-12-25,2023-2026
+England,2023-12-25,Omicron BA.4,0.07,ENG,United Kingdom,england_detail,2023,4,12,52,2023-12-25,2023-2026
+England,2023-12-25,Omicron JN.1,62.64,ENG,United Kingdom,england_detail,2023,4,12,52,2023-12-25,2023-2026
+England,2023-12-25,Omicron XBB,17.46,ENG,United Kingdom,england_detail,2023,4,12,52,2023-12-25,2023-2026
+England,2023-12-25,Other,2.16,ENG,United Kingdom,england_detail,2023,4,12,52,2023-12-25,2023-2026
+England,2024-01-01,Omicron BA.2,1.56,ENG,United Kingdom,england_detail,2024,1,1,1,2024-01-01,2023-2026
+England,2024-01-01,Omicron BA.2.86,12.09,ENG,United Kingdom,england_detail,2024,1,1,1,2024-01-01,2023-2026
+England,2024-01-01,Omicron JN.1,69.87,ENG,United Kingdom,england_detail,2024,1,1,1,2024-01-01,2023-2026
+England,2024-01-01,Omicron XBB,13.72,ENG,United Kingdom,england_detail,2024,1,1,1,2024-01-01,2023-2026
+England,2024-01-01,Other,2.76,ENG,United Kingdom,england_detail,2024,1,1,1,2024-01-01,2023-2026
+England,2024-01-08,Omicron BA.2,2.27,ENG,United Kingdom,england_detail,2024,1,1,2,2024-01-08,2023-2026
+England,2024-01-08,Omicron BA.2.86,10.79,ENG,United Kingdom,england_detail,2024,1,1,2,2024-01-08,2023-2026
+England,2024-01-08,Omicron JN.1,73.35,ENG,United Kingdom,england_detail,2024,1,1,2,2024-01-08,2023-2026
+England,2024-01-08,Omicron XBB,8.98,ENG,United Kingdom,england_detail,2024,1,1,2,2024-01-08,2023-2026
+England,2024-01-08,Other,4.62,ENG,United Kingdom,england_detail,2024,1,1,2,2024-01-08,2023-2026
+England,2024-01-15,Omicron BA.2,2.54,ENG,United Kingdom,england_detail,2024,1,1,3,2024-01-15,2023-2026
+England,2024-01-15,Omicron BA.2.86,9.03,ENG,United Kingdom,england_detail,2024,1,1,3,2024-01-15,2023-2026
+England,2024-01-15,Omicron JN.1,79.02,ENG,United Kingdom,england_detail,2024,1,1,3,2024-01-15,2023-2026
+England,2024-01-15,Omicron XBB,5.08,ENG,United Kingdom,england_detail,2024,1,1,3,2024-01-15,2023-2026
+England,2024-01-15,Other,4.33,ENG,United Kingdom,england_detail,2024,1,1,3,2024-01-15,2023-2026
+England,2024-01-22,Omicron BA.2,2.59,ENG,United Kingdom,england_detail,2024,1,1,4,2024-01-22,2023-2026
+England,2024-01-22,Omicron BA.2.86,6.51,ENG,United Kingdom,england_detail,2024,1,1,4,2024-01-22,2023-2026
+England,2024-01-22,Omicron BA.4,0.08,ENG,United Kingdom,england_detail,2024,1,1,4,2024-01-22,2023-2026
+England,2024-01-22,Omicron JN.1,82.65,ENG,United Kingdom,england_detail,2024,1,1,4,2024-01-22,2023-2026
+England,2024-01-22,Omicron XBB,3.85,ENG,United Kingdom,england_detail,2024,1,1,4,2024-01-22,2023-2026
+England,2024-01-22,Other,4.32,ENG,United Kingdom,england_detail,2024,1,1,4,2024-01-22,2023-2026
+England,2024-01-29,Omicron BA.2,2.8,ENG,United Kingdom,england_detail,2024,1,1,5,2024-01-29,2023-2026
+England,2024-01-29,Omicron BA.2.86,6.18,ENG,United Kingdom,england_detail,2024,1,1,5,2024-01-29,2023-2026
+England,2024-01-29,Omicron JN.1,80.87,ENG,United Kingdom,england_detail,2024,1,1,5,2024-01-29,2023-2026
+England,2024-01-29,Omicron XBB,3.0,ENG,United Kingdom,england_detail,2024,1,1,5,2024-01-29,2023-2026
+England,2024-01-29,Other,7.15,ENG,United Kingdom,england_detail,2024,1,1,5,2024-01-29,2023-2026
+England,2024-02-05,Omicron BA.2,3.49,ENG,United Kingdom,england_detail,2024,1,2,6,2024-02-05,2023-2026
+England,2024-02-05,Omicron BA.2.86,6.51,ENG,United Kingdom,england_detail,2024,1,2,6,2024-02-05,2023-2026
+England,2024-02-05,Omicron JN.1,79.25,ENG,United Kingdom,england_detail,2024,1,2,6,2024-02-05,2023-2026
+England,2024-02-05,Omicron XBB,3.73,ENG,United Kingdom,england_detail,2024,1,2,6,2024-02-05,2023-2026
+England,2024-02-05,Other,7.11,ENG,United Kingdom,england_detail,2024,1,2,6,2024-02-05,2023-2026
+England,2024-02-12,Omicron BA.2,2.63,ENG,United Kingdom,england_detail,2024,1,2,7,2024-02-12,2023-2026
+England,2024-02-12,Omicron BA.2.86,5.92,ENG,United Kingdom,england_detail,2024,1,2,7,2024-02-12,2023-2026
+England,2024-02-12,Omicron BA.5,0.16,ENG,United Kingdom,england_detail,2024,1,2,7,2024-02-12,2023-2026
+England,2024-02-12,Omicron JN.1,82.57,ENG,United Kingdom,england_detail,2024,1,2,7,2024-02-12,2023-2026
+England,2024-02-12,Omicron XBB,2.8,ENG,United Kingdom,england_detail,2024,1,2,7,2024-02-12,2023-2026
+England,2024-02-12,Other,5.92,ENG,United Kingdom,england_detail,2024,1,2,7,2024-02-12,2023-2026
+England,2024-02-19,Omicron BA.2,3.08,ENG,United Kingdom,england_detail,2024,1,2,8,2024-02-19,2023-2026
+England,2024-02-19,Omicron BA.2.86,3.64,ENG,United Kingdom,england_detail,2024,1,2,8,2024-02-19,2023-2026
+England,2024-02-19,Omicron JN.1,83.19,ENG,United Kingdom,england_detail,2024,1,2,8,2024-02-19,2023-2026
+England,2024-02-19,Omicron XBB,1.68,ENG,United Kingdom,england_detail,2024,1,2,8,2024-02-19,2023-2026
+England,2024-02-19,Other,8.4,ENG,United Kingdom,england_detail,2024,1,2,8,2024-02-19,2023-2026
+England,2024-02-26,Omicron BA.2,1.49,ENG,United Kingdom,england_detail,2024,1,2,9,2024-02-26,2023-2026
+England,2024-02-26,Omicron BA.2.86,5.2,ENG,United Kingdom,england_detail,2024,1,2,9,2024-02-26,2023-2026
+England,2024-02-26,Omicron BA.5,0.37,ENG,United Kingdom,england_detail,2024,1,2,9,2024-02-26,2023-2026
+England,2024-02-26,Omicron JN.1,86.62,ENG,United Kingdom,england_detail,2024,1,2,9,2024-02-26,2023-2026
+England,2024-02-26,Omicron XBB,1.12,ENG,United Kingdom,england_detail,2024,1,2,9,2024-02-26,2023-2026
+England,2024-02-26,Other,5.2,ENG,United Kingdom,england_detail,2024,1,2,9,2024-02-26,2023-2026
+England,2024-03-04,Omicron BA.1,0.24,ENG,United Kingdom,england_detail,2024,1,3,10,2024-03-04,2023-2026
+England,2024-03-04,Omicron BA.2,1.22,ENG,United Kingdom,england_detail,2024,1,3,10,2024-03-04,2023-2026
+England,2024-03-04,Omicron BA.2.86,2.43,ENG,United Kingdom,england_detail,2024,1,3,10,2024-03-04,2023-2026
+England,2024-03-04,Omicron JN.1,88.32,ENG,United Kingdom,england_detail,2024,1,3,10,2024-03-04,2023-2026
+England,2024-03-04,Omicron XBB,1.95,ENG,United Kingdom,england_detail,2024,1,3,10,2024-03-04,2023-2026
+England,2024-03-04,Other,5.84,ENG,United Kingdom,england_detail,2024,1,3,10,2024-03-04,2023-2026
+England,2024-03-11,Omicron BA.2,1.1,ENG,United Kingdom,england_detail,2024,1,3,11,2024-03-11,2023-2026
+England,2024-03-11,Omicron BA.2.86,1.54,ENG,United Kingdom,england_detail,2024,1,3,11,2024-03-11,2023-2026
+England,2024-03-11,Omicron JN.1,92.95,ENG,United Kingdom,england_detail,2024,1,3,11,2024-03-11,2023-2026
+England,2024-03-11,Omicron XBB,0.66,ENG,United Kingdom,england_detail,2024,1,3,11,2024-03-11,2023-2026
+England,2024-03-11,Other,3.74,ENG,United Kingdom,england_detail,2024,1,3,11,2024-03-11,2023-2026
+England,2024-03-18,Omicron BA.2,1.58,ENG,United Kingdom,england_detail,2024,1,3,12,2024-03-18,2023-2026
+England,2024-03-18,Omicron BA.2.86,1.9,ENG,United Kingdom,england_detail,2024,1,3,12,2024-03-18,2023-2026
+England,2024-03-18,Omicron JN.1,92.09,ENG,United Kingdom,england_detail,2024,1,3,12,2024-03-18,2023-2026
+England,2024-03-18,Omicron XBB,0.63,ENG,United Kingdom,england_detail,2024,1,3,12,2024-03-18,2023-2026
+England,2024-03-18,Other,3.8,ENG,United Kingdom,england_detail,2024,1,3,12,2024-03-18,2023-2026
+England,2024-03-25,Omicron BA.2,0.63,ENG,United Kingdom,england_detail,2024,1,3,13,2024-03-25,2023-2026
+England,2024-03-25,Omicron BA.2.86,2.53,ENG,United Kingdom,england_detail,2024,1,3,13,2024-03-25,2023-2026
+England,2024-03-25,Omicron JN.1,89.24,ENG,United Kingdom,england_detail,2024,1,3,13,2024-03-25,2023-2026
+England,2024-03-25,Other,7.59,ENG,United Kingdom,england_detail,2024,1,3,13,2024-03-25,2023-2026
+England,2024-04-01,Omicron BA.2.86,8.33,ENG,United Kingdom,england_detail,2024,2,4,14,2024-04-01,2023-2026
+England,2024-04-01,Omicron JN.1,83.33,ENG,United Kingdom,england_detail,2024,2,4,14,2024-04-01,2023-2026
+England,2024-04-01,Other,8.33,ENG,United Kingdom,england_detail,2024,2,4,14,2024-04-01,2023-2026
