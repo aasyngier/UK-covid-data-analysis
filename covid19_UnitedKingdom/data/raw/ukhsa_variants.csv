@@ -1,0 +1,891 @@
+theme,sub_theme,topic,geography_type,geography,metric,sex,age,stratum,year,date,metric_value,in_reporting_delay_period
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.86,2024,2024-04-01,8.3300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron JN.1,2024,2024-04-01,83.3300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2024,2024-04-01,8.3300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2024,2024-03-25,0.6300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.86,2024,2024-03-25,2.5300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron JN.1,2024,2024-03-25,89.2400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2024,2024-03-25,7.5900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2024,2024-03-18,1.5800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.86,2024,2024-03-18,1.9000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron JN.1,2024,2024-03-18,92.0900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2024,2024-03-18,0.6300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2024,2024-03-18,3.8000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2024,2024-03-11,1.1000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.86,2024,2024-03-11,1.5400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron JN.1,2024,2024-03-11,92.9500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2024,2024-03-11,0.6600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2024,2024-03-11,3.7400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2024,2024-03-04,0.2400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2024,2024-03-04,1.2200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.86,2024,2024-03-04,2.4300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron JN.1,2024,2024-03-04,88.3200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2024,2024-03-04,1.9500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2024,2024-03-04,5.8400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2024,2024-02-26,1.4900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.86,2024,2024-02-26,5.2000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2024,2024-02-26,0.3700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron JN.1,2024,2024-02-26,86.6200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2024,2024-02-26,1.1200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2024,2024-02-26,5.2000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2024,2024-02-19,3.0800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.86,2024,2024-02-19,3.6400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron JN.1,2024,2024-02-19,83.1900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2024,2024-02-19,1.6800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2024,2024-02-19,8.4000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2024,2024-02-12,2.6300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.86,2024,2024-02-12,5.9200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2024,2024-02-12,0.1600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron JN.1,2024,2024-02-12,82.5700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2024,2024-02-12,2.8000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2024,2024-02-12,5.9200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2024,2024-02-05,3.4900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.86,2024,2024-02-05,6.5100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron JN.1,2024,2024-02-05,79.2500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2024,2024-02-05,3.7300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2024,2024-02-05,7.1100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2024,2024-01-29,2.8000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.86,2024,2024-01-29,6.1800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron JN.1,2024,2024-01-29,80.8700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2024,2024-01-29,3.0000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2024,2024-01-29,7.1500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2024,2024-01-22,2.5900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.86,2024,2024-01-22,6.5100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2024,2024-01-22,0.0800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron JN.1,2024,2024-01-22,82.6500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2024,2024-01-22,3.8500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2024,2024-01-22,4.3200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2024,2024-01-15,2.5400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.86,2024,2024-01-15,9.0300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron JN.1,2024,2024-01-15,79.0200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2024,2024-01-15,5.0800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2024,2024-01-15,4.3300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2024,2024-01-08,2.2700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.86,2024,2024-01-08,10.7900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron JN.1,2024,2024-01-08,73.3500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2024,2024-01-08,8.9800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2024,2024-01-08,4.6200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2024,2024-01-01,1.5600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.86,2024,2024-01-01,12.0900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron JN.1,2024,2024-01-01,69.8700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2024,2024-01-01,13.7200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2024,2024-01-01,2.7600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-12-25,1.3300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.86,2023,2023-12-25,16.3400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2023,2023-12-25,0.0700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron JN.1,2023,2023-12-25,62.6400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-12-25,17.4600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2023,2023-12-25,2.1600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-12-18,1.9900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.86,2023,2023-12-18,16.0400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron JN.1,2023,2023-12-18,55.1100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-12-18,25.2900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2023,2023-12-18,1.5800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-12-11,1.7500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2023,2023-12-11,0.0700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.86,2023,2023-12-11,22.2500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron JN.1,2023,2023-12-11,44.3500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-12-11,30.7800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2023,2023-12-11,0.8000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-12-04,1.2400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.86,2023,2023-12-04,20.3500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron JN.1,2023,2023-12-04,39.0400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-12-04,37.6300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2023,2023-12-04,1.7400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-11-27,1.1200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2023,2023-11-27,0.1200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.86,2023,2023-11-27,19.3500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron JN.1,2023,2023-11-27,26.6700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-11-27,51.1200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2023,2023-11-27,1.6100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-11-20,1.2300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.86,2023,2023-11-20,18.8000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2023,2023-11-20,0.1500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron JN.1,2023,2023-11-20,19.1100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-11-20,58.7100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2023,2023-11-20,2.0000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-11-13,0.5900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.86,2023,2023-11-13,13.9500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2023,2023-11-13,0.1500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2023,2023-11-13,0.1500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron JN.1,2023,2023-11-13,12.6300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-11-13,70.3400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2023,2023-11-13,2.2000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-11-06,1.2700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.86,2023,2023-11-06,10.1600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron JN.1,2023,2023-11-06,5.7800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-11-06,81.5200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2023,2023-11-06,1.2700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-10-30,0.8000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.86,2023,2023-10-30,12.0800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron JN.1,2023,2023-10-30,2.5200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-10-30,83.2700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2023,2023-10-30,1.3300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-10-23,1.3300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.86,2023,2023-10-23,10.4100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2023,2023-10-23,0.0900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron JN.1,2023,2023-10-23,1.6900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-10-23,85.6800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2023,2023-10-23,0.8000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-10-16,2.0400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.86,2023,2023-10-16,6.5500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron JN.1,2023,2023-10-16,0.9400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-10-16,89.4500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2023,2023-10-16,1.0200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-10-09,2.5800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.86,2023,2023-10-09,4.2500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2023,2023-10-09,0.0700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron JN.1,2023,2023-10-09,0.1400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-10-09,92.1200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2023,2023-10-09,0.8400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2023,2023-10-02,0.0600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-10-02,2.3800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.86,2023,2023-10-02,3.2100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2023,2023-10-02,0.2800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron JN.1,2023,2023-10-02,0.3300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-10-02,92.8700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2023,2023-10-02,0.8800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-09-25,2.6100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.86,2023,2023-09-25,2.6100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2023,2023-09-25,0.1300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron JN.1,2023,2023-09-25,0.2600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-09-25,93.8100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2023,2023-09-25,0.5900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-09-18,1.4800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.86,2023,2023-09-18,1.7800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2023,2023-09-18,0.0700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron JN.1,2023,2023-09-18,0.0700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-09-18,95.7000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2023,2023-09-18,0.8900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-09-11,2.2900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.86,2023,2023-09-11,1.1900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2023,2023-09-11,0.1800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron JN.1,2023,2023-09-11,0.0900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-09-11,95.0500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2023,2023-09-11,1.1900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-09-04,1.9400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.86,2023,2023-09-04,1.0800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2023,2023-09-04,0.0800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-09-04,96.1300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2023,2023-09-04,0.7700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-08-28,1.6200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.86,2023,2023-08-28,0.7600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2023,2023-08-28,0.2200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron JN.1,2023,2023-08-28,0.1100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-08-28,96.9700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2023,2023-08-28,0.3200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-08-21,2.5600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2023,2023-08-21,0.1200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.86,2023,2023-08-21,3.9000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2023,2023-08-21,0.3700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-08-21,92.3200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2023,2023-08-21,0.7300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-08-14,1.9800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.86,2023,2023-08-14,0.2800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2023,2023-08-14,0.4200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-08-14,96.7500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2023,2023-08-14,0.5700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-08-07,2.4200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.86,2023,2023-08-07,0.1500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2023,2023-08-07,0.1500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-08-07,96.9700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2023,2023-08-07,0.3000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-07-31,1.5700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.86,2023,2023-07-31,0.1600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2023,2023-07-31,0.1600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-07-31,97.8000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2023,2023-07-31,0.3100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-07-24,2.3800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2023,2023-07-24,0.2200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron JN.1,2023,2023-07-24,0.2200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-07-24,96.5400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2023,2023-07-24,0.8700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-07-17,2.2900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2023,2023-07-17,0.2900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-07-17,97.4200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-07-10,2.7300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2023,2023-07-10,0.7800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-07-10,96.0900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2023,2023-07-10,0.3900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-07-03,2.3100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2023,2023-07-03,0.4600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-07-03,96.7600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2023,2023-07-03,0.4600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-06-26,2.6700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2023,2023-06-26,0.6700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron JN.1,2023,2023-06-26,0.6600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-06-26,95.3600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2023,2023-06-26,1.3300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2023,2023-06-19,0.5000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-06-19,2.0000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.86,2023,2023-06-19,1.0000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2023,2023-06-19,0.5000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-06-19,95.0000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2023,2023-06-19,1.0000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-06-12,1.3000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2023,2023-06-12,0.8700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-06-12,96.5400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2023,2023-06-12,1.3000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-06-05,3.6000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2023,2023-06-05,0.2800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2023,2023-06-05,0.8300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-06-05,94.1800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2023,2023-06-05,1.1100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-05-29,1.8400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2023,2023-05-29,0.2300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2023,2023-05-29,0.2300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-05-29,95.8600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2023,2023-05-29,1.8400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-05-22,3.8300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2023,2023-05-22,0.4000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2023,2023-05-22,0.4000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-05-22,94.5600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2023,2023-05-22,0.8100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-05-15,3.9900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2023,2023-05-15,0.3100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2023,2023-05-15,0.1500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2023,2023-05-15,0.3100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-05-15,94.4800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2023,2023-05-15,0.7700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-05-08,4.1200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2023,2023-05-08,0.1500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2023,2023-05-08,0.3000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-05-08,94.3600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2023,2023-05-08,1.0700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-05-01,4.4600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2023,2023-05-01,0.4500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-05-01,93.7600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2023,2023-05-01,1.3400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-04-24,5.6300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2023,2023-04-24,0.8900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.86,2023,2023-04-24,0.1000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2023,2023-04-24,0.4900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-04-24,91.2100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2023,2023-04-24,1.6800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-04-17,7.5100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2023,2023-04-17,1.0100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2023,2023-04-17,1.5600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-04-17,89.1900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2023,2023-04-17,0.7300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2023,2023-04-10,0.0800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-04-10,8.5400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2023,2023-04-10,0.3800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2023,2023-04-10,1.6900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-04-10,88.2300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2023,2023-04-10,1.0800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-04-03,10.8400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2023,2023-04-03,1.3200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2023,2023-04-03,3.7200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-04-03,82.9600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2023,2023-04-03,1.1600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-03-27,10.9600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2023,2023-03-27,1.1500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2023,2023-03-27,4.9700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-03-27,81.8100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2023,2023-03-27,1.1100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-03-20,11.5600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2023,2023-03-20,1.3100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2023,2023-03-20,6.7700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-03-20,79.1300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2023,2023-03-20,1.2200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-03-13,14.4000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2023,2023-03-13,1.5600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2023,2023-03-13,7.7400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-03-13,75.0800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2023,2023-03-13,1.2200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-03-06,16.2400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2023,2023-03-06,1.2200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2023,2023-03-06,9.4000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-03-06,71.5300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2023,2023-03-06,1.6000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-02-27,21.9500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2023,2023-02-27,1.1900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2023,2023-02-27,11.9100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-02-27,63.8600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2023,2023-02-27,1.0800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-02-20,23.6400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2023,2023-02-20,1.5600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2023,2023-02-20,0.0200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2023,2023-02-20,16.1400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-02-20,57.0900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2023,2023-02-20,1.5600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-02-13,24.5500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2023,2023-02-13,2.3500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2023,2023-02-13,23.1900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-02-13,48.2500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2023,2023-02-13,1.6600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-02-06,28.0800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2023,2023-02-06,2.9900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2023,2023-02-06,0.0700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2023,2023-02-06,24.2800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-02-06,42.8800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2023,2023-02-06,1.7000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-01-30,29.1100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2023,2023-01-30,2.7500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2023,2023-01-30,0.1100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2023,2023-01-30,35.8800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-01-30,31.2500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2023,2023-01-30,0.9000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-01-23,32.0700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2023,2023-01-23,4.6300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2023,2023-01-23,0.2000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2023,2023-01-23,40.6100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-01-23,21.5000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2023,2023-01-23,0.9900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-01-16,27.7300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2023,2023-01-16,5.8700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2023,2023-01-16,0.2700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2023,2023-01-16,47.2400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-01-16,17.6900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2023,2023-01-16,1.2000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2023,2023-01-09,0.0300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-01-09,26.5400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2023,2023-01-09,6.3400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2023,2023-01-09,0.5500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2023,2023-01-09,52.9100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-01-09,11.6500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2023,2023-01-09,1.9600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2023,2023-01-02,0.0200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2023,2023-01-02,24.9200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2023,2023-01-02,8.4500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2023,2023-01-02,0.5700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2023,2023-01-02,55.8000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2023,2023-01-02,8.5600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2023,2023-01-02,1.6900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2022,2022-12-26,0.0200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-12-26,22.5900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2022,2022-12-26,7.5800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2022,2022-12-26,0.3900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-12-26,58.9500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2022,2022-12-26,8.8800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-12-26,1.6000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2022,2022-12-19,0.0300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-12-19,17.5800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2022,2022-12-19,6.8300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2022,2022-12-19,0.5500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-12-19,66.9300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2022,2022-12-19,6.3900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-12-19,1.6900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2022,2022-12-12,0.0200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-12-12,14.2400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2022,2022-12-12,7.6600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2022,2022-12-12,0.6300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-12-12,70.1700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2022,2022-12-12,5.8500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-12-12,1.4300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2022,2022-12-05,0.0200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-12-05,10.5800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2022,2022-12-05,9.2600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2022,2022-12-05,0.6600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-12-05,73.3600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2022,2022-12-05,5.0900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-12-05,1.0300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-11-28,7.6500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2022,2022-11-28,9.4600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2022,2022-11-28,0.9900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-11-28,76.3100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2022,2022-11-28,4.7400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-11-28,0.8500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2022,2022-11-21,0.0300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-11-21,7.0900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2022,2022-11-21,9.3800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2022,2022-11-21,1.4100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-11-21,76.1900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2022,2022-11-21,4.7700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-11-21,1.1100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-11-14,3.0200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2022,2022-11-14,9.5500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2022,2022-11-14,1.3700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-11-14,80.9400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2022,2022-11-14,3.8300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-11-14,1.2900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-11-07,2.3700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2022,2022-11-07,10.4300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2022,2022-11-07,2.4100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-11-07,80.1800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2022,2022-11-07,3.6500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-11-07,0.9600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2022,2022-10-31,0.0400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2022,2022-10-31,0.0400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-10-31,1.4400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2022,2022-10-31,7.8600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2022,2022-10-31,2.4800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-10-31,84.6700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2022,2022-10-31,2.1500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-10-31,1.3300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2022,2022-10-24,0.0300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-10-24,1.1600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2022,2022-10-24,8.5200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2022,2022-10-24,3.3500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-10-24,84.3100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2022,2022-10-24,1.3200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-10-24,1.3200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2022,2022-10-17,0.0600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-10-17,1.0900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2022,2022-10-17,6.7100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2022,2022-10-17,3.8800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-10-17,85.6800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2022,2022-10-17,1.2700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-10-17,1.3100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-10-10,0.3900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2022,2022-10-10,5.2100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2022,2022-10-10,4.6700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-10-10,87.2800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2022,2022-10-10,0.6900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-10-10,1.7600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2022,2022-10-03,0.0100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-10-03,0.5600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2022,2022-10-03,5.3200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2022,2022-10-03,5.1200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-10-03,86.5000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2022,2022-10-03,0.3200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-10-03,2.1600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2022,2022-09-26,0.0400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-09-26,0.3700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2022,2022-09-26,4.1900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2022,2022-09-26,5.5800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-09-26,87.8600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2022,2022-09-26,0.2500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-09-26,1.7100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2022,2022-09-19,0.0500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-09-19,0.2700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2022,2022-09-19,5.2800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2022,2022-09-19,6.3700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-09-19,86.3400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2022,2022-09-19,0.1000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-09-19,1.6000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2022,2022-09-12,0.0400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-09-12,0.2900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2022,2022-09-12,4.1500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2022,2022-09-12,7.1300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-09-12,87.1800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2022,2022-09-12,0.0700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-09-12,1.1500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2022,2022-09-05,0.0400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-09-05,0.4400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2022,2022-09-05,2.6500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2022,2022-09-05,9.1200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-09-05,86.2200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2022,2022-09-05,0.0400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-09-05,1.4900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2022,2022-08-29,0.0400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-08-29,0.3200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2022,2022-08-29,1.4400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2022,2022-08-29,9.1900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-08-29,88.0400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-08-29,0.9600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-08-22,0.2900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2022,2022-08-22,1.1500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2022,2022-08-22,9.1300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-08-22,86.9200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-08-22,2.5100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2022,2022-08-15,0.0300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-08-15,0.7900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2022,2022-08-15,0.7200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2022,2022-08-15,8.7300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-08-15,87.1800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-08-15,2.5500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2022,2022-08-08,0.0200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-08-08,0.2600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2022,2022-08-08,0.6200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2022,2022-08-08,10.1300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-08-08,87.2700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2022,2022-08-08,0.0200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-08-08,1.6800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2022,2022-08-01,0.0200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-08-01,0.7400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2022,2022-08-01,0.3300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2022,2022-08-01,12.4900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-08-01,85.0600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-08-01,1.3600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-07-25,1.1300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2022,2022-07-25,0.0900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2022,2022-07-25,12.0900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-07-25,85.1700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-07-25,1.5200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2022,2022-07-18,0.0300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-07-18,1.4900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2022,2022-07-18,0.1000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2022,2022-07-18,13.1300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-07-18,84.1700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-07-18,1.0800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2022,2022-07-11,0.0200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2022,2022-07-11,0.0100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-07-11,2.4400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2022,2022-07-11,0.0600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2022,2022-07-11,15.0200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-07-11,80.6200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-07-11,1.8200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2022,2022-07-04,0.0200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-07-04,4.6200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2022,2022-07-04,0.0400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2022,2022-07-04,15.8000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-07-04,77.8800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-07-04,1.6400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2022,2022-06-27,0.0100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2022,2022-06-27,0.0100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-06-27,7.3400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2022,2022-06-27,0.0400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2022,2022-06-27,19.5100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-06-27,71.4300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-06-27,1.6500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2022,2022-06-20,0.0300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-06-20,13.5800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2022,2022-06-20,0.1000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2022,2022-06-20,19.6900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-06-20,64.8400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-06-20,1.7700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2022,2022-06-13,0.0600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-06-13,22.8100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2022,2022-06-13,0.0200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2022,2022-06-13,20.8900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-06-13,54.6500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-06-13,1.5700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2022,2022-06-06,0.0400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2022,2022-06-06,0.0400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-06-06,35.9000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2022,2022-06-06,19.5100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-06-06,42.9000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-06-06,1.6200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2022,2022-05-30,0.0300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2022,2022-05-30,0.0700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-05-30,54.3200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2022,2022-05-30,15.6400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-05-30,28.9300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-05-30,1.0100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2022,2022-05-23,0.0400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-05-23,73.2800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2022,2022-05-23,9.0900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-05-23,16.4500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-05-23,1.1300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2022,2022-05-16,0.2100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-05-16,84.8200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2022,2022-05-16,5.7700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-05-16,7.4300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-05-16,1.7700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2022,2022-05-09,0.3400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-05-09,91.1800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2022,2022-05-09,3.6100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-05-09,3.4200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-05-09,1.4500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2022,2022-05-02,0.3200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-05-02,95.0600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2022,2022-05-02,1.6500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-05-02,1.7400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-05-02,1.2300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2022,2022-04-25,0.4700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-04-25,96.2700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2022,2022-04-25,0.6700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-04-25,0.8800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-04-25,1.7000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Alpha,2022,2022-04-18,0.0100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2022,2022-04-18,0.7900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-04-18,97.2200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2022,2022-04-18,0.1900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-04-18,0.5700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-04-18,1.2100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2022,2022-04-11,1.1900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-04-11,97.4300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2022,2022-04-11,0.1300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-04-11,0.3100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-04-11,0.9400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2022,2022-04-04,0.0100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2022,2022-04-04,1.9800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-04-04,96.7900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2022,2022-04-04,0.1400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-04-04,0.2200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-04-04,0.8600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2022,2022-03-28,3.1400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-03-28,95.8800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2022,2022-03-28,0.0600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-03-28,0.1100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-03-28,0.8100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2022,2022-03-21,0.0100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2022,2022-03-21,4.4800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-03-21,94.7400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2022,2022-03-21,0.0200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-03-21,0.0500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-03-21,0.7100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2022,2022-03-14,0.0100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2022,2022-03-14,8.1700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-03-14,91.1600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2022,2022-03-14,0.0100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-03-14,0.0200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-03-14,0.6300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2022,2022-03-07,0.0100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2022,2022-03-07,14.1600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-03-07,85.2200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-03-07,0.0100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-03-07,0.6000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2022,2022-02-28,0.0100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2022,2022-02-28,23.9000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-02-28,75.6500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2022,2022-02-28,0.0000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-02-28,0.0100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-02-28,0.4300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2022,2022-02-21,0.0200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2022,2022-02-21,40.4500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-02-21,59.0600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2022,2022-02-21,0.0000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-02-21,0.0200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-02-21,0.4500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2022,2022-02-14,0.0400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2022,2022-02-14,56.3600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-02-14,43.3000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2022,2022-02-14,0.0000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-02-14,0.0100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-02-14,0.2900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2022,2022-02-07,0.0400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2022,2022-02-07,73.5300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-02-07,26.1100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-02-07,0.0100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-02-07,0.3100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Alpha,2022,2022-01-31,0.0000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2022,2022-01-31,0.0600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2022,2022-01-31,83.2800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-01-31,16.3600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2022,2022-01-31,0.0000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-01-31,0.0100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron XBB,2022,2022-01-31,0.0000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-01-31,0.2800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2022,2022-01-24,0.0900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2022,2022-01-24,90.5200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-01-24,9.2000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2022,2022-01-24,0.0000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-01-24,0.0100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-01-24,0.1800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2022,2022-01-17,0.2900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2022,2022-01-17,94.7800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-01-17,4.6700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2022,2022-01-17,0.0000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-01-17,0.0100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-01-17,0.2500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2022,2022-01-10,0.7200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2022,2022-01-10,96.1800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-01-10,2.8500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-01-10,0.0100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-01-10,0.2400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Alpha,2022,2022-01-03,0.0000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2022,2022-01-03,1.8300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2022,2022-01-03,96.0800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2022,2022-01-03,1.7200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2.75,2022,2022-01-03,0.0000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2022,2022-01-03,0.0000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2022,2022-01-03,0.0100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2022,2022-01-03,0.3500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Alpha,2021,2021-12-27,0.0000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-12-27,3.9100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2021,2021-12-27,94.4200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2021,2021-12-27,1.3600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2021,2021-12-27,0.0000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2021,2021-12-27,0.0100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-12-27,0.3000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Alpha,2021,2021-12-20,0.0000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-12-20,13.5500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2021,2021-12-20,84.7700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2021,2021-12-20,1.3500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2021,2021-12-20,0.0000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-12-20,0.3300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-12-13,34.9100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2021,2021-12-13,63.9800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2021,2021-12-13,0.7900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.4,2021,2021-12-13,0.0000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2021,2021-12-13,0.0200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-12-13,0.2900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-12-06,78.7500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2021,2021-12-06,20.4000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2021,2021-12-06,0.6500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-12-06,0.2000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-11-29,96.1800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2021,2021-11-29,3.2900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2021,2021-11-29,0.4300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-11-29,0.0900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-11-22,97.9400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2021,2021-11-22,1.6800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2021,2021-11-22,0.3100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2021,2021-11-22,0.0000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-11-22,0.0700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-11-15,98.2400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2021,2021-11-15,1.4500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2021,2021-11-15,0.2300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-11-15,0.0900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-11-08,98.4700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2021,2021-11-08,1.2800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2021,2021-11-08,0.1700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-11-08,0.0800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-11-01,98.6700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2021,2021-11-01,1.2100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2021,2021-11-01,0.0800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-11-01,0.0500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Alpha,2021,2021-10-25,0.0000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-10-25,98.6800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2021,2021-10-25,1.1700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2021,2021-10-25,0.0500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-10-25,0.0900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Alpha,2021,2021-10-18,0.0100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-10-18,98.6400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2021,2021-10-18,1.2200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2021,2021-10-18,0.0300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-10-18,0.1000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Alpha,2021,2021-10-11,0.0100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-10-11,98.7100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2021,2021-10-11,1.1200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2021,2021-10-11,0.0300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-10-11,0.1300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Alpha,2021,2021-10-04,0.0100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-10-04,99.2800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2021,2021-10-04,0.5700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2021,2021-10-04,0.0200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-10-04,0.1200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-09-27,99.5500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2021,2021-09-27,0.3400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2021,2021-09-27,0.0200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-09-27,0.0900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Alpha,2021,2021-09-20,0.0100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-09-20,99.7600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2021,2021-09-20,0.1900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2021,2021-09-20,0.0000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-09-20,0.0300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Alpha,2021,2021-09-13,0.0200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-09-13,99.7800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2021,2021-09-13,0.1100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2021,2021-09-13,0.0000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-09-13,0.0900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Alpha,2021,2021-09-06,0.0100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-09-06,99.8300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2021,2021-09-06,0.0400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2021,2021-09-06,0.0000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-09-06,0.1200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Alpha,2021,2021-08-30,0.0000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-08-30,99.8400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2021,2021-08-30,0.0300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2021,2021-08-30,0.0000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-08-30,0.1200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Alpha,2021,2021-08-23,0.0200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-08-23,99.8800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2021,2021-08-23,0.0200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-08-23,0.0900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Alpha,2021,2021-08-16,0.0100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-08-16,99.7900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2021,2021-08-16,0.0100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2021,2021-08-16,0.0000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-08-16,0.1800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Alpha,2021,2021-08-09,0.0100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-08-09,98.4400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2021,2021-08-09,0.0200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-08-09,1.5200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Alpha,2021,2021-08-02,0.0300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-08-02,99.5800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2021,2021-08-02,0.0100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-08-02,0.3700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Alpha,2021,2021-07-26,0.0400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-07-26,99.8000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2021,2021-07-26,0.0100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-07-26,0.1600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Alpha,2021,2021-07-19,0.0700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-07-19,99.6600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2021,2021-07-19,0.0100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2021,2021-07-19,0.0000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-07-19,0.2600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Alpha,2021,2021-07-12,0.0800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-07-12,99.6500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-07-12,0.2700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Alpha,2021,2021-07-05,0.2100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-07-05,99.5500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2021,2021-07-05,0.0100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2021,2021-07-05,0.0000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-07-05,0.2300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Alpha,2021,2021-06-28,0.5200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-06-28,99.3200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-06-28,0.1600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Alpha,2021,2021-06-21,0.9400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-06-21,98.8300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-06-21,0.2200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Alpha,2021,2021-06-14,1.4600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-06-14,98.3600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-06-14,0.1900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Alpha,2021,2021-06-07,4.2200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-06-07,95.4400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-06-07,0.3400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Alpha,2021,2021-05-31,8.4800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-05-31,91.1000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-05-31,0.4000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Alpha,2021,2021-05-24,16.9900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-05-24,82.1100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-05-24,0.9000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Alpha,2021,2021-05-17,32.8500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-05-17,65.6300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2021,2021-05-17,0.0100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-05-17,1.5100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Alpha,2021,2021-05-10,52.8300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-05-10,44.8300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-05-10,2.3400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Alpha,2021,2021-05-03,69.3400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-05-03,27.5700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-05-03,3.1000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Alpha,2021,2021-04-26,82.1000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-04-26,14.3000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2021,2021-04-26,0.0300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-04-26,3.5700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Alpha,2021,2021-04-19,88.2200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-04-19,7.6300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-04-19,4.1400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Alpha,2021,2021-04-12,92.8600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-04-12,3.2300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2021,2021-04-12,0.0200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-04-12,3.9000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Alpha,2021,2021-04-05,95.3500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-04-05,1.4600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-04-05,3.1800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Alpha,2021,2021-03-29,97.3500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-03-29,0.2800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-03-29,2.3700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Alpha,2021,2021-03-22,97.9200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-03-22,0.1600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2021,2021-03-22,0.0100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-03-22,1.9200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Alpha,2021,2021-03-15,97.8000,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-03-15,0.0600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2021,2021-03-15,0.0100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-03-15,2.1400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Alpha,2021,2021-03-08,97.4200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-03-08,0.0100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-03-08,2.5600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Alpha,2021,2021-03-01,96.7700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-03-01,0.0400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2021,2021-03-01,0.0100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-03-01,3.1900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Alpha,2021,2021-02-22,97.2600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-02-22,0.0100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2021,2021-02-22,0.0100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-02-22,2.7200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Alpha,2021,2021-02-15,97.3400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-02-15,0.0100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-02-15,2.6500,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Alpha,2021,2021-02-08,96.7100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-02-08,0.0100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-02-08,3.2800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Alpha,2021,2021-02-01,95.1800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-02-01,0.0100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2021,2021-02-01,0.0400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2021,2021-02-01,0.0100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-02-01,4.7700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Alpha,2021,2021-01-25,93.5400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-01-25,0.0200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2021,2021-01-25,0.0100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2021,2021-01-25,0.0100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-01-25,6.4200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Alpha,2021,2021-01-18,88.6800,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-01-18,0.0400,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2021,2021-01-18,0.0200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-01-18,11.2600,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Alpha,2021,2021-01-11,83.9700,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-01-11,0.0200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2021,2021-01-11,0.0900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.2,2021,2021-01-11,0.0100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-01-11,15.9200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Alpha,2021,2021-01-04,81.5900,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Delta,2021,2021-01-04,0.0300,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.1,2021,2021-01-04,0.2200,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Omicron BA.5,2021,2021-01-04,0.0100,False
+infectious_disease,respiratory,COVID-19,Nation,England,COVID-19_cases_lineagePercentByWeek,all,all,Other,2021,2021-01-04,18.1500,False
