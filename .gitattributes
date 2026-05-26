@@ -1,0 +1,2 @@
+covid19_UnitedKingdom/data/raw/compact.csv filter=lfs diff=lfs merge=lfs -text
+covid19_UnitedKingdom/data/raw/google_mobility_global.csv filter=lfs diff=lfs merge=lfs -text
