@@ -1,0 +1,67 @@
+location,iso_code,location_type,date,year,quarter,quarter_label,pandemic_period,gdp_growth_quarterly_percent,employment_growth_quarterly_percent,government_debt_percent_gdp,government_deficit_surplus_percent_gdp
+European Union,EU27,eu_reference,2018-01-01,2018,1,2018 Q1,2020-2022,0.2,0.4,81.4,-0.2
+European Union,EU27,eu_reference,2018-04-01,2018,2,2018 Q2,2020-2022,0.6,0.5,80.8,-0.1
+European Union,EU27,eu_reference,2018-07-01,2018,3,2018 Q3,2020-2022,0.2,0.2,80.7,-0.5
+European Union,EU27,eu_reference,2018-10-01,2018,4,2018 Q4,2020-2022,0.6,0.1,79.5,-0.7
+European Union,EU27,eu_reference,2019-01-01,2019,1,2019 Q1,2020-2022,0.8,0.5,79.8,-0.2
+European Union,EU27,eu_reference,2019-04-01,2019,2,2019 Q2,2020-2022,0.5,0.4,79.6,-0.3
+European Union,EU27,eu_reference,2019-07-01,2019,3,2019 Q3,2020-2022,0.2,0.1,79.0,-0.7
+European Union,EU27,eu_reference,2019-10-01,2019,4,2019 Q4,2020-2022,0.0,0.1,77.5,-0.7
+European Union,EU27,eu_reference,2020-01-01,2020,1,2020 Q1,2020-2022,-2.9,-0.2,79.0,-2.9
+European Union,EU27,eu_reference,2020-04-01,2020,2,2020 Q2,2020-2022,-10.8,-2.7,87.1,-11.7
+European Union,EU27,eu_reference,2020-07-01,2020,3,2020 Q3,2020-2022,10.8,1.0,89.0,-6.1
+European Union,EU27,eu_reference,2020-10-01,2020,4,2020 Q4,2020-2022,0.5,0.6,89.5,-6.6
+European Union,EU27,eu_reference,2021-01-01,2021,1,2021 Q1,2020-2022,0.9,0.0,91.5,-6.2
+European Union,EU27,eu_reference,2021-04-01,2021,2,2021 Q2,2020-2022,2.1,0.9,89.7,-5.9
+European Union,EU27,eu_reference,2021-07-01,2021,3,2021 Q3,2020-2022,1.7,1.0,88.7,-3.5
+European Union,EU27,eu_reference,2021-10-01,2021,4,2021 Q4,2020-2022,1.0,0.5,86.7,-3.1
+European Union,EU27,eu_reference,2022-01-01,2022,1,2022 Q1,2020-2022,0.7,0.5,86.2,-2.3
+European Union,EU27,eu_reference,2022-04-01,2022,2,2022 Q2,2020-2022,0.8,0.6,85.0,-2.2
+European Union,EU27,eu_reference,2022-07-01,2022,3,2022 Q3,2020-2022,0.4,0.2,83.6,-3.6
+European Union,EU27,eu_reference,2022-10-01,2022,4,2022 Q4,2020-2022,-0.2,0.4,82.4,-4.4
+European Union,EU27,eu_reference,2023-01-01,2023,1,2023 Q1,2023-2026,0.1,0.4,82.2,-3.1
+European Union,EU27,eu_reference,2023-04-01,2023,2,2023 Q2,2023-2026,0.1,0.3,81.8,-3.2
+European Union,EU27,eu_reference,2023-07-01,2023,3,2023 Q3,2023-2026,0.1,0.1,81.2,-3.5
+European Union,EU27,eu_reference,2023-10-01,2023,4,2023 Q4,2023-2026,0.1,0.3,80.5,-3.9
+European Union,EU27,eu_reference,2024-01-01,2024,1,2024 Q1,2023-2026,0.4,0.3,81.0,-2.9
+European Union,EU27,eu_reference,2024-04-01,2024,2,2024 Q2,2023-2026,0.3,0.1,81.2,-3.2
+European Union,EU27,eu_reference,2024-07-01,2024,3,2024 Q3,2023-2026,0.4,0.1,81.3,-3.0
+European Union,EU27,eu_reference,2024-10-01,2024,4,2024 Q4,2023-2026,0.5,0.2,80.7,-3.3
+European Union,EU27,eu_reference,2025-01-01,2025,1,2025 Q1,2023-2026,0.5,0.1,81.4,-2.9
+European Union,EU27,eu_reference,2025-04-01,2025,2,2025 Q2,2023-2026,0.3,0.1,81.8,-3.0
+European Union,EU27,eu_reference,2025-07-01,2025,3,2025 Q3,2023-2026,0.4,0.1,82.1,-3.1
+European Union,EU27,eu_reference,2025-10-01,2025,4,2025 Q4,2023-2026,0.2,0.2,81.7,-3.2
+European Union,EU27,eu_reference,2026-01-01,2026,1,2026 Q1,2023-2026,0.2,0.1,,
+Poland,POL,comparison_country,2018-01-01,2018,1,2018 Q1,2020-2022,2.0,0.4,50.9,-1.2
+Poland,POL,comparison_country,2018-04-01,2018,2,2018 Q2,2020-2022,1.5,0.9,50.1,0.3
+Poland,POL,comparison_country,2018-07-01,2018,3,2018 Q3,2020-2022,1.3,-0.2,49.0,-0.3
+Poland,POL,comparison_country,2018-10-01,2018,4,2018 Q4,2020-2022,0.9,-1.1,48.2,0.1
+Poland,POL,comparison_country,2019-01-01,2019,1,2019 Q1,2020-2022,1.5,1.9,48.3,0.0
+Poland,POL,comparison_country,2019-04-01,2019,2,2019 Q2,2020-2022,0.9,1.5,47.2,-0.7
+Poland,POL,comparison_country,2019-07-01,2019,3,2019 Q3,2020-2022,0.8,0.3,46.5,-0.6
+Poland,POL,comparison_country,2019-10-01,2019,4,2019 Q4,2020-2022,0.8,-0.3,45.2,-1.6
+Poland,POL,comparison_country,2020-01-01,2020,1,2020 Q1,2020-2022,0.5,0.1,47.1,-4.0
+Poland,POL,comparison_country,2020-04-01,2020,2,2020 Q2,2020-2022,-9.0,-0.9,54.1,-16.9
+Poland,POL,comparison_country,2020-07-01,2020,3,2020 Q3,2020-2022,6.6,0.8,55.8,-3.8
+Poland,POL,comparison_country,2020-10-01,2020,4,2020 Q4,2020-2022,0.1,0.8,56.6,-3.0
+Poland,POL,comparison_country,2021-01-01,2021,1,2021 Q1,2020-2022,2.4,0.6,57.9,-2.8
+Poland,POL,comparison_country,2021-04-01,2021,2,2021 Q2,2020-2022,2.5,1.3,56.3,-1.5
+Poland,POL,comparison_country,2021-07-01,2021,3,2021 Q3,2020-2022,2.0,0.8,55.2,-0.2
+Poland,POL,comparison_country,2021-10-01,2021,4,2021 Q4,2020-2022,2.0,0.1,53.0,-2.3
+Poland,POL,comparison_country,2022-01-01,2022,1,2022 Q1,2020-2022,3.4,0.1,51.4,-1.1
+Poland,POL,comparison_country,2022-04-01,2022,2,2022 Q2,2020-2022,-1.2,0.5,50.9,-2.0
+Poland,POL,comparison_country,2022-07-01,2022,3,2022 Q3,2020-2022,0.6,-0.6,49.8,-3.0
+Poland,POL,comparison_country,2022-10-01,2022,4,2022 Q4,2020-2022,-1.6,0.5,48.8,-6.1
+Poland,POL,comparison_country,2023-01-01,2023,1,2023 Q1,2023-2026,0.9,0.1,47.9,-3.1
+Poland,POL,comparison_country,2023-04-01,2023,2,2023 Q2,2023-2026,-0.6,0.0,48.1,-4.3
+Poland,POL,comparison_country,2023-07-01,2023,3,2023 Q3,2023-2026,1.9,-0.2,48.5,-5.6
+Poland,POL,comparison_country,2023-10-01,2023,4,2023 Q4,2023-2026,-0.3,-0.2,49.5,-5.7
+Poland,POL,comparison_country,2024-01-01,2024,1,2024 Q1,2023-2026,1.0,-0.3,51.3,-3.5
+Poland,POL,comparison_country,2024-04-01,2024,2,2024 Q2,2023-2026,1.6,-0.2,52.0,-8.3
+Poland,POL,comparison_country,2024-07-01,2024,3,2024 Q3,2023-2026,-0.1,-0.2,53.0,-6.1
+Poland,POL,comparison_country,2024-10-01,2024,4,2024 Q4,2023-2026,1.4,0.1,54.8,-6.4
+Poland,POL,comparison_country,2025-01-01,2025,1,2025 Q1,2023-2026,0.9,-0.5,57.1,-5.7
+Poland,POL,comparison_country,2025-04-01,2025,2,2025 Q2,2023-2026,0.8,0.5,57.8,-9.2
+Poland,POL,comparison_country,2025-07-01,2025,3,2025 Q3,2023-2026,1.1,0.2,57.9,-6.2
+Poland,POL,comparison_country,2025-10-01,2025,4,2025 Q4,2023-2026,1.0,0.4,59.7,-7.0
+Poland,POL,comparison_country,2026-01-01,2026,1,2026 Q1,2023-2026,0.5,0.2,,

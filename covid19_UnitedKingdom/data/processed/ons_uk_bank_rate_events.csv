@@ -1,0 +1,8 @@
+location,iso_code,location_type,date,year,month,month_label,bank_rate_percent,bank_rate_type
+United Kingdom,GBR,main_country_economy,2018-08-01,2018,8,2018-08,0.75,Official bank rate
+United Kingdom,GBR,main_country_economy,2020-03-01,2020,3,2020-03,0.25,Official bank rate
+United Kingdom,GBR,main_country_economy,2020-03-01,2020,3,2020-03,0.1,Official bank rate
+United Kingdom,GBR,main_country_economy,2021-12-01,2021,12,2021-12,0.25,Official bank rate
+United Kingdom,GBR,main_country_economy,2022-02-01,2022,2,2022-02,0.5,Official bank rate
+United Kingdom,GBR,main_country_economy,2022-03-01,2022,3,2022-03,0.75,Official bank rate
+United Kingdom,GBR,main_country_economy,2022-05-01,2022,5,2022-05,1.0,Official bank rate
