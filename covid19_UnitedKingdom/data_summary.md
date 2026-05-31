@@ -642,3 +642,170 @@ Eurostat data are used as macroeconomic context for Poland and the European Unio
 The Eurostat dataset does not measure COVID-19 cases, deaths or restrictions directly. It is used to analyse the economic background of the pandemic.
 
 Missing values were not replaced with zero because they represent unavailable macroeconomic observations, not true zero values.
+
+---
+
+# 6. Additional project information
+
+This section contains detailed project information moved from the README so that the README can remain a short project overview.
+
+## 6.1 Repository structure
+
+```text
+covid19_UnitedKingdom/
+├── data/
+│   ├── raw/
+│   └── processed/
+├── outputs/
+│   ├── statistical_analysis/
+│   └── statistical_diagnostics/
+├── plots/
+│   ├── statistical_analysis/
+│   │   ├── interactive/
+│   │   └── static/
+│   └── summary_statistics/
+│       ├── interactive/
+│       └── static/
+├── scripts/
+│   ├── data/
+│   ├── diagnostics/
+│   ├── statistical_analysis/
+│   └── summary_statistics/
+├── data_summary.md
+└── README.md
+```
+
+## 6.2 Source URLs and access dates
+
+| Dataset | Source URL | Raw file(s) | Processed file(s) | Access date |
+|---|---|---|---|---|
+| Our World in Data COVID-19 compact dataset | `https://catalog.ourworldindata.org/garden/covid/latest/compact/compact.csv` | `data/raw/compact.csv` | `data/processed/covid_daily_uk_poland_europe_world.csv`<br>`data/processed/covid_weekly_uk_poland_europe_world.csv` | `23-05-2026` |
+| Google COVID-19 Community Mobility Reports | `https://www.google.com/covid19/mobility/` | `data/raw/google_mobility_global.csv` | `data/processed/google_mobility_daily_uk_poland.csv`<br>`data/processed/google_mobility_weekly_uk_poland.csv` | `23-05-2026` |
+| UKHSA COVID-19 Dashboard / Respiratory Viruses Dashboard | `https://ukhsa-dashboard.data.gov.uk/` | `data/raw/ukhsa_deaths_weekly.csv`<br>`data/raw/ukhsa_hospital_admissions.csv`<br>`data/raw/ukhsa_occupied_beds.csv`<br>`data/raw/ukhsa_pcr_test.csv`<br>`data/raw/ukhsa_pcr_positive.csv`<br>`data/raw/ukhsa_variants.csv` | `data/processed/ukhsa_england_covid_daily.csv`<br>`data/processed/ukhsa_england_covid_weekly.csv`<br>`data/processed/ukhsa_england_variants_weekly.csv` | `23-05-2026` |
+| Office for National Statistics UK economy data | `https://www.ons.gov.uk/` | `data/raw/ons_uk_economy.xlsx` | `data/processed/ons_uk_economy_quarterly.csv`<br>`data/processed/ons_uk_economy_monthly.csv`<br>`data/processed/ons_uk_bank_rate_events.csv` | `23-05-2026` |
+| Eurostat macroeconomic quarterly indicators | `https://ec.europa.eu/eurostat/web/covid-19/database` | `data/raw/eurostat_gdp_growth_quarterly.csv`<br>`data/raw/eurostat_employment_growth_quarterly.csv`<br>`data/raw/eurostat_government_debt_quarterly.csv`<br>`data/raw/eurostat_government_deficit_surplus_quarterly.csv` | `data/processed/eurostat_macro_poland_eu_quarterly.csv` | `23-05-2026` |
+
+## 6.3 Source descriptions
+
+### Our World in Data COVID-19 compact dataset
+
+This dataset contains daily COVID-19 indicators for countries and aggregate regions. It is the main source for international comparisons in the project.
+
+It includes information about confirmed cases, deaths, hospitalizations, ICU patients, testing, vaccinations, boosters, excess mortality, reproduction rate, government stringency index, population and background socioeconomic indicators.
+
+In this project, the dataset is filtered to four locations:
+
+| Location | Role in project |
+|---|---|
+| United Kingdom | main analysed country |
+| Poland | comparison country |
+| Europe | regional reference |
+| World | global reference |
+
+### Google COVID-19 Community Mobility Reports
+
+The Google Mobility dataset contains daily mobility changes relative to a pre-pandemic baseline. It is used to analyse behavioural changes during lockdowns and restriction periods.
+
+Only country-level observations for the United Kingdom and Poland are used. Regional and local rows are removed by keeping only rows where `sub_region_1`, `sub_region_2` and `metro_area` are missing.
+
+### UKHSA COVID-19 Dashboard data
+
+The UKHSA datasets provide detailed England-level indicators, including weekly COVID-19 deaths, daily hospital admissions, occupied hospital beds, PCR tests, PCR positivity and variant percentages.
+
+These data are not used as full United Kingdom data. They are used as detailed England-level context for the United Kingdom analysis.
+
+### ONS UK economy data
+
+The ONS data provide economic context for the United Kingdom. The processed indicators include GDP change, household spending, household income, production, CPIH inflation, house prices, unemployment and Bank of England bank rate events.
+
+The processed ONS data are filtered from 2018 onward, which gives a short pre-pandemic baseline, the main COVID-19 shock period and early recovery.
+
+### Eurostat macroeconomic quarterly data
+
+The Eurostat datasets provide quarterly economic indicators for Poland and the European Union. They are used to complement the ONS UK economy data and to provide economic context for the comparison country and EU reference group.
+
+The processed indicators include GDP growth, employment growth, government debt and government deficit/surplus.
+
+## 6.4 Descriptive visualizations
+
+The descriptive analysis scripts are stored in:
+
+```text
+scripts/summary_statistics/
+```
+
+The outputs are stored in:
+
+```text
+plots/summary_statistics/static/
+plots/summary_statistics/interactive/
+```
+
+| Analysis | Script | Main output(s) |
+|---|---|---|
+| Pandemic waves animation: United Kingdom vs Poland | `scripts/summary_statistics/02_pandemic_waves_gif.py` | `plots/summary_statistics/static/pandemic_waves_uk_poland_2024.gif` |
+| Vaccination rollout and pandemic severity bubble animation | `scripts/summary_statistics/02_bubble_cases_deaths_vaccination.py` | `plots/summary_statistics/interactive/bubble_cases_deaths_vaccination.html` |
+| Connected scatter plot: vaccination vs deaths | `scripts/summary_statistics/02_connected_scatter_vaccination_deaths.py` | `plots/summary_statistics/interactive/connected_scatter_vaccination_deaths.html` |
+| Interactive COVID-19 dashboard for the United Kingdom | `scripts/summary_statistics/02_interactive_dashboard.py` | `plots/summary_statistics/interactive/uk_covid_interactive_dashboard.html` |
+| Vaccination comparison: United Kingdom vs Poland | `scripts/summary_statistics/02_vaccination_uk_poland.py` | `plots/summary_statistics/interactive/vaccination_uk_poland.html` |
+| Monthly deaths-to-cases ratio heatmaps | `scripts/summary_statistics/02_deaths_cases_ratio_heatmap.py` | `plots/summary_statistics/static/deaths_cases_ratio_heatmap_4_locations.png`<br>`plots/summary_statistics/static/uk_deaths_cases_ratio_heatmap.png` |
+| Quarterly mobility changes: United Kingdom vs Poland | `scripts/summary_statistics/02_quarterly_mobility_uk_poland.py` | `plots/summary_statistics/interactive/quarterly_mobility_bar_chart.html` |
+| England COVID-19 variants stacked area chart | `scripts/summary_statistics/02_england_variants_stacked_area.py` | `plots/summary_statistics/interactive/stacked_area_variants_england.html` |
+| UK hospital admissions distribution by pandemic wave | `scripts/summary_statistics/02_hospital_admissions_distribution.py` | `plots/summary_statistics/interactive/boxplot_hospital_admissions_by_wave.html` |
+| UK quarterly GDP changes during the pandemic | `scripts/summary_statistics/02_uk_quarterly_gdp_changes.py` | `plots/summary_statistics/interactive/gdp_quarterly_change_uk.html` |
+
+## 6.5 Statistical inference analysis
+
+The inferential analysis scripts are stored in:
+
+```text
+scripts/statistical_analysis/
+```
+
+The outputs are stored in:
+
+```text
+outputs/statistical_analysis/
+plots/statistical_analysis/static/
+plots/statistical_analysis/interactive/
+```
+
+| Analysis | Script | Description | Main output(s) |
+|---|---|---|---|
+| Lagged association between cases and deaths | `scripts/statistical_analysis/03_analysis_01_lag_correlation_cases_deaths.py` | Tests whether weekly COVID-19 cases are associated with future weekly deaths after a delay. Spearman rank correlation is used because the relationship is monotonic but not strictly linear. | `outputs/statistical_analysis/01_lag_correlation_cases_deaths.csv`<br>`plots/statistical_analysis/interactive/01_lag_correlation_cases_deaths_interactive.html` |
+| Lagged-cases regression model | `scripts/statistical_analysis/03_analysis_02_lagged_cases_deaths_regression_hac.py` | Models weekly deaths using lagged weekly cases, pandemic period and their interaction. HAC robust standard errors are used for time-ordered data. | `outputs/statistical_analysis/02_lagged_cases_deaths_model_summary.csv`<br>`outputs/statistical_analysis/02_lagged_cases_deaths_fitted_values.csv` |
+| UKHSA hospital-burden regression model | `scripts/statistical_analysis/03_analysis_03_ukhsa_hospital_burden_regression.py` | Models England-level weekly deaths using hospital admissions, occupied beds and PCR positivity. | `outputs/statistical_analysis/03_ukhsa_hospital_burden_model_summary.csv`<br>`outputs/statistical_analysis/03_ukhsa_hospital_burden_fitted_values.csv` |
+| Segmented log-linear trend model | `scripts/statistical_analysis/03_analysis_04_segmented_period_trend_prediction.py` | Fits separate log-linear death trends for the main pandemic period and later period, with a cautious 12-week short-term prediction. | `outputs/statistical_analysis/04_segmented_trend_model_summary.csv`<br>`outputs/statistical_analysis/04_segmented_trend_fitted_and_prediction.csv` |
+
+## 6.6 Statistical diagnostics
+
+The diagnostics script is stored in:
+
+```text
+scripts/diagnostics/statistical_diagnostics.py
+```
+
+Diagnostic outputs are saved in:
+
+```text
+outputs/statistical_diagnostics/
+```
+
+The diagnostics support the use of non-parametric correlation, lagged regression, period separation and HAC robust standard errors.
+
+## 6.7 Reproducibility notes
+
+The main preprocessing script is:
+
+```text
+scripts/data/01_prepare_data.py
+```
+
+This script prepares the processed datasets used by the visualization and statistical analysis scripts.
+
+The project follows the rule that every plot should have both:
+
+- the data used to produce it,
+- the script used to generate it.
+
+This ensures that all static, interactive and animated plots can be reproduced from the repository.
