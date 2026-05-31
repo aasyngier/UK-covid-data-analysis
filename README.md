@@ -31,6 +31,25 @@ covid19_UnitedKingdom/
     ├── diagnostics/
     ├── statistical_analysis/
     └── summary_statistics/
+└───covid19_UnitedKingdom
+    ├───data
+    │   ├───processed
+    │   └───raw
+    ├───outputs
+    │   ├───statistical_analysis
+    │   └───statistical_diagnostics
+    ├───plots
+    │   ├───statistical_analysis
+    │   │   ├───interactive
+    │   │   └───static
+    │   └───summary_statistics
+    │       ├───interactive
+    │       └───static
+    └───scripts
+        ├───data
+        ├───diagnostics
+        ├───statistical_analysis
+        └───summary_statistics
 ```
 
 ## 3. Data sources
