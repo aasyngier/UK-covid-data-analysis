@@ -11,7 +11,7 @@ import pandas as pd
 SCRIPT_DIR = Path(__file__).resolve().parent
 
 #project root
-PROJECT_DIR = SCRIPT_DIR.parent
+PROJECT_DIR = SCRIPT_DIR.parent.parent
 
 #data paths
 RAW_DIR = PROJECT_DIR / "data" / "raw"
