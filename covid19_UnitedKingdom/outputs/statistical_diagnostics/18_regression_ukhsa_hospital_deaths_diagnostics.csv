@@ -1,0 +1,6 @@
+location,lag_weeks,n,r_squared,durbin_watson_residuals,residual_acf_lag1,model_note
+England,0,278,0.8275503198683793,0.1549808749765893,0.9199776504199902,"England-level model, not full UK. HAC robust SE used."
+England,1,278,0.856533819719781,0.25690009906274247,0.8715275200842781,"England-level model, not full UK. HAC robust SE used."
+England,2,278,0.7794504809803082,0.11666647552278248,0.9415155273326139,"England-level model, not full UK. HAC robust SE used."
+England,3,278,0.7777145447933906,0.09076491735041513,0.9542905464961915,"England-level model, not full UK. HAC robust SE used."
+England,4,278,0.777786758875711,0.09231591245674178,0.9535158343888906,"England-level model, not full UK. HAC robust SE used."

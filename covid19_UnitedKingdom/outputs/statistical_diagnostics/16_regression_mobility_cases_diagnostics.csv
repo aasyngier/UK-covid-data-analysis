@@ -1,0 +1,9 @@
+location,lag_weeks,n,r_squared,durbin_watson_residuals,residual_acf_lag1,model_note
+Poland,1,139,0.07597616144400554,0.13313124750731634,0.9334002314188329,Association only. Restrictions and mobility are partly responses to rising cases.
+Poland,2,138,0.06277203669601683,0.13609755763514408,0.9318992371501672,Association only. Restrictions and mobility are partly responses to rising cases.
+Poland,3,137,0.049580272935605296,0.1398796684380242,0.929981015454164,Association only. Restrictions and mobility are partly responses to rising cases.
+Poland,4,136,0.042097763710664204,0.13464802329304862,0.9325608354582814,Association only. Restrictions and mobility are partly responses to rising cases.
+United Kingdom,1,139,0.0161570259905236,0.12307029529974998,0.938151675735489,Association only. Restrictions and mobility are partly responses to rising cases.
+United Kingdom,2,138,0.021112780108878404,0.1289357098259721,0.9351924785635233,Association only. Restrictions and mobility are partly responses to rising cases.
+United Kingdom,3,137,0.04559483354528038,0.12209158096718174,0.9386473183838079,Association only. Restrictions and mobility are partly responses to rising cases.
+United Kingdom,4,136,0.07239610606966096,0.1351732201912103,0.9320183214884403,Association only. Restrictions and mobility are partly responses to rising cases.
