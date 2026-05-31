@@ -12,6 +12,8 @@ This repository contains raw data, processed data and scripts used to prepare da
 covid19_UnitedKingdom/
 │
 ├── data/
+│   ├── processed/
+│   └── raw/
 │
 ├── outputs/
 │   ├── statistical_analysis/
@@ -26,30 +28,14 @@ covid19_UnitedKingdom/
 │       ├── interactive/
 │       └── static/
 │
-└── scripts/
-    ├── 01_prepare_data.py
-    ├── diagnostics/
-    ├── statistical_analysis/
-    └── summary_statistics/
-└───covid19_UnitedKingdom
-    ├───data
-    │   ├───processed
-    │   └───raw
-    ├───outputs
-    │   ├───statistical_analysis
-    │   └───statistical_diagnostics
-    ├───plots
-    │   ├───statistical_analysis
-    │   │   ├───interactive
-    │   │   └───static
-    │   └───summary_statistics
-    │       ├───interactive
-    │       └───static
-    └───scripts
-        ├───data
-        ├───diagnostics
-        ├───statistical_analysis
-        └───summary_statistics
+├── scripts/
+│   ├── data/
+│   ├── diagnostics/
+│   ├── statistical_analysis/
+│   └── summary_statistics/
+│
+├── data_summary.md
+
 ```
 
 ## 3. Data sources
