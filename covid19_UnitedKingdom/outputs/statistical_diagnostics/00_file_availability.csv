@@ -1,0 +1,11 @@
+dataset,path,exists,rows,columns
+covid_daily,/Users/aleksandraasyngier/Downloads/covid19_UnitedKingdom/data/processed/covid_daily_uk_poland_europe_world.csv,True,9248,74
+covid_weekly,/Users/aleksandraasyngier/Downloads/covid19_UnitedKingdom/data/processed/covid_weekly_uk_poland_europe_world.csv,True,1324,66
+mobility_daily,/Users/aleksandraasyngier/Downloads/covid19_UnitedKingdom/data/processed/google_mobility_daily_uk_poland.csv,True,1948,17
+mobility_weekly,/Users/aleksandraasyngier/Downloads/covid19_UnitedKingdom/data/processed/google_mobility_weekly_uk_poland.csv,True,280,16
+ukhsa_daily,/Users/aleksandraasyngier/Downloads/covid19_UnitedKingdom/data/processed/ukhsa_england_covid_daily.csv,True,2292,16
+ukhsa_weekly,/Users/aleksandraasyngier/Downloads/covid19_UnitedKingdom/data/processed/ukhsa_england_covid_weekly.csv,True,329,15
+variants_weekly,/Users/aleksandraasyngier/Downloads/covid19_UnitedKingdom/data/processed/ukhsa_england_variants_weekly.csv,True,890,13
+ons_quarterly,/Users/aleksandraasyngier/Downloads/covid19_UnitedKingdom/data/processed/ons_uk_economy_quarterly.csv,True,17,13
+ons_monthly,/Users/aleksandraasyngier/Downloads/covid19_UnitedKingdom/data/processed/ons_uk_economy_monthly.csv,True,68,13
+eurostat_quarterly,/Users/aleksandraasyngier/Downloads/covid19_UnitedKingdom/data/processed/eurostat_macro_poland_eu_quarterly.csv,True,66,12

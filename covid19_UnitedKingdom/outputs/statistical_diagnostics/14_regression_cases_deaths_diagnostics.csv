@@ -1,0 +1,17 @@
+location,lag_weeks,n,r_squared,durbin_watson_residuals,residual_acf_lag1,breusch_pagan_p,model_note
+Europe,1,330,0.45985515287637757,0.04427018344010401,0.9778104454327919,4.734820148109764e-15,HAC robust SE used because COVID weekly time series are likely autocorrelated.
+Europe,2,329,0.4574388116700936,0.04222000649157713,0.9788364911764842,1.4806933497370334e-15,HAC robust SE used because COVID weekly time series are likely autocorrelated.
+Europe,3,328,0.4511949567346366,0.043212256518687736,0.9783356896235904,4.001408041914929e-16,HAC robust SE used because COVID weekly time series are likely autocorrelated.
+Europe,4,327,0.4431586196711468,0.04510165469688631,0.9773835846779751,9.826809012958169e-17,HAC robust SE used because COVID weekly time series are likely autocorrelated.
+Poland,1,330,0.6845260049252443,0.1988136968176586,0.9005547023500059,3.8361956959447575e-37,HAC robust SE used because COVID weekly time series are likely autocorrelated.
+Poland,2,329,0.7167222030551577,0.1492908933914416,0.9253268405101199,1.3878920255198013e-42,HAC robust SE used because COVID weekly time series are likely autocorrelated.
+Poland,3,328,0.6911965822626871,0.1438341063474611,0.9280545089777807,2.7554512027173143e-43,HAC robust SE used because COVID weekly time series are likely autocorrelated.
+Poland,4,327,0.6160030540522426,0.1420843862874901,0.9289249784660393,5.141302184735691e-34,HAC robust SE used because COVID weekly time series are likely autocorrelated.
+United Kingdom,1,330,0.2046426486026518,0.09493447958104177,0.95247949371835,0.0001678812292029057,HAC robust SE used because COVID weekly time series are likely autocorrelated.
+United Kingdom,2,329,0.2095247768263141,0.09368285030894574,0.9531066111195525,0.0001400241869406289,HAC robust SE used because COVID weekly time series are likely autocorrelated.
+United Kingdom,3,328,0.20863753218443537,0.09602803247113835,0.9519303814830384,0.00015467726894877407,HAC robust SE used because COVID weekly time series are likely autocorrelated.
+United Kingdom,4,327,0.20434903261963822,0.09846101892661359,0.9507075831148372,0.0001533886234308217,HAC robust SE used because COVID weekly time series are likely autocorrelated.
+World,1,330,0.5535409969491539,0.06870951747836435,0.9654654109009899,7.323404701801712e-22,HAC robust SE used because COVID weekly time series are likely autocorrelated.
+World,2,329,0.5669753287894085,0.06622538701336853,0.966721267035272,3.0953699141263243e-22,HAC robust SE used because COVID weekly time series are likely autocorrelated.
+World,3,328,0.5653889461981856,0.07974279966322664,0.9599096032771478,6.6371372989491745e-22,HAC robust SE used because COVID weekly time series are likely autocorrelated.
+World,4,327,0.5640011986038557,0.08695959086499616,0.9562581896838618,1.9812316484935574e-22,HAC robust SE used because COVID weekly time series are likely autocorrelated.
