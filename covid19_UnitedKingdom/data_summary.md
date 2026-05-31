@@ -634,17 +634,8 @@ Possible analyses:
 | `location_type` | separates Poland and EU reference |
 | `pandemic_period` | comparison of 2020-2022 and 2023-2026 |
 
-## 5.5 Suggested plots from this dataset
 
-The processed Eurostat data can be used to create:
-
-1. Poland vs European Union: quarterly GDP growth.
-2. Poland vs European Union: quarterly employment growth.
-3. Poland vs European Union: government debt as percentage of GDP.
-4. Poland vs European Union: government deficit/surplus as percentage of GDP.
-5. Economic comparison of the main pandemic period and later years.
-
-## 5.6 Notes
+## 5.5 Notes
 
 Eurostat data are used as macroeconomic context for Poland and the European Union. They complement the ONS dataset, which provides UK economic context.
 
