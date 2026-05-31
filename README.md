@@ -9,6 +9,28 @@ This repository contains raw data, processed data and scripts used to prepare da
 ## 2. Folder structure
 
 ```
+covid19_UnitedKingdom/
+│
+├── data/
+│
+├── outputs/
+│   ├── statistical_analysis/
+│   └── statistical_diagnostics/
+│
+├── plots/
+│   ├── statistical_analysis/
+│   │   ├── interactive/
+│   │   └── static/
+│   │
+│   └── summary_statistics/
+│       ├── interactive/
+│       └── static/
+│
+└── scripts/
+    ├── 01_prepare_data.py
+    ├── diagnostics/
+    ├── statistical_analysis/
+    └── summary_statistics/
 └───covid19_UnitedKingdom
     ├───data
     │   ├───processed
