@@ -1,0 +1,1912 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>COVID-19 in the United Kingdom — Data Analysis Report</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0a0e1a;
+    --surface: #111827;
+    --surface2: #1a2235;
+    --border: rgba(255,255,255,0.07);
+    --text: #e8eaf0;
+    --muted: #8892a4;
+    --accent: #e8c96a;
+    --accent2: #5b8dee;
+    --accent3: #e06060;
+    --uk: #cf3535;
+    --poland: #c0392b;
+    --uk-light: #ff6b6b;
+    --poland-light: #e74c3c;
+    --europe: #5b8dee;
+    --world: #6bcf8e;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.7;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* ── NOISE TEXTURE OVERLAY ── */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 0;
+    opacity: 0.5;
+  }
+
+  /* ── NAV ── */
+  nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    background: rgba(10,14,26,0.85);
+    backdrop-filter: blur(20px);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .nav-brand {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.75rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+  }
+
+  .nav-links a {
+    color: var(--muted);
+    text-decoration: none;
+    font-size: 0.8rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    transition: color 0.2s;
+  }
+
+  .nav-links a:hover { color: var(--text); }
+
+  /* ── HERO ── */
+  .hero {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8rem 3rem 5rem;
+    overflow: hidden;
+  }
+
+  .hero-grid {
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(91,141,238,0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(91,141,238,0.04) 1px, transparent 1px);
+    background-size: 60px 60px;
+    mask-image: radial-gradient(ellipse 80% 80% at 50% 50%, black, transparent);
+  }
+
+  .hero-glow {
+    position: absolute;
+    width: 600px; height: 600px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(232,201,106,0.08) 0%, transparent 70%);
+    top: 10%; left: -10%;
+    pointer-events: none;
+  }
+  .hero-glow2 {
+    position: absolute;
+    width: 500px; height: 500px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(91,141,238,0.07) 0%, transparent 70%);
+    bottom: 0; right: 5%;
+    pointer-events: none;
+  }
+
+  .hero-content {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .hero-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 2rem;
+    opacity: 0;
+    animation: fadeUp 0.8s ease 0.2s forwards;
+  }
+
+  .hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2.8rem, 6vw, 6rem);
+    font-weight: 900;
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    margin-bottom: 0.3rem;
+    opacity: 0;
+    animation: fadeUp 0.8s ease 0.35s forwards;
+  }
+
+  .hero h1 em {
+    font-style: italic;
+    color: var(--accent);
+  }
+
+  .hero-subtitle {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(1.2rem, 2.5vw, 2rem);
+    font-weight: 400;
+    font-style: italic;
+    color: var(--muted);
+    margin-bottom: 3rem;
+    opacity: 0;
+    animation: fadeUp 0.8s ease 0.5s forwards;
+  }
+
+  .hero-meta {
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+    opacity: 0;
+    animation: fadeUp 0.8s ease 0.65s forwards;
+  }
+
+  .hero-meta-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+
+  .hero-meta-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  .hero-meta-value {
+    font-size: 0.95rem;
+    color: var(--text);
+  }
+
+  .hero-scroll {
+    position: absolute;
+    bottom: 2.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--muted);
+    font-size: 0.7rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    animation: bounce 2s ease-in-out infinite;
+  }
+
+  .hero-scroll::after {
+    content: '';
+    width: 1px;
+    height: 40px;
+    background: linear-gradient(to bottom, var(--muted), transparent);
+  }
+
+  /* ── LOCATION PILLS ── */
+  .location-pills {
+    display: flex;
+    gap: 0.75rem;
+    margin-top: 2.5rem;
+    flex-wrap: wrap;
+    opacity: 0;
+    animation: fadeUp 0.8s ease 0.8s forwards;
+  }
+
+  .pill {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.4rem 1rem;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    background: rgba(255,255,255,0.03);
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+
+  .pill-dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+  }
+
+  .pill.uk .pill-dot { background: var(--uk-light); }
+  .pill.poland .pill-dot { background: #f39c12; }
+  .pill.europe .pill-dot { background: var(--europe); }
+  .pill.world .pill-dot { background: var(--world); }
+  .pill.uk { border-color: rgba(255,107,107,0.2); }
+  .pill.poland { border-color: rgba(243,156,18,0.2); }
+  .pill.europe { border-color: rgba(91,141,238,0.2); }
+  .pill.world { border-color: rgba(107,207,142,0.2); }
+
+  /* ── SECTIONS ── */
+  section {
+    position: relative;
+    padding: 6rem 3rem;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .section-number {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 0.75rem;
+  }
+
+  .section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(1.8rem, 3.5vw, 3rem);
+    font-weight: 700;
+    line-height: 1.15;
+    margin-bottom: 1rem;
+  }
+
+  .section-desc {
+    color: var(--muted);
+    max-width: 680px;
+    font-size: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  .divider {
+    width: 100%;
+    height: 1px;
+    background: var(--border);
+    margin: 0 3rem;
+    max-width: calc(1400px - 6rem);
+  }
+
+  /* ── DATA SOURCES GRID ── */
+  .sources-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1.5px;
+    background: var(--border);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .source-card {
+    background: var(--surface);
+    padding: 2rem;
+    transition: background 0.2s;
+  }
+
+  .source-card:hover { background: var(--surface2); }
+
+  .source-index {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.65rem;
+    color: var(--accent);
+    letter-spacing: 0.15em;
+    margin-bottom: 0.75rem;
+  }
+
+  .source-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+
+  .source-desc {
+    color: var(--muted);
+    font-size: 0.85rem;
+    line-height: 1.6;
+    margin-bottom: 1.2rem;
+  }
+
+  .source-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+
+  .tag {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.62rem;
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+    background: rgba(232,201,106,0.08);
+    color: var(--accent);
+    letter-spacing: 0.05em;
+  }
+
+  .tag.blue {
+    background: rgba(91,141,238,0.1);
+    color: var(--accent2);
+  }
+
+  .tag.green {
+    background: rgba(107,207,142,0.1);
+    color: var(--world);
+  }
+
+  /* ── ANALYSES LAYOUT ── */
+  .analyses-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .analysis-item {
+    display: flex;
+    flex-direction: column;
+
+    gap: 1.5rem;
+
+    padding: 2.5rem 0;
+
+    border-bottom: 1px solid var(--border);
+
+    opacity: 0;
+    transform: translateY(20px);
+
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    }
+
+  .analysis-item.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .analysis-item:last-child { border-bottom: none; }
+
+  .analysis-num {
+    font-family: 'DM Mono', monospace;
+    font-size: 2rem;
+    color: rgba(255,255,255,0.07);
+    line-height: 1;
+    padding-top: 0.25rem;
+  }
+
+  .analysis-body {}
+
+  .analysis-type {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.62rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.4rem;
+  }
+
+  .analysis-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+
+  .analysis-desc {
+    color: var(--muted);
+    font-size: 0.88rem;
+    line-height: 1.65;
+    max-width: 600px;
+  }
+
+  .analysis-method {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    align-items: flex-end;
+    padding-top: 0.25rem;
+  }
+
+  .analysis-top {
+    display: grid;
+
+    grid-template-columns: 3rem 1fr auto;
+
+    gap: 2rem;
+
+    align-items: start;
+
+    width: 100%;
+   }
+
+  .method-badge {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.6rem;
+    padding: 0.25rem 0.6rem;
+    border-radius: 4px;
+    letter-spacing: 0.05em;
+    white-space: nowrap;
+  }
+
+  .method-badge.stat { background: rgba(91,141,238,0.12); color: var(--accent2); }
+  .method-badge.viz { background: rgba(107,207,142,0.1); color: var(--world); }
+  .method-badge.reg { background: rgba(232,201,106,0.1); color: var(--accent); }
+  .method-badge.ts { background: rgba(224,96,96,0.1); color: #e06060; }
+
+  /* ── DATASET TABLES ── */
+  .dataset-block {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+  }
+
+  .dataset-header {
+    padding: 1.5rem 2rem;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--surface2);
+  }
+
+  .dataset-header-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  .dataset-shape {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.7rem;
+    color: var(--muted);
+  }
+
+  .var-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 0;
+    background: var(--border);
+  }
+
+  .var-item {
+    background: var(--surface);
+    padding: 0.9rem 1.2rem;
+    transition: background 0.15s;
+  }
+
+  .var-item:hover { background: var(--surface2); }
+
+  .var-name {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.72rem;
+    color: var(--accent);
+    margin-bottom: 0.2rem;
+  }
+
+  .var-desc {
+    font-size: 0.75rem;
+    color: var(--muted);
+    line-height: 1.4;
+  }
+
+  /* ── PIPELINE ── */
+  .pipeline {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    position: relative;
+  }
+
+  .pipeline::before {
+    content: '';
+    position: absolute;
+    left: 1.25rem;
+    top: 2rem;
+    bottom: 2rem;
+    width: 1px;
+    background: linear-gradient(to bottom, var(--accent), var(--accent2), transparent);
+  }
+
+  .pipeline-step {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+    padding: 1.5rem 0;
+    opacity: 0;
+    transform: translateX(-15px);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+  }
+
+  .pipeline-step.visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  .pipeline-dot {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'DM Mono', monospace;
+    font-size: 0.7rem;
+    color: var(--accent);
+    flex-shrink: 0;
+    position: relative;
+    z-index: 1;
+  }
+
+  .pipeline-content {}
+
+  .pipeline-title {
+    font-weight: 500;
+    font-size: 0.9rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .pipeline-detail {
+    color: var(--muted);
+    font-size: 0.8rem;
+  }
+
+  /* ── OUTPUTS GRID ── */
+  .outputs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1rem;
+  }
+
+  .output-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.5rem;
+    transition: border-color 0.2s, background 0.2s;
+    opacity: 0;
+    transform: scale(0.97);
+    transition: opacity 0.4s ease, transform 0.4s ease, border-color 0.2s, background 0.2s;
+  }
+
+  .output-card.visible {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  .output-card:hover {
+    border-color: rgba(232,201,106,0.2);
+    background: var(--surface2);
+  }
+
+  .output-icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .output-file {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.7rem;
+    color: var(--accent2);
+    margin-bottom: 0.4rem;
+    word-break: break-all;
+  }
+
+  .output-desc {
+    color: var(--muted);
+    font-size: 0.8rem;
+    line-height: 1.5;
+  }
+
+  /* ── STATS BAR ── */
+  .stats-bar {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 1px;
+    background: var(--border);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 4rem;
+  }
+
+  .stat-item {
+    background: var(--surface);
+    padding: 2rem 1.5rem;
+    text-align: center;
+  }
+
+  .stat-value {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2rem;
+    font-weight: 900;
+    color: var(--accent);
+    line-height: 1;
+    margin-bottom: 0.4rem;
+  }
+
+  .stat-label {
+    font-size: 0.75rem;
+    color: var(--muted);
+    line-height: 1.4;
+  }
+
+  /* ── MISSING VALUE LEGEND ── */
+  .mv-legend {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+
+  .mv-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.4rem;
+  }
+
+  .mv-source {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.65rem;
+    color: var(--accent);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin-bottom: 0.75rem;
+  }
+
+  .mv-rule {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.6rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.82rem;
+    color: var(--muted);
+  }
+
+  .mv-rule-marker {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    margin-top: 0.45rem;
+  }
+
+  .mv-rule-marker.preserve { background: var(--accent2); }
+  .mv-rule-marker.fill { background: var(--world); }
+  .mv-rule-marker.zero { background: var(--accent); }
+
+  /* ── FOOTER ── */
+  footer {
+    border-top: 1px solid var(--border);
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: gap;
+    gap: 1rem;
+    color: var(--muted);
+    font-size: 0.8rem;
+  }
+
+  .footer-logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--text);
+  }
+
+  .footer-logo span { color: var(--accent); }
+
+  /* ── ANIMATIONS ── */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(24px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes bounce {
+    0%, 100% { transform: translateX(-50%) translateY(0); }
+    50% { transform: translateX(-50%) translateY(6px); }
+  }
+
+  /* ── TIMELINE ── */
+  .timeline {
+    position: relative;
+    margin-top: 2rem;
+  }
+
+  .timeline-track {
+    width: 100%;
+    height: 3px;
+    background: var(--border);
+    border-radius: 999px;
+    position: relative;
+    margin-bottom: 2rem;
+  }
+
+  .timeline-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--accent), var(--accent2));
+    border-radius: 999px;
+    width: 100%;
+  }
+
+  .timeline-events {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1rem;
+    position: relative;
+  }
+
+  .timeline-event {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    padding-top: 1rem;
+    position: relative;
+    opacity: 0;
+    transform: translateY(12px);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+  }
+
+  .timeline-event.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .timeline-event::before {
+    content: '';
+    position: absolute;
+    top: -1.65rem;
+    left: 0;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    border: 2px solid var(--accent);
+    background: var(--bg);
+  }
+
+  .timeline-date {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.62rem;
+    color: var(--accent);
+    letter-spacing: 0.08em;
+  }
+
+  .timeline-text {
+    font-size: 0.78rem;
+    color: var(--muted);
+    line-height: 1.4;
+  }
+
+  /* ── TWO-COL LAYOUT ── */
+  .two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: start;
+  }
+
+  @media (max-width: 900px) {
+    .two-col { grid-template-columns: 1fr; gap: 2rem; }
+    nav { padding: 1rem 1.5rem; }
+    .nav-links { display: none; }
+    section { padding: 4rem 1.5rem; }
+    .hero { padding: 7rem 1.5rem 4rem; }
+    .timeline-events { grid-template-columns: repeat(2, 1fr); }
+    footer { padding: 2rem 1.5rem; flex-direction: column; align-items: flex-start; }
+  }
+
+  /* ── CALLOUT ── */
+  .callout {
+    background: rgba(232,201,106,0.05);
+    border: 1px solid rgba(232,201,106,0.15);
+    border-left: 3px solid var(--accent);
+    border-radius: 0 8px 8px 0;
+    padding: 1.2rem 1.5rem;
+    font-size: 0.88rem;
+    line-height: 1.65;
+    color: var(--muted);
+    margin-top: 1.5rem;
+  }
+
+  .callout strong { color: var(--text); }
+
+  /* ── PLOT EMBED ── */
+.plot-embed {
+  position: relative;
+  width: 100%;
+
+  /* większa ramka */
+  height: 850px;
+
+  margin-top: 2rem;
+
+  border-radius: 14px;
+  overflow: hidden;
+
+  border: 1px solid var(--border);
+  background: var(--surface2);
+
+  padding: 1rem;
+}
+
+/* ── HTML plots (iframe) ── */
+
+.plot-embed iframe {
+  position: absolute;
+
+  top: 1rem;
+  left: 1rem;
+
+  border: none;
+  display: block;
+
+  /* powiększenie "obszaru roboczego" */
+  width: 125%;
+  height: 1100px;
+
+  /* zmniejszenie samego wykresu */
+  transform: scale(0.8);
+
+  transform-origin: top left;
+}
+
+/* ── STATIC IMAGES ── */
+
+.plot-embed img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: contain;
+
+  display: block;
+
+  border-radius: 10px;
+}
+
+/* ── PLACEHOLDER ── */
+
+.plot-placeholder {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 0.6rem;
+
+  width: 100%;
+  height: 100%;
+
+  color: var(--muted);
+
+  font-size: 0.8rem;
+
+  border: 1px dashed rgba(255,255,255,0.1);
+  border-radius: 10px;
+
+  background: rgba(255,255,255,0.02);
+}
+
+.plot-placeholder-icon {
+  font-size: 1.8rem;
+  opacity: 0.4;
+}
+
+.plot-placeholder code {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.72rem;
+
+  color: var(--accent);
+
+  background: rgba(232,201,106,0.08);
+
+  padding: 0.2rem 0.6rem;
+
+  border-radius: 4px;
+}
+
+  /* ── DIAGNOSTICS CARD ── */
+  .diag-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+
+  .diag-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.4rem;
+    transition: border-color 0.2s;
+  }
+
+  .diag-card:hover { border-color: rgba(91,141,238,0.25); }
+
+  .diag-num {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.62rem;
+    color: var(--accent2);
+    margin-bottom: 0.4rem;
+    letter-spacing: 0.1em;
+  }
+
+  .diag-name {
+    font-size: 0.85rem;
+    font-weight: 500;
+    margin-bottom: 0.3rem;
+  }
+
+  .diag-desc {
+    font-size: 0.77rem;
+    color: var(--muted);
+    line-height: 1.5;
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-brand">COVID-19 · UK Analysis</div>
+  <ul class="nav-links">
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#data">Data</a></li>
+    <li><a href="#descriptive">Descriptive</a></li>
+    <li><a href="#statistical">Statistical</a></li>
+    <li><a href="#outputs">Outputs</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-grid"></div>
+  <div class="hero-glow"></div>
+  <div class="hero-glow2"></div>
+
+  <div class="hero-content">
+    <div class="hero-label">Data Analysis &amp; Visualisation · Final Project</div>
+    <h1>COVID-19 in the<br><em>United Kingdom</em></h1>
+    <div class="hero-subtitle">A comparative study with Poland, Europe &amp; the World</div>
+
+    <div class="location-pills">
+      <div class="pill uk"><div class="pill-dot"></div> United Kingdom <span style="color:var(--muted);margin-left:0.3rem;font-size:0.7rem">· main country</span></div>
+      <div class="pill poland"><div class="pill-dot"></div> Poland <span style="color:var(--muted);margin-left:0.3rem;font-size:0.7rem">· comparison</span></div>
+      <div class="pill europe"><div class="pill-dot"></div> Europe <span style="color:var(--muted);margin-left:0.3rem;font-size:0.7rem">· regional ref.</span></div>
+      <div class="pill world"><div class="pill-dot"></div> World <span style="color:var(--muted);margin-left:0.3rem;font-size:0.7rem">· global ref.</span></div>
+    </div>
+
+    <div class="hero-meta" style="margin-top:3rem">
+      <div class="hero-meta-item">
+        <div class="hero-meta-label">Data accessed</div>
+        <div class="hero-meta-value">23 May 2026</div>
+      </div>
+      <div class="hero-meta-item">
+        <div class="hero-meta-label">Data sources</div>
+        <div class="hero-meta-value">5 independent datasets</div>
+      </div>
+      <div class="hero-meta-item">
+        <div class="hero-meta-label">Coverage</div>
+        <div class="hero-meta-value">January 2020 – May 2026</div>
+      </div>
+      <div class="hero-meta-item">
+        <div class="hero-meta-label">Analyses</div>
+        <div class="hero-meta-value">10 descriptive + 7 inferential</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-scroll">Scroll</div>
+</div>
+
+<div class="divider"></div>
+
+<!-- OVERVIEW -->
+<section id="overview">
+  <div class="section-number">01 · Overview</div>
+  <div class="two-col">
+    <div>
+      <h2 class="section-title">Project Scope &amp; Objectives</h2>
+      <p class="section-desc" style="margin-bottom:1.5rem">
+        This project provides a comprehensive epidemiological and economic analysis of the COVID-19 pandemic in the United Kingdom, using Poland as a direct comparison country and Europe and the World as wider reference groups.
+      </p>
+      <p style="color:var(--muted);font-size:0.9rem;line-height:1.75;margin-bottom:1rem">
+        The analysis spans the full pandemic timeline — from the earliest reported cases in early 2020 through to the endemic period in 2026. It integrates health, mobility, vaccination, and economic data to build a multi-dimensional picture of how the United Kingdom navigated the pandemic compared to its Central European neighbour.
+      </p>
+      <p style="color:var(--muted);font-size:0.9rem;line-height:1.75">
+        A particular focus is placed on England-level clinical detail via UKHSA data, which supplements the broader UK-level picture provided by Our World in Data.
+      </p>
+    </div>
+    <div>
+      <div class="stats-bar" style="margin-bottom:0;grid-template-columns:1fr 1fr;border-radius:12px">
+        <div class="stat-item">
+          <div class="stat-value">5</div>
+          <div class="stat-label">Data sources integrated</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value">18</div>
+          <div class="stat-label">Analytical scripts</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value">15+</div>
+          <div class="stat-label">Interactive plots produced</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-value">7</div>
+          <div class="stat-label">Inferential models fitted</div>
+        </div>
+      </div>
+
+      <div class="callout">
+        <strong>Note on geographic scope:</strong> The United Kingdom is used as the main unit of analysis. UKHSA data are England-specific and serve as a detailed national supplement — they should not be interpreted as full UK figures.
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- DATA SOURCES -->
+<section id="data">
+  <div class="section-number">02 · Data Sources</div>
+  <h2 class="section-title">Five Independent Datasets</h2>
+  <p class="section-desc">
+    Each data source provides a distinct analytical layer — from daily case counts to quarterly macroeconomic indicators — enabling multi-dimensional coverage of the pandemic.
+  </p>
+
+  <div class="sources-grid">
+    <div class="source-card">
+      <div class="source-index">Source 01 · Our World in Data</div>
+      <div class="source-name">COVID-19 Compact Dataset</div>
+      <div class="source-desc">Daily epidemiological indicators for countries and aggregate regions. Covers cases, deaths, hospitalisations, ICU occupancy, testing, vaccinations, excess mortality, reproduction rate, and stringency index. The primary backbone of the cross-country analysis.</div>
+      <div class="source-tags">
+        <span class="tag">Daily</span>
+        <span class="tag">UK · Poland · Europe · World</span>
+        <span class="tag blue">Cases &amp; Deaths</span>
+        <span class="tag blue">Vaccinations</span>
+        <span class="tag green">2020–2026</span>
+      </div>
+    </div>
+
+    <div class="source-card">
+      <div class="source-index">Source 02 · Google</div>
+      <div class="source-name">COVID-19 Community Mobility Reports</div>
+      <div class="source-desc">Daily percentage changes in mobility across six place categories — retail &amp; recreation, grocery &amp; pharmacy, parks, transit stations, workplaces, and residential areas — relative to a pre-pandemic baseline. Used to analyse behavioural response to lockdowns.</div>
+      <div class="source-tags">
+        <span class="tag">Daily</span>
+        <span class="tag">UK · Poland</span>
+        <span class="tag blue">Mobility</span>
+        <span class="tag green">2020–2022</span>
+      </div>
+    </div>
+
+    <div class="source-card">
+      <div class="source-index">Source 03 · UKHSA</div>
+      <div class="source-name">COVID-19 Dashboard Data</div>
+      <div class="source-desc">England-level clinical data from the UK Health Security Agency covering weekly deaths, daily hospital admissions, occupied beds, PCR test counts, PCR positivity, and variant composition. Used as a high-resolution national supplement for the UK analysis.</div>
+      <div class="source-tags">
+        <span class="tag">Daily &amp; Weekly</span>
+        <span class="tag">England</span>
+        <span class="tag blue">Healthcare</span>
+        <span class="tag blue">Variants</span>
+        <span class="tag green">2020–2026</span>
+      </div>
+    </div>
+
+    <div class="source-card">
+      <div class="source-index">Source 04 · ONS</div>
+      <div class="source-name">UK Economy Data</div>
+      <div class="source-desc">Office for National Statistics economic indicators for the United Kingdom: quarterly GDP, household spending and income; monthly production, CPIH inflation, house prices, and unemployment; plus Bank of England base rate events. Provides economic context for the pandemic period from 2018 onward.</div>
+      <div class="source-tags">
+        <span class="tag">Quarterly &amp; Monthly</span>
+        <span class="tag">United Kingdom</span>
+        <span class="tag blue">GDP · Inflation</span>
+        <span class="tag blue">Unemployment</span>
+        <span class="tag green">2018–2022</span>
+      </div>
+    </div>
+
+    <div class="source-card">
+      <div class="source-index">Source 05 · Eurostat</div>
+      <div class="source-name">Macroeconomic Quarterly Indicators</div>
+      <div class="source-desc">Quarterly macroeconomic indicators for European countries. Used to compare Poland with the EU average across GDP growth, employment growth, government debt, and government deficit/surplus. Complements the ONS dataset which covers the UK exclusively.</div>
+      <div class="source-tags">
+        <span class="tag">Quarterly</span>
+        <span class="tag">Poland · EU-27</span>
+        <span class="tag blue">GDP · Employment</span>
+        <span class="tag blue">Gov. Debt &amp; Deficit</span>
+        <span class="tag green">2018–2026</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Timeline -->
+  <div style="margin-top:4rem">
+    <div class="section-number" style="margin-bottom:0.5rem">Pandemic Timeline</div>
+    <h3 style="font-family:'Playfair Display',serif;font-size:1.4rem;margin-bottom:2rem;font-weight:700">Key Events Covered by the Dataset</h3>
+
+    <div class="timeline">
+      <div class="timeline-track"><div class="timeline-fill"></div></div>
+      <div class="timeline-events">
+        <div class="timeline-event">
+          <div class="timeline-date">Jan 2020</div>
+          <div class="timeline-text">First COVID-19 cases in the UK &amp; Poland. Data collection begins.</div>
+        </div>
+        <div class="timeline-event">
+          <div class="timeline-date">Mar–Apr 2020</div>
+          <div class="timeline-text">First national lockdowns. Major mobility crash. First death wave.</div>
+        </div>
+        <div class="timeline-event">
+          <div class="timeline-date">Dec 2020</div>
+          <div class="timeline-text">UK vaccination rollout begins — among the fastest in Europe.</div>
+        </div>
+        <div class="timeline-event">
+          <div class="timeline-date">Nov 2021</div>
+          <div class="timeline-text">Omicron variant emerges. Massive case surge, lower mortality.</div>
+        </div>
+        <div class="timeline-event">
+          <div class="timeline-date">2022–2023</div>
+          <div class="timeline-text">End of mass restrictions. Transition to endemic management.</div>
+        </div>
+        <div class="timeline-event">
+          <div class="timeline-date">May 2026</div>
+          <div class="timeline-text">Final data access date. Post-pandemic economic recovery analysed.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- DESCRIPTIVE ANALYSIS -->
+<section id="descriptive">
+  <div class="section-number">03 · Descriptive Analysis</div>
+  <h2 class="section-title">Summary Statistics &amp; Visualisations</h2>
+  <p class="section-desc">
+    Ten exploratory analyses describe the shape of the pandemic — waves, vaccination rollout, mobility shifts, variant evolution, hospital pressure, and economic contraction.
+  </p>
+
+  <div class="analyses-list">
+
+    <div class="analysis-item">
+      <div class="analysis-top">
+        <div class="analysis-num">01</div>
+        <div class="analysis-body">
+          <div class="analysis-type">Animated visualisation · GIF &amp; PNG</div>
+          <div class="analysis-title">Pandemic Waves Animation — UK vs Poland</div>
+          <div class="analysis-desc">Animated evolution of COVID-19 waves using 7-day average daily cases. Highlights major events including lockdowns, vaccine rollout commencement, and the Omicron surge.</div>
+        </div>
+        <div class="analysis-method">
+          <span class="method-badge viz">7-day rolling avg</span>
+          <span class="method-badge viz">GIF animation</span>
+        </div>
+      </div>
+      <div class="plot-embed">
+        <img src="plots/summary_statistics/static/pandemic_waves_uk_poland_2024.gif" alt="Pandemic waves UK vs Poland"
+             onerror="this.closest('.plot-embed').innerHTML='<div class=\'plot-placeholder\'><div class=\'plot-placeholder-icon\'>📊</div><span>Open the HTML file in a text editor and replace <code>FILENAME.png</code> with your file path</span></div>'">
+      </div>
+    </div>
+
+    <div class="analysis-item">
+      <div class="analysis-top">
+        <div class="analysis-num">02</div>
+        <div class="analysis-body">
+          <div class="analysis-type">Interactive bubble chart · HTML</div>
+          <div class="analysis-title">Vaccination Rollout &amp; Pandemic Severity Bubble Chart</div>
+          <div class="analysis-desc">Animated scatter plot comparing UK, Poland, Europe, and the World. Bubble size encodes share of fully vaccinated population; axes show cumulative cases and deaths per million. Illustrates the lagged relationship between vaccination uptake and mortality reduction.</div>
+        </div>
+        <div class="analysis-method">
+          <span class="method-badge viz">Interactive HTML</span>
+          <span class="method-badge viz">4 locations</span>
+        </div>
+      </div>
+      <div class="plot-embed">
+        <iframe src="plots/summary_statistics/interactive/bubble_cases_deaths_vaccination.html" title="Bubble chart: cases, deaths, vaccination"></iframe>
+      </div>
+    </div>
+
+    <div class="analysis-item">
+      <div class="analysis-top">
+        <div class="analysis-num">03</div>
+        <div class="analysis-body">
+          <div class="analysis-type">Interactive connected scatter · HTML</div>
+          <div class="analysis-title">Vaccination Coverage vs COVID-19 Mortality</div>
+          <div class="analysis-desc">Connected scatter plot tracing the temporal relationship between vaccination coverage and COVID-19 mortality for the UK and Poland. Highlights structural regime changes between early and late pandemic stages, allowing direct comparison of the two countries' trajectories.</div>
+        </div>
+        <div class="analysis-method">
+          <span class="method-badge viz">Time-connected</span>
+          <span class="method-badge stat">Bivariate</span>
+        </div>
+      </div>
+      <div class="plot-embed">
+        <iframe src="plots/summary_statistics/interactive/connected_scatter_vaccination_deaths.html" title="Connected scatter: vaccination vs deaths"></iframe>
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════════════
+         ANALYSIS 04 · interactive HTML (dashboard — taller iframe)
+         TIP: adjust height by editing style="height:600px" on the iframe
+         ═══════════════════════════════════════════════════ -->
+    <div class="analysis-item">
+      <div class="analysis-top">
+        <div class="analysis-num">04</div>
+        <div class="analysis-body">
+          <div class="analysis-type">Interactive multi-panel dashboard · HTML</div>
+          <div class="analysis-title">UK COVID-19 Interactive Dashboard</div>
+          <div class="analysis-desc">Comprehensive England-level dashboard combining hospitalisation counts, ICU occupancy, testing intensity, PCR positivity rate, and vaccination variables over time. Built from UKHSA data and designed for detailed exploration of healthcare pressure dynamics throughout the pandemic.</div>
+        </div>
+        <div class="analysis-method">
+          <span class="method-badge viz">Multi-panel</span>
+          <span class="method-badge viz">UKHSA data</span>
+        </div>
+      </div>
+      <div class="plot-embed">
+        <iframe src="plots/summary_statistics/interactive/uk_covid_interactive_dashboard.html" title="UK COVID-19 interactive dashboard" </iframe>
+      </div>
+    </div>
+
+    <div class="analysis-item">
+      <div class="analysis-top">
+        <div class="analysis-num">05</div>
+        <div class="analysis-body">
+          <div class="analysis-type">Interactive line chart · HTML</div>
+          <div class="analysis-title">Vaccination Rollout Comparison — UK vs Poland</div>
+          <div class="analysis-desc">Direct comparison of cumulative vaccination coverage (fully vaccinated per hundred population) between the United Kingdom and Poland. Highlights the divergence in rollout pace and its potential relationship with subsequent death wave severity.</div>
+        </div>
+        <div class="analysis-method">
+          <span class="method-badge viz">Per-hundred</span>
+          <span class="method-badge viz">Time series</span>
+        </div>
+      </div>
+      <div class="plot-embed">
+        <iframe src="plots/summary_statistics/interactive/vaccination_uk_poland.html" title="Vaccination rollout UK vs Poland"></iframe>
+      </div>
+    </div>
+
+    <div class="analysis-item">
+      <div class="analysis-top">
+        <div class="analysis-num">06</div>
+        <div class="analysis-body">
+          <div class="analysis-type">Static heatmap · PNG &amp; PDF</div>
+          <div class="analysis-title">Monthly Deaths-to-Cases Ratio Heatmaps</div>
+          <div class="analysis-desc">Monthly case fatality ratios (deaths per 100 reported cases) shown as heatmaps for all four locations. The calendar layout reveals how the ratio declined over time with vaccination and the shift to less virulent variants. Separate UK-only and four-location versions are produced.</div>
+        </div>
+        <div class="analysis-method">
+          <span class="method-badge stat">CFR proxy</span>
+          <span class="method-badge viz">Calendar heatmap</span>
+        </div>
+      </div>
+      <div class="plot-embed">
+        <img src="plots/summary_statistics/static/deaths_cases_ratio_heatmap_4_locations.png" alt="Deaths-to-cases ratio heatmap"
+             onerror="this.closest('.plot-embed').innerHTML='<div class=\'plot-placeholder\'><div class=\'plot-placeholder-icon\'>📊</div><span>Replace <code>FILENAME.png</code> with your file path</span></div>'">
+      </div>
+    </div>
+
+
+    <div class="analysis-item">
+      <div class="analysis-top">
+        <div class="analysis-num">07</div>
+        <div class="analysis-body">
+          <div class="analysis-type">Interactive bar chart · HTML</div>
+          <div class="analysis-title">Quarterly Mobility Changes — UK vs Poland</div>
+          <div class="analysis-desc">Quarterly averages of Google Mobility changes across selected place categories. Shows mobility reductions during lockdown periods and the subsequent recovery. Enables side-by-side comparison of how the UK and Poland differed in the depth and duration of mobility restrictions.</div>
+        </div>
+        <div class="analysis-method">
+          <span class="method-badge viz">% from baseline</span>
+          <span class="method-badge viz">Google Mobility</span>
+        </div>
+      </div>
+      <div class="plot-embed">
+        <iframe src="plots/summary_statistics/interactive/quarterly_mobility_bar_chart.html" title="Quarterly mobility changes UK vs Poland"></iframe>
+      </div>
+    </div>
+
+
+    <div class="analysis-item">
+      <div class="analysis-top">
+        <div class="analysis-num">08</div>
+        <div class="analysis-body">
+          <div class="analysis-type">Interactive stacked area · HTML</div>
+          <div class="analysis-title">England COVID-19 Variants — Stacked Area Chart</div>
+          <div class="analysis-desc">Temporal evolution of dominant COVID-19 variants in England, including Alpha, Delta, Omicron sub-lineages, and other variants. Derived from UKHSA variant surveillance data. Visually contextualises how variant succession shaped each subsequent wave's characteristics.</div>
+        </div>
+        <div class="analysis-method">
+          <span class="method-badge viz">UKHSA variants</span>
+          <span class="method-badge viz">Jan 2021–Apr 2024</span>
+        </div>
+      </div>
+      <div class="plot-embed">
+        <iframe src="plots/summary_statistics/interactive/stacked_area_variants_england.html" title="England COVID-19 variants stacked area"></iframe>
+      </div>
+    </div>
+
+    <div class="analysis-item">
+      <div class="analysis-top">
+        <div class="analysis-num">09</div>
+        <div class="analysis-body">
+          <div class="analysis-type">Interactive box plot · HTML</div>
+          <div class="analysis-title">Hospital Admissions Distribution by Pandemic Wave</div>
+          <div class="analysis-desc">Distribution of daily hospital admissions across different pandemic wave periods. Box plots reveal the intensity and variability of healthcare pressure during each major wave, illustrating how hospital burden differed between the pre-vaccine, vaccine rollout, and endemic phases.</div>
+        </div>
+        <div class="analysis-method">
+          <span class="method-badge stat">Distribution</span>
+          <span class="method-badge viz">By wave period</span>
+        </div>
+      </div>
+      <div class="plot-embed">
+        <iframe src="plots/summary_statistics/interactive/boxplot_hospital_admissions_by_wave.html" title="Hospital admissions distribution by wave"></iframe>
+      </div>
+    </div>
+
+    <div class="analysis-item">
+      <div class="analysis-top">
+        <div class="analysis-num">10</div>
+        <div class="analysis-body">
+          <div class="analysis-type">Interactive bar chart · HTML</div>
+          <div class="analysis-title">UK Quarterly GDP Changes During the Pandemic</div>
+          <div class="analysis-desc">Quarterly GDP growth rates for the United Kingdom from 2018 onward. Highlights the historic contraction in 2020 Q2 (the first full lockdown quarter) and tracks the recovery trajectory. Provides macroeconomic context for interpreting the pandemic's societal impact.</div>
+        </div>
+        <div class="analysis-method">
+          <span class="method-badge viz">ONS data</span>
+          <span class="method-badge stat">Quarterly % change</span>
+        </div>
+      </div>
+      <div class="plot-embed">
+        <iframe src="plots/summary_statistics/interactive/gdp_quarterly_change_uk.html" title="UK quarterly GDP changes"></iframe>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- STATISTICAL ANALYSIS -->
+<section id="statistical">
+  <div class="section-number">04 · Statistical Inference</div>
+  <h2 class="section-title">Four Inferential Models</h2>
+  <p class="section-desc">
+    The statistical analyses move beyond description to test associations, fit regression models, and produce short-term forecasts. Non-parametric methods and HAC robust standard errors address the challenges of autocorrelated weekly time series.
+  </p>
+
+  <div class="analyses-list">
+
+    <div class="analysis-item">
+        <div class="analysis-top">
+        <div class="analysis-num">01</div>
+        <div class="analysis-body">
+            <div class="analysis-type">Interactive correlation analysis · HTML</div>
+            <div class="analysis-title">Lag Correlation Between Cases and Deaths</div>
+            <div class="analysis-desc">
+            This visualization compares Spearman rank correlations between weekly COVID-19 cases and deaths under different lag assumptions. It is used to choose and justify the delay between reported infections and subsequent mortality.
+            </div>
+        </div>
+        <div class="analysis-method">
+            <span class="method-badge stat">Spearman ρ</span>
+            <span class="method-badge ts">Lag selection</span>
+        </div>
+        </div>
+
+        <div class="plot-embed">
+        <iframe src="plots/statistical_analysis/interactive/01_lag_correlation_cases_deaths_interactive.html"
+                title="Lag correlation between cases and deaths"></iframe>
+        </div>
+    </div>
+
+
+    <div class="analysis-item">
+        <div class="analysis-top">
+        <div class="analysis-num">02</div>
+        <div class="analysis-body">
+            <div class="analysis-type">Interactive scatter plot · HTML</div>
+            <div class="analysis-title">UK Best-Lag Cases and Deaths Scatter Plot</div>
+            <div class="analysis-desc">
+            This scatter plot shows the relationship between lagged weekly cases and weekly deaths for the United Kingdom at the empirically selected lag. It highlights the non-linear structure of the relationship and explains why correlation and regression should not be interpreted in the same way.
+            </div>
+        </div>
+        <div class="analysis-method">
+            <span class="method-badge stat">Best lag</span>
+            <span class="method-badge viz">Scatter plot</span>
+        </div>
+        </div>
+
+        <div class="plot-embed">
+        <iframe src="plots/statistical_analysis/interactive/01_uk_best_lag_scatter_interactive.html"
+                title="UK best-lag cases and deaths scatter plot"></iframe>
+        </div>
+    </div>
+
+
+    <div class="analysis-item">
+        <div class="analysis-top">
+        <div class="analysis-num">03</div>
+        <div class="analysis-body">
+            <div class="analysis-type">Interactive regression diagnostic · HTML</div>
+            <div class="analysis-title">Regression R² by Cases Lag</div>
+            <div class="analysis-desc">
+            This visualization compares regression fit across alternative lags of weekly cases. It shows that the lag used in the cases-only regression model is selected empirically rather than imposed arbitrarily.
+            </div>
+        </div>
+        <div class="analysis-method">
+            <span class="method-badge reg">OLS regression</span>
+            <span class="method-badge stat">R² comparison</span>
+        </div>
+        </div>
+
+        <div class="plot-embed">
+        <iframe src="plots/statistical_analysis/interactive/02_regression_r2_by_lag_interactive.html"
+                title="Regression R squared by cases lag"></iframe>
+        </div>
+    </div>
+
+
+    <div class="analysis-item">
+        <div class="analysis-top">
+        <div class="analysis-num">04</div>
+        <div class="analysis-body">
+            <div class="analysis-type">Interactive observed vs fitted plot · HTML</div>
+            <div class="analysis-title">Observed vs Fitted Deaths — Lagged Cases Model</div>
+            <div class="analysis-desc">
+            This plot compares observed weekly deaths with fitted values from the cases-only lagged regression model. It serves as a limitation check, showing that reported cases alone cannot fully reproduce the timing and magnitude of pandemic mortality waves.
+            </div>
+        </div>
+        <div class="analysis-method">
+            <span class="method-badge reg">Cases-only model</span>
+            <span class="method-badge ts">Limitation check</span>
+        </div>
+        </div>
+
+        <div class="plot-embed">
+        <iframe src="plots/statistical_analysis/interactive/02_uk_observed_vs_fitted_lagged_cases_interactive.html"
+                title="Observed vs fitted lagged cases model"></iframe>
+        </div>
+    </div>
+
+
+    <div class="analysis-item">
+        <div class="analysis-top">
+        <div class="analysis-num">05</div>
+        <div class="analysis-body">
+            <div class="analysis-type">Interactive regression diagnostic · HTML</div>
+            <div class="analysis-title">UKHSA Hospital Admissions R² by Lag</div>
+            <div class="analysis-desc">
+            This visualization evaluates how well lagged hospital admissions explain weekly COVID-19 deaths in England. It is used to choose the admissions lag for the hospital-burden model using UKHSA data.
+            </div>
+        </div>
+        <div class="analysis-method">
+            <span class="method-badge reg">Multiple OLS</span>
+            <span class="method-badge viz">UKHSA data</span>
+            <span class="method-badge stat">Lag choice</span>
+        </div>
+        </div>
+
+        <div class="plot-embed">
+        <iframe src="plots/statistical_analysis/interactive/03_ukhsa_r2_by_admissions_lag_interactive.html"
+                title="UKHSA R squared by admissions lag"></iframe>
+        </div>
+    </div>
+
+
+    <div class="analysis-item">
+        <div class="analysis-top">
+        <div class="analysis-num">06</div>
+        <div class="analysis-body">
+            <div class="analysis-type">Interactive observed vs fitted plot · HTML</div>
+            <div class="analysis-title">Observed vs Fitted Deaths — UKHSA Hospital Burden Model</div>
+            <div class="analysis-desc">
+            This is the main hospital-burden regression visualization. It compares observed weekly COVID-19 deaths with fitted values from a model based on lagged hospital admissions, occupied beds, and PCR positivity, showing that healthcare indicators provide a stronger explanation of mortality than reported cases alone.
+            </div>
+        </div>
+        <div class="analysis-method">
+            <span class="method-badge reg">Hospital burden</span>
+            <span class="method-badge stat">HAC robust SEs</span>
+            <span class="method-badge viz">Observed vs fitted</span>
+        </div>
+        </div>
+
+        <div class="plot-embed">
+        <iframe src="plots/statistical_analysis/interactive/03_ukhsa_observed_vs_fitted_interactive.html"
+                title="UKHSA observed vs fitted hospital burden model"></iframe>
+        </div>
+    </div>
+
+
+    <div class="analysis-item">
+        <div class="analysis-top">
+        <div class="analysis-num">07</div>
+        <div class="analysis-body">
+            <div class="analysis-type">Interactive trend prediction · HTML</div>
+            <div class="analysis-title">Segmented Period Trend Prediction</div>
+            <div class="analysis-desc">
+            This visualization presents a segmented log-linear death trend model with separate pandemic and endemic-period trends. The later-period trend is used for a cautious short-term prediction, matching the project specification while avoiding overinterpretation as a long-range forecast.
+            </div>
+        </div>
+        <div class="analysis-method">
+            <span class="method-badge reg">Log-linear trend</span>
+            <span class="method-badge ts">Segmented periods</span>
+            <span class="method-badge ts">Prediction</span>
+        </div>
+        </div>
+
+        <div class="plot-embed">
+        <iframe src="plots/statistical_analysis/interactive/04_segmented_period_trend_prediction_interactive.html"
+                title="Segmented period trend prediction"></iframe>
+        </div>
+    </div>
+
+    </div>
+
+  <!-- Diagnostics -->
+  <div style="margin-top:4rem">
+    <div class="section-number" style="margin-bottom:0.5rem">Statistical Diagnostics</div>
+    <h3 style="font-family:'Playfair Display',serif;font-size:1.4rem;margin-bottom:1rem;font-weight:700">Validating Methodological Choices</h3>
+    <p style="color:var(--muted);font-size:0.88rem;max-width:680px;margin-bottom:1.5rem">
+      A dedicated diagnostics script examines whether the chosen statistical methods are appropriate for the data. Results support the use of non-parametric correlation, lagged regression, period separation, and HAC robust standard errors.
+    </p>
+
+    <div class="diag-grid">
+      <div class="diag-card">
+        <div class="diag-num">DIAG · 01</div>
+        <div class="diag-name">File Availability</div>
+        <div class="diag-desc">Confirms that all processed datasets are present and readable before any analysis is run.</div>
+      </div>
+      <div class="diag-card">
+        <div class="diag-num">DIAG · 02</div>
+        <div class="diag-name">Missingness Analysis</div>
+        <div class="diag-desc">Column-level and top-level missingness summaries across all datasets. Identifies variables where missing values are structural rather than errors.</div>
+      </div>
+      <div class="diag-card">
+        <div class="diag-num">DIAG · 03</div>
+        <div class="diag-name">Date Ranges</div>
+        <div class="diag-desc">Verifies temporal coverage across all processed files. Flags any discrepancies between expected and actual date ranges.</div>
+      </div>
+      <div class="diag-card">
+        <div class="diag-num">DIAG · 04–06</div>
+        <div class="diag-name">Descriptive Statistics</div>
+        <div class="diag-desc">Summary statistics for COVID, mobility, and UKHSA variables — by location and by period — including central tendency, spread, and skew.</div>
+      </div>
+      <div class="diag-card">
+        <div class="diag-num">DIAG · 09</div>
+        <div class="diag-name">Normality Tests</div>
+        <div class="diag-desc">Formal tests for distributional normality used to justify the selection of Spearman rather than Pearson correlation for the lag analysis.</div>
+      </div>
+      <div class="diag-card">
+        <div class="diag-num">DIAG · 10</div>
+        <div class="diag-name">Autocorrelation</div>
+        <div class="diag-desc">Autocorrelation diagnostics for key weekly series. Supports the use of HAC robust standard errors in all regression models.</div>
+      </div>
+      <div class="diag-card">
+        <div class="diag-num">DIAG · 11–16</div>
+        <div class="diag-name">Regression Diagnostics</div>
+        <div class="diag-desc">Residual plots, R² summaries, and period-comparison statistics for all lagged and hospital-burden regression models.</div>
+      </div>
+      <div class="diag-card">
+        <div class="diag-num">DIAG · 19</div>
+        <div class="diag-name">Variant Dominance</div>
+        <div class="diag-desc">Summary of variant succession in England, identifying the dates at which each variant became dominant and relinquished dominance.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- PREPROCESSING PIPELINE -->
+<section>
+  <div class="section-number">05 · Preprocessing</div>
+  <h2 class="section-title">Data Processing Pipeline</h2>
+  <p class="section-desc">
+    All five datasets pass through a structured preprocessing script before any analysis. The pipeline standardises formats, handles missing values, constructs derived variables, and exports daily and weekly outputs.
+  </p>
+
+  <div class="two-col" style="gap:3rem">
+    <div>
+      <h3 style="font-family:'Playfair Display',serif;font-size:1.1rem;margin-bottom:1.5rem;font-weight:700">Common Operations Across All Sources</h3>
+      <div class="pipeline">
+        <div class="pipeline-step">
+          <div class="pipeline-dot">01</div>
+          <div class="pipeline-content">
+            <div class="pipeline-title">Date Standardisation</div>
+            <div class="pipeline-detail">All date columns converted to datetime format. Quarter labels (e.g. 2020 Q2) converted to quarter start dates.</div>
+          </div>
+        </div>
+        <div class="pipeline-step">
+          <div class="pipeline-dot">02</div>
+          <div class="pipeline-content">
+            <div class="pipeline-title">Location Filtering</div>
+            <div class="pipeline-detail">Only the four selected locations are retained: United Kingdom, Poland, Europe, World (and England for UKHSA).</div>
+          </div>
+        </div>
+        <div class="pipeline-step">
+          <div class="pipeline-dot">03</div>
+          <div class="pipeline-content">
+            <div class="pipeline-title">Variable Renaming &amp; Typing</div>
+            <div class="pipeline-detail">Source-specific column names standardised to project conventions. Numerical columns explicitly converted to float/int.</div>
+          </div>
+        </div>
+        <div class="pipeline-step">
+          <div class="pipeline-dot">04</div>
+          <div class="pipeline-content">
+            <div class="pipeline-title">Missing Value Handling</div>
+            <div class="pipeline-detail">Strategy varies by variable type: zero-fill for daily counts; forward-fill for cumulative; preserve for hospitalisation and testing gaps.</div>
+          </div>
+        </div>
+        <div class="pipeline-step">
+          <div class="pipeline-dot">05</div>
+          <div class="pipeline-content">
+            <div class="pipeline-title">Derived Variables</div>
+            <div class="pipeline-detail">Per-million indicators, 7-day rolling averages, mobility restriction index, and time variables (year, quarter, month, ISO week, week_start) added.</div>
+          </div>
+        </div>
+        <div class="pipeline-step">
+          <div class="pipeline-dot">06</div>
+          <div class="pipeline-content">
+            <div class="pipeline-title">Pandemic Period Label</div>
+            <div class="pipeline-detail">Each observation tagged as <code style="font-family:'DM Mono',monospace;font-size:0.8rem;color:var(--accent)">2020–2022</code> (main pandemic) or <code style="font-family:'DM Mono',monospace;font-size:0.8rem;color:var(--accent)">2023–2026</code> (endemic transition).</div>
+          </div>
+        </div>
+        <div class="pipeline-step">
+          <div class="pipeline-dot">07</div>
+          <div class="pipeline-content">
+            <div class="pipeline-title">Daily &amp; Weekly Exports</div>
+            <div class="pipeline-detail">All sources produce both a daily processed file and a weekly aggregated file, enabling analysis at both resolutions.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <h3 style="font-family:'Playfair Display',serif;font-size:1.1rem;margin-bottom:1.5rem;font-weight:700">Missing Value Strategy by Dataset</h3>
+      <div class="mv-legend" style="grid-template-columns:1fr">
+        <div class="mv-card">
+          <div class="mv-source">Our World in Data</div>
+          <div class="mv-rule"><div class="mv-rule-marker zero"></div>Daily new cases/deaths: replaced with <strong>0</strong> (technical gaps in key count variables)</div>
+          <div class="mv-rule"><div class="mv-rule-marker fill"></div>Cumulative cases/deaths/vaccinations: <strong>forward-filled</strong>, then initial NAs set to 0</div>
+          <div class="mv-rule"><div class="mv-rule-marker preserve"></div>Hospitalisation, testing, excess mortality, stringency, reproduction rate: <strong>preserved</strong></div>
+        </div>
+        <div class="mv-card">
+          <div class="mv-source">Google Mobility</div>
+          <div class="mv-rule"><div class="mv-rule-marker preserve"></div>All mobility values: <strong>preserved</strong> — a missing value means unavailable data, not zero mobility (0 = at baseline)</div>
+        </div>
+        <div class="mv-card">
+          <div class="mv-source">UKHSA</div>
+          <div class="mv-rule"><div class="mv-rule-marker preserve"></div>All UKHSA metrics: <strong>preserved</strong> — missing means the metric was not reported, not that the true value was zero</div>
+        </div>
+        <div class="mv-card">
+          <div class="mv-source">ONS &amp; Eurostat</div>
+          <div class="mv-rule"><div class="mv-rule-marker preserve"></div>Economic indicators: <strong>preserved</strong>. Invalid rows (bad dates, source notes) removed entirely during loading.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- OUTPUTS -->
+<section id="outputs">
+  <div class="section-number">06 · Processed Outputs</div>
+  <h2 class="section-title">Processed Files &amp; Analysis Outputs</h2>
+  <p class="section-desc">
+    All processed datasets, statistical results, static plots, and interactive visualisations are saved to structured output directories for reproducibility.
+  </p>
+
+  <h3 style="font-family:'Playfair Display',serif;font-size:1.1rem;margin-bottom:1.5rem;font-weight:700">Processed Datasets</h3>
+  <div class="outputs-grid" style="margin-bottom:3rem">
+    <div class="output-card">
+      <div class="output-icon">📊</div>
+      <div class="output-file">covid_daily_uk_poland_europe_world.csv</div>
+      <div class="output-desc">Daily OWID data for 4 locations. Jan 2020–May 2026.</div>
+    </div>
+    <div class="output-card">
+      <div class="output-icon">📊</div>
+      <div class="output-file">covid_weekly_uk_poland_europe_world.csv</div>
+      <div class="output-desc">Weekly aggregated OWID epidemiological data.</div>
+    </div>
+    <div class="output-card">
+      <div class="output-icon">🚶</div>
+      <div class="output-file">google_mobility_daily_uk_poland.csv</div>
+      <div class="output-desc">1,948 rows · 17 cols. UK &amp; Poland. Feb 2020–Oct 2022.</div>
+    </div>
+    <div class="output-card">
+      <div class="output-icon">🚶</div>
+      <div class="output-file">google_mobility_weekly_uk_poland.csv</div>
+      <div class="output-desc">280 rows · 16 cols. 140 weekly obs per country.</div>
+    </div>
+    <div class="output-card">
+      <div class="output-icon">🏥</div>
+      <div class="output-file">ukhsa_england_covid_daily.csv</div>
+      <div class="output-desc">2,292 rows · 16 cols. England. Feb 2020–May 2026.</div>
+    </div>
+    <div class="output-card">
+      <div class="output-icon">🏥</div>
+      <div class="output-file">ukhsa_england_covid_weekly.csv</div>
+      <div class="output-desc">329 rows · 15 cols. England weekly healthcare data.</div>
+    </div>
+    <div class="output-card">
+      <div class="output-icon">🧬</div>
+      <div class="output-file">ukhsa_england_variants_weekly.csv</div>
+      <div class="output-desc">890 rows · 13 cols. Variant % shares. Jan 2021–Apr 2024.</div>
+    </div>
+    <div class="output-card">
+      <div class="output-icon">💷</div>
+      <div class="output-file">ons_uk_economy_quarterly.csv</div>
+      <div class="output-desc">17 rows · 13 cols. GDP, household spending/income. 2018–2022.</div>
+    </div>
+    <div class="output-card">
+      <div class="output-icon">💷</div>
+      <div class="output-file">ons_uk_economy_monthly.csv</div>
+      <div class="output-desc">68 rows · 13 cols. Production, CPIH, house prices, unemployment.</div>
+    </div>
+    <div class="output-card">
+      <div class="output-icon">🏦</div>
+      <div class="output-file">ons_uk_bank_rate_events.csv</div>
+      <div class="output-desc">7 Bank of England rate change events. Aug 2018–May 2022.</div>
+    </div>
+    <div class="output-card">
+      <div class="output-icon">🇪🇺</div>
+      <div class="output-file">eurostat_macro_poland_eu_quarterly.csv</div>
+      <div class="output-desc">66 rows · 12 cols. Poland &amp; EU-27. GDP, employment, debt. 2018–2026.</div>
+    </div>
+  </div>
+
+  <h3 style="font-family:'Playfair Display',serif;font-size:1.1rem;margin-bottom:1.5rem;font-weight:700">Interactive &amp; Static Plots</h3>
+  <div class="outputs-grid">
+    <div class="output-card">
+      <div class="output-icon">🎞️</div>
+      <div class="output-file">pandemic_waves_uk_poland_2024.gif</div>
+      <div class="output-desc">Animated pandemic wave evolution (GIF). Static last-frame PNG and PDF also exported.</div>
+    </div>
+    <div class="output-card">
+      <div class="output-icon">🫧</div>
+      <div class="output-file">bubble_cases_deaths_vaccination.html</div>
+      <div class="output-desc">Animated bubble chart: cases vs deaths vs vaccination coverage.</div>
+    </div>
+    <div class="output-card">
+      <div class="output-icon">🔗</div>
+      <div class="output-file">connected_scatter_vaccination_deaths.html</div>
+      <div class="output-desc">Connected scatter: vaccination coverage trajectory vs mortality.</div>
+    </div>
+    <div class="output-card">
+      <div class="output-icon">📱</div>
+      <div class="output-file">uk_covid_interactive_dashboard.html</div>
+      <div class="output-desc">Multi-panel UK COVID-19 dashboard (UKHSA data).</div>
+    </div>
+    <div class="output-card">
+      <div class="output-icon">💉</div>
+      <div class="output-file">vaccination_uk_poland.html</div>
+      <div class="output-desc">Vaccination rollout comparison: fully vaccinated per hundred.</div>
+    </div>
+    <div class="output-card">
+      <div class="output-icon">🗓️</div>
+      <div class="output-file">deaths_cases_ratio_heatmap_4_locations.png</div>
+      <div class="output-desc">Monthly CFR-proxy heatmap for UK, Poland, Europe, World.</div>
+    </div>
+    <div class="output-card">
+      <div class="output-icon">📊</div>
+      <div class="output-file">quarterly_mobility_bar_chart.html</div>
+      <div class="output-desc">Quarterly Google Mobility changes: UK vs Poland by category.</div>
+    </div>
+    <div class="output-card">
+      <div class="output-icon">🧬</div>
+      <div class="output-file">stacked_area_variants_england.html</div>
+      <div class="output-desc">England COVID variant dominance stacked area chart.</div>
+    </div>
+    <div class="output-card">
+      <div class="output-icon">📦</div>
+      <div class="output-file">boxplot_hospital_admissions_by_wave.html</div>
+      <div class="output-desc">Hospital admissions distribution by pandemic wave period.</div>
+    </div>
+    <div class="output-card">
+      <div class="output-icon">📉</div>
+      <div class="output-file">gdp_quarterly_change_uk.html</div>
+      <div class="output-desc">Quarterly UK GDP growth — pandemic contraction and recovery.</div>
+    </div>
+    <div class="output-card">
+      <div class="output-icon">⏱️</div>
+      <div class="output-file">01_lag_correlation_cases_deaths_interactive.html</div>
+      <div class="output-desc">Spearman lag correlation by delay length — UK &amp; Poland.</div>
+    </div>
+    <div class="output-card">
+      <div class="output-icon">📈</div>
+      <div class="output-file">04_segmented_period_trend_prediction_interactive.html</div>
+      <div class="output-desc">Segmented log-linear death trends + 12-week prediction.</div>
+    </div>
+    <div class="output-card">
+     <div class="output-icon">🔍</div>
+     <div class="output-file">01_uk_best_lag_scatter_interactive.html</div>
+     <div class="output-desc">Best-lag scatter plot showing non-linearity between cases and deaths.</div>
+    </div>
+
+    <div class="output-card">
+        <div class="output-icon">📊</div>
+        <div class="output-file">02_regression_r2_by_lag_interactive.html</div>
+        <div class="output-desc">Regression R² comparison across alternative lag specifications.</div>
+    </div>
+
+    <div class="output-card">
+        <div class="output-icon">📉</div>
+        <div class="output-file">02_uk_observed_vs_fitted_lagged_cases_interactive.html</div>
+        <div class="output-desc">Observed vs fitted deaths from the lagged cases-only regression model.</div>
+    </div>
+
+    <div class="output-card">
+        <div class="output-icon">🏥</div>
+        <div class="output-file">03_ukhsa_r2_by_admissions_lag_interactive.html</div>
+        <div class="output-desc">Hospital admissions lag selection using UKHSA England data.</div>
+    </div>
+
+    <div class="output-card">
+        <div class="output-icon">🩺</div>
+        <div class="output-file">03_ukhsa_observed_vs_fitted_interactive.html</div>
+        <div class="output-desc">Observed vs fitted values from the hospital-burden regression model.</div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div>
+    <div class="footer-logo">COVID-19 <span>·</span> United Kingdom</div>
+    <div style="color:var(--muted);font-size:0.75rem;margin-top:0.3rem">Data Analysis &amp; Visualisation · Group Project · 2026</div>
+  </div>
+  <div style="text-align:right">
+    <div style="margin-bottom:0.3rem">Data accessed: 23 May 2026</div>
+    <div style="color:var(--muted);font-size:0.72rem">OWID · Google Mobility · UKHSA · ONS · Eurostat</div>
+  </div>
+</footer>
+
+<script>
+  // Intersection Observer for scroll animations
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+  document.querySelectorAll(
+    '.analysis-item, .pipeline-step, .output-card, .timeline-event'
+  ).forEach((el, i) => {
+    el.style.transitionDelay = (i % 6) * 0.07 + 's';
+    observer.observe(el);
+  });
+</script>
+</body>
+</html>
