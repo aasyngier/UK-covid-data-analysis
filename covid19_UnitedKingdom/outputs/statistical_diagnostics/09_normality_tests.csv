@@ -1,0 +1,76 @@
+location,dataset,variable,n,shapiro_w,shapiro_p,normality_flag
+Europe,covid_weekly,new_cases_per_million_7d_avg,331,0.5302057015725166,8.877960580762699e-29,likely non-normal
+Europe,covid_weekly,new_deaths_per_million_7d_avg,331,0.6924748136794294,3.765784092966252e-24,likely non-normal
+Europe,covid_weekly,new_cases_per_million_calc,331,0.5289245234782914,8.26381377190095e-29,likely non-normal
+Europe,covid_weekly,new_deaths_per_million_calc,331,0.6927525967536339,3.84826550335737e-24,likely non-normal
+Europe,covid_weekly,total_cases_per_million,331,0.7211749285098907,3.842417281188001e-23,likely non-normal
+Europe,covid_weekly,total_deaths_per_million,331,0.7157548833422944,2.4445012693452883e-23,likely non-normal
+Europe,covid_weekly,people_vaccinated_per_hundred,331,0.6035438273800989,7.137051400065328e-27,likely non-normal
+Europe,covid_weekly,people_fully_vaccinated_per_hundred,331,0.6088085208200709,1.0014879809026039e-26,likely non-normal
+Europe,covid_weekly,total_boosters_per_hundred,331,0.67580093078545,1.0536111442720644e-24,likely non-normal
+Europe,covid_weekly,stringency_index,0,,,too few observations
+Europe,covid_weekly,reproduction_rate,0,,,too few observations
+Europe,covid_weekly,positive_rate,0,,,too few observations
+Europe,covid_weekly,tests_per_case,0,,,too few observations
+Europe,covid_weekly,excess_mortality_cumulative_per_million,0,,,too few observations
+Poland,covid_weekly,new_cases_per_million_7d_avg,331,0.4966878161112691,1.4289950053885075e-29,likely non-normal
+Poland,covid_weekly,new_deaths_per_million_7d_avg,331,0.5163194635932499,4.115216805050668e-29,likely non-normal
+Poland,covid_weekly,new_cases_per_million_calc,331,0.4942648889741539,1.2569737518983473e-29,likely non-normal
+Poland,covid_weekly,new_deaths_per_million_calc,331,0.5152711925339778,3.885924696682958e-29,likely non-normal
+Poland,covid_weekly,total_cases_per_million,331,0.7231341596958322,4.53234723798526e-23,likely non-normal
+Poland,covid_weekly,total_deaths_per_million,331,0.6606302361358061,3.4527388690134515e-25,likely non-normal
+Poland,covid_weekly,people_vaccinated_per_hundred,331,0.5838126120476268,2.067146774610734e-27,likely non-normal
+Poland,covid_weekly,people_fully_vaccinated_per_hundred,331,0.58672040832804,2.4740236966587456e-27,likely non-normal
+Poland,covid_weekly,total_boosters_per_hundred,331,0.662285618925751,3.892311531233401e-25,likely non-normal
+Poland,covid_weekly,stringency_index,157,0.9253072477116749,2.827746887827384e-07,likely non-normal
+Poland,covid_weekly,reproduction_rate,148,0.9516656545631151,5.085302398136178e-05,likely non-normal
+Poland,covid_weekly,positive_rate,119,0.8846060225759899,3.826905832149092e-08,likely non-normal
+Poland,covid_weekly,tests_per_case,119,0.5201200205648764,5.326267814681765e-18,likely non-normal
+Poland,covid_weekly,excess_mortality_cumulative_per_million,209,0.7928390457776289,6.217320319484464e-16,likely non-normal
+United Kingdom,covid_weekly,new_cases_per_million_7d_avg,331,0.5037371485089206,2.0812176591027157e-29,likely non-normal
+United Kingdom,covid_weekly,new_deaths_per_million_7d_avg,331,0.4935628319851222,1.2112257076954228e-29,likely non-normal
+United Kingdom,covid_weekly,new_cases_per_million_calc,331,0.4997597859220435,1.6825334557544197e-29,likely non-normal
+United Kingdom,covid_weekly,new_deaths_per_million_calc,331,0.49192007801846604,1.1107565791330904e-29,likely non-normal
+United Kingdom,covid_weekly,total_cases_per_million,331,0.6958661120448215,4.911146532851371e-24,likely non-normal
+United Kingdom,covid_weekly,total_deaths_per_million,331,0.7251095791633819,5.358316522488205e-23,likely non-normal
+United Kingdom,covid_weekly,people_vaccinated_per_hundred,331,0.5624786383530281,5.69626922302633e-28,likely non-normal
+United Kingdom,covid_weekly,people_fully_vaccinated_per_hundred,331,0.5824700151614124,1.9032077812353848e-27,likely non-normal
+United Kingdom,covid_weekly,total_boosters_per_hundred,331,0.6055615292673578,8.123136436845072e-27,likely non-normal
+United Kingdom,covid_weekly,stringency_index,157,0.9063977912687834,1.7394226124765825e-08,likely non-normal
+United Kingdom,covid_weekly,reproduction_rate,149,0.8409566273727132,2.0540800061133042e-11,likely non-normal
+United Kingdom,covid_weekly,positive_rate,112,0.788732641473776,2.1491965509455177e-11,likely non-normal
+United Kingdom,covid_weekly,tests_per_case,112,0.655054948540002,7.489077484663315e-15,likely non-normal
+United Kingdom,covid_weekly,excess_mortality_cumulative_per_million,209,0.9588124106309183,9.552129871115983e-06,likely non-normal
+World,covid_weekly,new_cases_per_million_7d_avg,331,0.5492777174822251,2.6295737616355455e-28,likely non-normal
+World,covid_weekly,new_deaths_per_million_7d_avg,331,0.7643125670027999,1.826851372758151e-21,likely non-normal
+World,covid_weekly,new_cases_per_million_calc,331,0.5355617211927417,1.2000401688785743e-28,likely non-normal
+World,covid_weekly,new_deaths_per_million_calc,331,0.762561047679985,1.5461334545398141e-21,likely non-normal
+World,covid_weekly,total_cases_per_million,331,0.7527896746602217,6.19849702194257e-22,likely non-normal
+World,covid_weekly,total_deaths_per_million,331,0.7114363345111319,1.7129153607068227e-23,likely non-normal
+World,covid_weekly,people_vaccinated_per_hundred,331,0.6618473621093526,3.770595571249189e-25,likely non-normal
+World,covid_weekly,people_fully_vaccinated_per_hundred,331,0.6775386588205561,1.2003059417083079e-24,likely non-normal
+World,covid_weekly,total_boosters_per_hundred,331,0.6981346182045529,5.8732890874992885e-24,likely non-normal
+World,covid_weekly,stringency_index,0,,,too few observations
+World,covid_weekly,reproduction_rate,155,0.5203576667435645,1.832768731371209e-20,likely non-normal
+World,covid_weekly,positive_rate,0,,,too few observations
+World,covid_weekly,tests_per_case,0,,,too few observations
+World,covid_weekly,excess_mortality_cumulative_per_million,0,,,too few observations
+Poland,mobility_weekly,retail_and_recreation_percent_change_from_baseline,140,0.9255103941781513,1.0433891553375538e-06,likely non-normal
+Poland,mobility_weekly,grocery_and_pharmacy_percent_change_from_baseline,140,0.9712933719657918,0.004785658973784069,likely non-normal
+Poland,mobility_weekly,parks_percent_change_from_baseline,140,0.9347430219615662,4.37568565533569e-06,likely non-normal
+Poland,mobility_weekly,transit_stations_percent_change_from_baseline,140,0.9576135544409649,0.00025904879289234716,likely non-normal
+Poland,mobility_weekly,workplaces_percent_change_from_baseline,140,0.975576114790456,0.013007484093187447,likely non-normal
+Poland,mobility_weekly,residential_percent_change_from_baseline,140,0.9080101750768709,8.874288691037636e-08,likely non-normal
+Poland,mobility_weekly,mobility_restriction_index,140,0.936865047965665,6.176788244383366e-06,likely non-normal
+United Kingdom,mobility_weekly,retail_and_recreation_percent_change_from_baseline,140,0.8538228977812521,1.8325456719022548e-10,likely non-normal
+United Kingdom,mobility_weekly,grocery_and_pharmacy_percent_change_from_baseline,140,0.8976295012210325,2.3406176679577668e-08,likely non-normal
+United Kingdom,mobility_weekly,parks_percent_change_from_baseline,140,0.9723166415980478,0.006054448051467122,likely non-normal
+United Kingdom,mobility_weekly,transit_stations_percent_change_from_baseline,140,0.9570276546302959,0.00023068987276354968,likely non-normal
+United Kingdom,mobility_weekly,workplaces_percent_change_from_baseline,140,0.9291574274274834,1.815654161759289e-06,likely non-normal
+United Kingdom,mobility_weekly,residential_percent_change_from_baseline,140,0.9042421628046312,5.4162482511922514e-08,likely non-normal
+United Kingdom,mobility_weekly,mobility_restriction_index,140,0.9085331406559146,9.512757029797284e-08,likely non-normal
+England,ukhsa_weekly,ukhsa_covid_deaths_weekly,279,0.3661961285354891,4.9719922824633665e-30,likely non-normal
+England,ukhsa_weekly,ukhsa_hospital_admissions_weekly_sum,301,0.7610191858460897,1.3059520226223396e-20,likely non-normal
+England,ukhsa_weekly,ukhsa_occupied_beds_weekly_avg,301,0.7386074864458236,1.789757871052712e-21,likely non-normal
+England,ukhsa_weekly,ukhsa_pcr_tests_weekly_sum,329,0.6850124204669237,2.4821291965496998e-24,likely non-normal
+England,ukhsa_weekly,ukhsa_pcr_positivity_weekly_avg,329,0.8627295486478663,1.7868767026915877e-16,likely non-normal
