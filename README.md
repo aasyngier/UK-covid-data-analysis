@@ -44,7 +44,7 @@ The project uses five main data sources:
 | ONS UK economy data | UK-level economic context |
 | Eurostat macroeconomic quarterly data | macroeconomic context for Poland and the European Union |
 
-Detailed descriptions of all datasets, processed files, variables, preprocessing steps and plot outputs are provided in [`data_summary.md`](data_summary.md).
+Detailed descriptions of all datasets, processed files, variables, preprocessing steps and plot outputs are provided in [`data_summary.md`](covid19_UnitedKingdom/data_summary.md).
 
 ## Reproducibility
 
