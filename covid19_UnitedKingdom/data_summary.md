@@ -808,4 +808,4 @@ The project follows the rule that every plot should have both:
 - the data used to produce it,
 - the script used to generate it.
 
-This ensures that all static, interactive and animated plots can be reproduced from the repository.
+

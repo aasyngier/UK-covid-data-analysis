@@ -1,6 +1,3 @@
-<<<<<<< Updated upstream
-# UK-covid-data-analysis
-=======
 # COVID-19 in the United Kingdom compared with Poland
 
 ## Project overview
@@ -81,4 +78,4 @@ The project is prepared for the DAV course and includes two final presentation f
 UKHSA data are England-level data and should not be interpreted as full United Kingdom data. They are used as detailed healthcare and variant context for the main United Kingdom analysis.
 
 Missing values are handled differently depending on the type of variable. For example, missing cumulative indicators may be forward-filled, while missing testing, hospitalization, mobility and economic values are generally preserved because they represent unavailable observations rather than true zero values.
->>>>>>> Stashed changes
+
